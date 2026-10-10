@@ -1,0 +1,123 @@
+/* /heat-pump — the boiler-to-heat-pump story and the machine drawing.
+   Palette as custom properties on the drawings, so they follow the theme like the
+   industry vignettes. Refrigerant colours mean one thing each: blue cold vapour, red hot
+   gas, amber warm liquid, pale blue the cold mix after the valve. */
+.hpm,.hps{--steel-t:#59626a;--steel-l:#434b52;--steel-r:#353c42;--steel-k:#262b30;--skid-t:#3a4248;--skid-l:#2c3338;--skid-r:#22282c;
+  --vessel:#7c868d;--vessel-cap:#9aa3a9;--vessel-hl:rgba(255,255,255,.28);--inside:#0d1114;--rail:#1c2125;
+  --c-vap:#59a6ff;--c-hot:#ff6a3d;--c-liq:#f2b04a;--c-mix:#a8d8ff;--c-wcool:#3f8fd8;--c-wcold:#7fc0ff;--c-wwarm:#e7a25a;--c-whot:#ff7b45;
+  --red:#d8402e;--red-d:#a12b1f;--red-l:#f06a55;--cab:#c9ced1;--cab-d:#9da4a8;--ink-d:#0d1114;--shadow:rgba(0,0,0,.35)}
+:root[data-theme="light"] .hpm,:root[data-theme="light"] .hps{--steel-t:#d6dade;--steel-l:#b9bfc4;--steel-r:#a3aab0;--steel-k:#7d858c;--skid-t:#e1e3e2;--skid-l:#c4c7c6;--skid-r:#b0b4b3;
+  --vessel:#c4cacf;--vessel-cap:#dde1e4;--vessel-hl:rgba(255,255,255,.7);--inside:#2b3238;--rail:#9aa0a3;--shadow:rgba(40,36,30,.16);--cab:#eef0f1;--cab-d:#c9ced1}
+@media (prefers-color-scheme: light){
+  :root:not([data-theme="dark"]) .hpm,:root:not([data-theme="dark"]) .hps{--steel-t:#d6dade;--steel-l:#b9bfc4;--steel-r:#a3aab0;--steel-k:#7d858c;--skid-t:#e1e3e2;--skid-l:#c4c7c6;--skid-r:#b0b4b3;
+    --vessel:#c4cacf;--vessel-cap:#dde1e4;--vessel-hl:rgba(255,255,255,.7);--inside:#2b3238;--rail:#9aa0a3;--shadow:rgba(40,36,30,.16);--cab:#eef0f1;--cab-d:#c9ced1}
+}
+.hpm{display:block;width:100%;height:auto;overflow:visible}
+.hpm path,.hpm line,.hpm circle,.hpm ellipse{vector-effect:non-scaling-stroke}
+.hpm-shadow{fill:var(--shadow);filter:blur(6px)}
+.hpm-skid .t{fill:var(--skid-t)}.hpm-skid .l{fill:var(--skid-l)}.hpm-skid .r{fill:var(--skid-r)}
+.hpm-skid path,.hpm-saddle path,.hpm-crank path,.hpm-guard path,.hpm-cab path,.hpm-valve path,.tbox path{stroke:var(--steel-k);stroke-width:.8;stroke-linejoin:round}
+.hpm-rail{fill:none;stroke:var(--rail);stroke-width:1.2;stroke-dasharray:2 6}
+.hpm-saddle .t{fill:var(--steel-t)}.hpm-saddle .l{fill:var(--steel-l)}.hpm-saddle .r{fill:var(--steel-r)}
+.hpm-vessel .body{fill:var(--vessel);stroke:var(--steel-k);stroke-width:.8}
+.hpm-vessel .cap{fill:var(--vessel-cap);stroke:var(--steel-k);stroke-width:.8}
+.hpm-vessel .hl{fill:none;stroke:var(--vessel-hl);stroke-width:3;stroke-linecap:round}
+.hpm-vessel.cond .body{fill:color-mix(in srgb,var(--vessel) 88%,var(--c-hot))}
+.hpm-vessel.evap .body{fill:color-mix(in srgb,var(--vessel) 88%,var(--c-vap))}
+.hpm-inside{fill:var(--inside)}
+.hpm-win-rim{fill:none;stroke:var(--steel-k);stroke-width:1.6}
+.tube{fill:none;stroke-width:3;stroke-linecap:round;opacity:.9}
+.tube.cool{stroke:color-mix(in srgb,var(--c-wcool) 70%,#fff)}
+.tube.hot{stroke:color-mix(in srgb,var(--c-whot) 75%,#fff)}
+.ref-liquid.cold{fill:color-mix(in srgb,var(--c-vap) 45%,transparent)}
+.ref-liquid.warm{fill:color-mix(in srgb,var(--c-liq) 55%,transparent)}
+.bub{fill:none;stroke:#cfe7ff;stroke-width:1;animation:hp-bub 1.2s ease-in infinite}
+.drop{fill:var(--c-liq);animation:hp-drop 1.3s ease-in infinite}
+@keyframes hp-bub{from{transform:translateY(4px);opacity:0}30%{opacity:1}to{transform:translateY(-12px);opacity:0}}
+@keyframes hp-drop{from{transform:translateY(-6px);opacity:0}25%{opacity:1}to{transform:translateY(14px);opacity:0}}
+
+/* pipes: a wall and the medium flowing inside */
+.hpm-pipe .wall{fill:none;stroke:var(--steel-l);stroke-linecap:round;stroke-linejoin:round}
+.hpm-pipe .flow{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:6 9;animation:hp-flow .9s linear infinite}
+.hpm-pipe .flow.rev{animation-direction:reverse}
+@keyframes hp-flow{to{stroke-dashoffset:-30}}
+.hpm-pipe.r-vapour .wall{stroke:color-mix(in srgb,var(--c-vap) 30%,var(--steel-t))}.hpm-pipe.r-vapour .flow{stroke:var(--c-vap)}
+.hpm-pipe.r-hot .wall{stroke:color-mix(in srgb,var(--c-hot) 35%,var(--steel-l))}.hpm-pipe.r-hot .flow{stroke:var(--c-hot);animation-duration:.6s}
+.hpm-pipe.r-liquid .flow{stroke:var(--c-liq);stroke-dasharray:12 6;animation-duration:1.4s}
+.hpm-pipe.r-mix .flow{stroke:var(--c-mix);stroke-dasharray:3 5}
+.hpm-pipe.w-cool .flow{stroke:var(--c-wcool)}.hpm-pipe.w-cold .flow{stroke:var(--c-wcold)}
+.hpm-pipe.w-warm .flow{stroke:var(--c-wwarm)}.hpm-pipe.w-hot .flow{stroke:var(--c-whot)}
+.hpm-pipe[class*=" w-"] .wall{stroke:var(--steel-r)}
+.hpm-sight ellipse{fill:color-mix(in srgb,var(--c-liq) 60%,#fff);stroke:var(--steel-k);stroke-width:1.5}
+.hpm-sight .sb{fill:#fff;animation:hp-sb 1s linear infinite}
+@keyframes hp-sb{from{transform:translateX(-3px);opacity:0}50%{opacity:1}to{transform:translateX(4px);opacity:0}}
+.hpm-valve .t{fill:var(--steel-t)}.hpm-valve .l{fill:var(--steel-l)}.hpm-valve .r{fill:var(--steel-r)}
+.hpm-valve .act{fill:var(--c-mix);stroke:var(--steel-k);stroke-width:.8}.hpm-valve .act-cap{fill:#fff;stroke:var(--steel-k);stroke-width:.8}
+.hpm-sep{fill:var(--red);stroke:var(--red-d);stroke-width:.8}.hpm-sep-cap{fill:var(--red-l);stroke:var(--red-d);stroke-width:.8}
+
+/* the compressor */
+.hpm-crank .t{fill:var(--steel-t)}.hpm-crank .l{fill:var(--steel-l)}.hpm-crank .r{fill:var(--steel-r)}
+.hpm-comp .bore{fill:var(--inside);stroke:none}
+.hpm-comp .bore.cc{fill:color-mix(in srgb,var(--inside) 70%,var(--steel-r))}
+.hpm-comp .web{fill:#6d767d;stroke:#2a2f33;stroke-width:.8}
+.hpm-comp .rod{stroke:#b9c0c5;stroke-width:4.5;stroke-linecap:round}
+.hpm-comp .pin{fill:#e3e7ea;stroke:#2a2f33;stroke-width:1}
+.hpm-barrel .body{fill:var(--steel-t);stroke:var(--steel-k);stroke-width:.8}
+.hpm-barrel .fin{fill:var(--steel-l);stroke:var(--steel-k);stroke-width:.6}
+.hpm-barrel .bore{fill:var(--inside)}
+.hpm-barrel .rim{fill:none;stroke:var(--steel-k);stroke-width:1.4}
+.hpm-barrel .skirt{fill:#cfd5d9;stroke:#5b646b;stroke-width:.8}.hpm-barrel .crown{fill:#eef1f3;stroke:#5b646b;stroke-width:.8}
+.hpm-barrel .head{fill:var(--red);stroke:var(--red-d);stroke-width:.9}.hpm-barrel .head-cap{fill:var(--red-l);stroke:var(--red-d);stroke-width:.9}
+.hpm-barrel .plate{fill:var(--red-d)}
+.hpm-comp .shake{animation:hp-shake .11s linear infinite}
+@keyframes hp-shake{0%,100%{transform:translate(0,0)}25%{transform:translate(.5px,-.4px)}50%{transform:translate(-.3px,.3px)}75%{transform:translate(.3px,.5px)}}
+.hpm-guard .t{fill:#e0b23a}.hpm-guard .l{fill:#c6982a}.hpm-guard .r{fill:#a77f1f}
+.hpm-motor .body{fill:#3d6a8f;stroke:#1d3549;stroke-width:.9}
+.hpm-motor .cap{fill:#5b86a8;stroke:#1d3549;stroke-width:.9}
+.hpm-motor .fin{fill:none;stroke:#2a4c68;stroke-width:1.2}
+.hpm-motor .spoke{stroke:#dfe9f1;stroke-width:2.2;stroke-linecap:round}
+.hpm-motor .tbox .t{fill:#4f7da2}.hpm-motor .tbox .l{fill:#3d6a8f}.hpm-motor .tbox .r{fill:#2f5675}
+.hpm-cab .t{fill:var(--cab)}.hpm-cab .l{fill:color-mix(in srgb,var(--cab) 85%,var(--cab-d))}.hpm-cab .r{fill:var(--cab-d)}
+.hpm-cab .screen rect{fill:#0c1a14;stroke:#2a2f33}
+.hpm-cab .screen text{fill:#3dd68c;font-family:var(--mono);font-size:7px;text-anchor:middle}
+.hpm-cab .screen text.sm{fill:#f2b04a;font-size:6px}
+.hpm-cab .gauge circle{fill:#f4f6f7;stroke:#2a2f33;stroke-width:1.4}
+.hpm-cab .gauge line{stroke:#d8402e;stroke-width:1.6;stroke-linecap:round}
+.hpm-cab .gauge.lo circle{stroke:var(--c-vap)}.hpm-cab .gauge.hi circle{stroke:var(--c-hot)}
+.hpm-heat{opacity:.9}
+
+/* labels */
+.hpm-tag .lead{fill:none;stroke:var(--mute);stroke-width:1;stroke-dasharray:2 3}
+.hpm-tag .dot{fill:var(--ink)}
+.hpm-tag rect{fill:var(--panel);stroke:var(--line-2);stroke-width:1}
+.hpm-tag text{font-family:var(--sans);font-size:11.5px;fill:var(--ink)}
+.hpm-tag .num{fill:var(--accent)}.hpm-tag .numt{fill:var(--bg);font-family:var(--mono);font-size:10px;text-anchor:middle;font-weight:600}
+.hpm-tag.minor text{font-family:var(--mono);font-size:10.5px}
+.hpm-tag.r-hot rect{stroke:var(--c-hot)}.hpm-tag.r-vapour rect{stroke:var(--c-vap)}.hpm-tag.r-liquid rect{stroke:var(--c-liq)}.hpm-tag.r-mix rect{stroke:var(--c-mix)}
+.hpm-tag.hot rect{stroke:var(--c-whot)}.hpm-tag.w rect{stroke:var(--c-wcool)}
+@media (max-width:700px){.hpm-tag.minor{display:none}.hpm-tag text{font-size:15px}}
+
+/* one stage at a time, while the reader is on it */
+.hpm [data-part],.hpm-tag{transition:opacity .35s var(--ease)}
+.hpm[data-step="1"] [data-part]:not([data-part="evap"]),
+.hpm[data-step="2"] [data-part]:not([data-part="comp"]),
+.hpm[data-step="3"] [data-part]:not([data-part="cond"]),
+.hpm[data-step="4"] [data-part]:not([data-part="valve"]){opacity:.28}
+.hpm[data-step="1"] .hpm-tag:not(.t-evap),.hpm[data-step="2"] .hpm-tag:not(.t-comp),
+.hpm[data-step="3"] .hpm-tag:not(.t-cond),.hpm[data-step="4"] .hpm-tag:not(.t-valve){opacity:.15}
+
+@media (prefers-reduced-motion:reduce){
+  .bub,.drop,.hpm-pipe .flow,.hpm-sight .sb,.hpm-comp .shake{animation:none}
+  .bub,.drop{opacity:.8}
+}
+
+/* Tenneco demo: map the jouleWise drawing tokens onto this app's theme */
+.hpm {
+  --mute: var(--faint);
+  --ink: var(--fg);
+  --panel: var(--surface);
+  --line-2: var(--line-strong);
+  --sans: var(--font-sans);
+  --mono: var(--font-mono);
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+}
