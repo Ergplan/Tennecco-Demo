@@ -4,14 +4,14 @@
 // against the plan, then the same plan across the group.
 
 import { AnimatePresence, animate, motion, useReducedMotion } from "framer-motion"
-import { ArrowRight, Check, FileText, Loader2, Map as MapIcon, ScanLine, Sparkles, Upload } from "lucide-react"
+import { ArrowRight, BatteryCharging, Check, FileText, Loader2, Map as MapIcon, ScanLine, Sparkles, Upload } from "lucide-react"
 import { useEffect, useMemo, useRef, useState } from "react"
 import { Card, Chips, Count, Eyebrow, PageHead, Pill, fmt, pct } from "@/components/ui/kit"
 import { cn } from "@/components/ui/cn"
 import { entityById } from "@/lib/entities"
 import { declutter, project } from "@/lib/geo"
 import { INDIA_PATH } from "@/lib/indiaPath"
-import { PLANS, PRICES, planOf, totals, typicalDay, type DayBlock, type Mix, type PlantPlan } from "@/lib/ergplan"
+import { BESS, PLANS, PRICES, planEconomics, planMix, planOf, todayEconomics, totals, typicalDay, type DayBlock, type Mix, type PlantPlan, type StorageMode } from "@/lib/ergplan"
 import { SITES } from "@/lib/sites"
 
 type Stage = "bills" | "results" | "group"
@@ -39,7 +39,7 @@ const KEYWORDS: [RegExp, string][] = [
 
 const SAMPLE_FILES = ["BESCOM_HT_Sep-2026_Yelahanka.pdf", "PSPCL_HT_Sep-2026_Patiala.pdf", "MSEDCL_HT_Sep-2026_Chakan.pdf", "TNPDCL_HT_Sep-2026_Hosur.pdf", "DHBVN_HT_Sep-2026_Bawal.pdf"]
 
-const C = { discom: "#f5a524", solar: "#f2c94c", wind: "#2bb3a3", iex: "#8b5cf6", banked: "#7fd1a8", demand: "var(--fg)" }
+const C = { discom: "#f5a524", solar: "#f2c94c", wind: "#2bb3a3", iex: "#5b8def", bessOut: "#8b5cf6", banked: "#7fd1a8", demand: "var(--fg)" }
 
 function lerpColor(a: string, b: string, t: number) {
   const pa = a.match(/\w\w/g)!.map((h) => parseInt(h, 16))
@@ -244,6 +244,12 @@ function BillList({ bills, onNext }: { bills: Bill[]; onNext: () => void }) {
 
 /* ------------------------------------------------------------------ stage 2: results */
 
+const STORAGE_OPTIONS: { id: StorageMode; label: string; title: string }[] = [
+  { id: "banking", label: "Banking, as until now", title: "banking as until now" },
+  { id: "none", label: "Banking reduced", title: "banking reduced, no storage" },
+  { id: "bess", label: "Banking reduced + BESS", title: "banking reduced, with a battery" },
+]
+
 function niceStep(max: number) {
   const raw = max / 4
   const mag = 10 ** Math.floor(Math.log10(raw || 1))
@@ -251,16 +257,109 @@ function niceStep(max: number) {
   return (n <= 1 ? 1 : n <= 2 ? 2 : n <= 2.5 ? 2.5 : n <= 5 ? 5 : 10) * mag
 }
 
-function DayChart({ blocks }: { blocks: DayBlock[] }) {
+/** kW, or MW once the chart runs into thousands */
+const power = (v: number, mw: boolean) => (mw ? `${fmt(v / 1000, v >= 10_000 ? 1 : 2)} MW` : `${fmt(v)} kW`)
+const clock = (i: number) => `${String(Math.floor(i / 4)).padStart(2, "0")}:${String((i % 4) * 15).padStart(2, "0")}`
+
+/** what serves the load in a block, in the order it stacks */
+const SERVED = ["wind", "solar", "iex", "bessOut", "banked", "discom"] as const
+type Served = (typeof SERVED)[number]
+const labelOf = (k: Served, plan: boolean) =>
+  ({ wind: "Wind", solar: "Solar", iex: "Green exchange (IEX)", bessOut: "Battery", banked: "Banked, drawn back", discom: plan ? "DISCOM green tariff" : "DISCOM" })[k]
+
+function Donut({ data, value, caption, size = 120, thickness = 0.4 }: { data: { k: string; v: number; c: string }[]; value: string; caption: string; size?: number; thickness?: number }) {
+  const total = data.reduce((a, d) => a + d.v, 0) || 1
+  const R = size / 2 - 2
+  const r = R * (1 - thickness)
+  const c = size / 2
+  const pt = (rad: number, turn: number) => {
+    const a = turn * 2 * Math.PI - Math.PI / 2
+    return `${(c + rad * Math.cos(a)).toFixed(2)},${(c + rad * Math.sin(a)).toFixed(2)}`
+  }
+  let at = 0
+  const arcs = data
+    .filter((d) => d.v / total > 0.002)
+    .map((d) => {
+      const span = d.v / total
+      const gap = span < 0.999 ? 0.006 : 0
+      const from = at + gap / 2
+      const to = at + span - gap / 2
+      at += span
+      if (span >= 0.999) {
+        // a full ring: two half arcs
+        return { k: d.k, c: d.c, d: `M${pt(R, 0)}A${R},${R} 0 1 1 ${pt(R, 0.5)}A${R},${R} 0 1 1 ${pt(R, 0)}M${pt(r, 0)}A${r},${r} 0 1 0 ${pt(r, 0.5)}A${r},${r} 0 1 0 ${pt(r, 0)}Z` }
+      }
+      const large = to - from > 0.5 ? 1 : 0
+      return { k: d.k, c: d.c, d: `M${pt(R, from)}A${R},${R} 0 ${large} 1 ${pt(R, to)}L${pt(r, to)}A${r},${r} 0 ${large} 0 ${pt(r, from)}Z` }
+    })
+  return (
+    <svg viewBox={`0 0 ${size} ${size}`} width={size} height={size} aria-hidden className="shrink-0">
+      {arcs.map((a) => (
+        <path key={a.k} d={a.d} fill={a.c} fillRule="evenodd" />
+      ))}
+      <text x={c} y={c + 2} textAnchor="middle" fontSize="15" fontWeight="700" fill="var(--fg)" className="tnum">
+        {value}
+      </text>
+      <text x={c} y={c + 15} textAnchor="middle" fontSize="7.5" letterSpacing="0.12em" fill="var(--faint)">
+        {caption.toUpperCase()}
+      </text>
+    </svg>
+  )
+}
+
+/** the readout for one 15-minute block, as the website's DayMix shows it: a donut of the supply mix */
+function BlockTip({ b, i, plan, mode, mw }: { b: DayBlock; i: number; plan: boolean; mode: StorageMode; mw: boolean }) {
+  const re = b.wind + b.solar + b.iex + b.bessOut + b.banked
+  const rows = SERVED.map((k) => ({ k, label: labelOf(k, plan), v: b[k], c: C[k] })).filter((r) => r.v > 0.5)
+  const notes: string[] = []
+  if (b.bessIn > 0.5) notes.push(`Battery charging at ${power(b.bessIn, mw)} from the surplus.`)
+  if (b.bessOut > 0.5) notes.push(`Battery discharging ${power(b.bessOut, mw)} into the shortfall.`)
+  if (b.surplus > 0.5)
+    notes.push(
+      mode === "banking" || !plan
+        ? `${power(b.surplus, mw)} above the load goes to the bank for later.`
+        : mode === "bess"
+          ? `${power(b.surplus, mw)} spills: the battery is full.`
+          : `${power(b.surplus, mw)} spills: banking is reduced and there is no battery.`,
+    )
+  if (!notes.length) notes.push(b.discom > 0.5 ? `${plan ? "The DISCOM green tariff" : "The DISCOM"} covers ${power(b.discom, mw)}.` : "Renewables cover the whole load in this block.")
+  return (
+    <div className="rounded-xl border border-line bg-surface/95 p-3 shadow-[0_10px_30px_rgba(0,29,52,0.16)] backdrop-blur">
+      <p className="tnum text-[14px] font-semibold leading-tight">Supply mix at {clock(i)}</p>
+      <p className="tnum mt-0.5 font-mono text-[9.5px] uppercase tracking-[0.14em] text-faint">
+        block {i + 1} of 96 · {pct(Math.min(1, re / (b.demand || 1)))} renewable
+      </p>
+      <div className="mt-2 flex items-center gap-3">
+        <Donut data={rows.map((r) => ({ k: r.k, v: r.v, c: r.c }))} value={power(b.demand, mw)} caption="plant load" />
+        <ul className="min-w-0 flex-1 space-y-1">
+          {rows.map((r) => (
+            <li key={r.k} className="flex items-center gap-1.5 text-[11px]">
+              <span className="h-2 w-2 shrink-0 rounded-sm" style={{ background: r.c }} />
+              <span className="min-w-0 flex-1 truncate text-muted">{r.label}</span>
+              <span className="tnum font-mono text-fg">{pct(r.v / (b.demand || 1))}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+      <p className="mt-2 border-t border-line pt-2 text-[11.5px] leading-snug text-muted">{notes.join(" ")}</p>
+    </div>
+  )
+}
+
+function DayChart({ blocks, plan, mode }: { blocks: DayBlock[]; plan: boolean; mode: StorageMode }) {
   const W = 960
   const H = 300
   const P = { l: 56, r: 12, t: 12, b: 26 }
-  const peak = Math.max(...blocks.map((b) => Math.max(b.demand, b.wind + b.solar + b.iex + b.banked + b.discom + b.surplus))) || 1
+  const svgRef = useRef<SVGSVGElement>(null)
+  const [hover, setHover] = useState<number | null>(null)
+  const keys: (keyof DayBlock)[] = [...SERVED, "bessIn", "surplus"]
+  const peak = Math.max(...blocks.map((b) => Math.max(b.demand, keys.reduce((a, k) => a + b[k], 0)))) || 1
+  const mw = Math.max(...blocks.map((b) => b.demand)) >= 1000
   const step = niceStep(peak)
   const max = Math.ceil(peak / step) * step
-  const x = (i: number) => P.l + (i / (blocks.length - 1)) * (W - P.l - P.r)
+  const last = blocks.length - 1
+  const x = (i: number) => P.l + (i / last) * (W - P.l - P.r)
   const y = (v: number) => P.t + (1 - v / max) * (H - P.t - P.b)
-  const keys: (keyof DayBlock)[] = ["wind", "solar", "iex", "banked", "discom", "surplus"]
   const base = blocks.map(() => 0)
   const areas = keys.map((k) => {
     const lower = [...base]
@@ -272,67 +371,200 @@ function DayChart({ blocks }: { blocks: DayBlock[] }) {
       .join("L")}Z`
     return { k, d }
   })
-  const fill = (k: keyof DayBlock) => (k === "banked" ? "url(#banked)" : k === "surplus" ? "url(#surplus)" : C[k as keyof typeof C])
+  const fill = (k: keyof DayBlock) => (k === "banked" ? "url(#banked)" : k === "surplus" ? "url(#surplus)" : k === "bessIn" ? "url(#bessIn)" : C[k as keyof typeof C])
+
+  function at(e: React.PointerEvent) {
+    const r = svgRef.current?.getBoundingClientRect()
+    if (!r?.width) return null
+    const vx = ((e.clientX - r.left) / r.width) * W
+    return Math.max(0, Math.min(last, Math.round(((vx - P.l) / (W - P.l - P.r)) * last)))
+  }
+  const hx = hover === null ? 0 : x(hover)
+  const right = hx > W * 0.55
+
   return (
-    <svg viewBox={`0 0 ${W} ${H}`} className="w-full" role="img" aria-label="A typical day by source">
-      <defs>
-        <pattern id="banked" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
-          <rect width="6" height="6" fill="#c9eedb" />
-          <line x1="0" y1="0" x2="0" y2="6" stroke="#14995a" strokeWidth="2" />
-        </pattern>
-        <pattern id="surplus" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)">
-          <line x1="0" y1="0" x2="0" y2="6" stroke="#60a5fa" strokeWidth="2" />
-        </pattern>
-      </defs>
-      {Array.from({ length: Math.round(max / step) + 1 }, (_, i) => i * step).map((v) => (
-        <g key={v}>
-          <line x1={P.l} x2={W - P.r} y1={y(v).toFixed(1)} y2={y(v).toFixed(1)} stroke="var(--line)" />
-          <text x={P.l - 6} y={(y(v) + 3).toFixed(1)} textAnchor="end" fontSize="10" fill="var(--faint)" fontFamily="var(--font-mono)">
-            {v >= 1000 ? `${fmt(v / 1000, v % 1000 ? 1 : 0)}k` : fmt(v)}
+    <div className="relative select-none" onPointerMove={(e) => setHover(at(e))} onPointerDown={(e) => setHover(at(e))} onPointerLeave={() => setHover(null)}>
+      <svg ref={svgRef} viewBox={`0 0 ${W} ${H}`} className="w-full cursor-crosshair touch-pan-y" role="img" aria-label="A typical day by source, in 15-minute blocks. Move over the chart for each block's supply mix.">
+        <defs>
+          <pattern id="banked" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+            <rect width="6" height="6" fill="#c9eedb" />
+            <line x1="0" y1="0" x2="0" y2="6" stroke="#14995a" strokeWidth="2" />
+          </pattern>
+          <pattern id="surplus" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)">
+            <line x1="0" y1="0" x2="0" y2="6" stroke="#60a5fa" strokeWidth="2" />
+          </pattern>
+          <pattern id="bessIn" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)">
+            <rect width="6" height="6" fill="#ede7fe" />
+            <line x1="0" y1="0" x2="0" y2="6" stroke={C.bessOut} strokeWidth="2" />
+          </pattern>
+        </defs>
+        {Array.from({ length: Math.round(max / step) + 1 }, (_, i) => i * step).map((v) => (
+          <g key={v}>
+            <line x1={P.l} x2={W - P.r} y1={y(v).toFixed(1)} y2={y(v).toFixed(1)} stroke="var(--line)" />
+            <text x={P.l - 6} y={(y(v) + 3).toFixed(1)} textAnchor="end" fontSize="10" fill="var(--faint)" fontFamily="var(--font-mono)">
+              {v >= 1000 ? `${fmt(v / 1000, v % 1000 ? 1 : 0)}k` : fmt(v)}
+            </text>
+          </g>
+        ))}
+        {areas.map((a) => (
+          <motion.path key={a.k} d={a.d} fill={fill(a.k)} opacity={a.k === "surplus" ? 0.7 : 0.88} initial={false} animate={{ d: a.d }} transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }} />
+        ))}
+        <polyline points={blocks.map((b, i) => `${x(i).toFixed(1)},${y(b.demand).toFixed(1)}`).join(" ")} fill="none" stroke="var(--fg)" strokeWidth="1.6" strokeDasharray="5 4" opacity="0.7" />
+        {[0, 4, 8, 12, 16, 20].map((h) => (
+          <text key={h} x={x(h * 4).toFixed(1)} y={H - 8} textAnchor="middle" fontSize="10" fill="var(--faint)" fontFamily="var(--font-mono)">
+            {String(h).padStart(2, "0")}:00
           </text>
-        </g>
-      ))}
-      {areas.map((a) => (
-        <motion.path key={a.k} d={a.d} fill={fill(a.k)} opacity={a.k === "surplus" ? 0.7 : 0.88} initial={false} animate={{ d: a.d }} transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }} />
-      ))}
-      <polyline points={blocks.map((b, i) => `${x(i).toFixed(1)},${y(b.demand).toFixed(1)}`).join(" ")} fill="none" stroke="var(--fg)" strokeWidth="1.6" strokeDasharray="5 4" opacity="0.7" />
-      {[0, 4, 8, 12, 16, 20].map((h) => (
-        <text key={h} x={x(h * 4).toFixed(1)} y={H - 8} textAnchor="middle" fontSize="10" fill="var(--faint)" fontFamily="var(--font-mono)">
-          {String(h).padStart(2, "0")}:00
+        ))}
+        <text x={P.l} y={10} fontSize="10" fill="var(--faint)" fontFamily="var(--font-mono)">
+          kW
         </text>
-      ))}
-      <text x={P.l} y={10} fontSize="10" fill="var(--faint)" fontFamily="var(--font-mono)">
-        kW
-      </text>
-    </svg>
+        {hover !== null && (
+          <g pointerEvents="none">
+            <line x1={hx.toFixed(1)} x2={hx.toFixed(1)} y1={P.t} y2={H - P.b} stroke="var(--fg)" strokeWidth="1.2" opacity="0.55" />
+            <circle cx={hx.toFixed(1)} cy={y(blocks[hover].demand).toFixed(1)} r="4" fill="var(--surface)" stroke="var(--fg)" strokeWidth="1.6" />
+          </g>
+        )}
+        {hover === null && (
+          <text x={W - P.r} y={10} textAnchor="end" fontSize="10" fill="var(--faint)" fontFamily="var(--font-mono)">
+            move over the chart for each 15-minute block
+          </text>
+        )}
+      </svg>
+      {hover !== null && (
+        <div
+          className="pointer-events-none absolute top-1 w-[300px] max-w-[78%]"
+          style={right ? { right: `calc(${(100 - (hx / W) * 100).toFixed(2)}% + 14px)` } : { left: `calc(${((hx / W) * 100).toFixed(2)}% + 14px)` }}
+        >
+          <BlockTip b={blocks[hover]} i={hover} plan={plan} mode={mode} mw={mw} />
+        </div>
+      )}
+    </div>
   )
 }
 
-function sumMix(list: PlantPlan[], which: "today" | "plan"): Mix {
+function sumMix(list: PlantPlan[], which: "today" | "plan", mode: StorageMode): Mix {
   return list.reduce<Mix>(
-    (a, p) => ({
-      discom: a.discom + p[which].discom + (which === "plan" ? p.plan.greenTariff : 0),
-      solar: a.solar + p[which].solar,
-      wind: a.wind + p[which].wind,
-      iex: a.iex + p[which].iex,
-      greenTariff: a.greenTariff + p[which].greenTariff,
-    }),
+    (a, p) => {
+      const m = which === "today" ? p.today : planMix(p, mode)
+      return {
+        discom: a.discom + m.discom + (which === "plan" ? m.greenTariff : 0),
+        solar: a.solar + m.solar,
+        wind: a.wind + m.wind,
+        iex: a.iex + m.iex,
+        greenTariff: a.greenTariff + m.greenTariff,
+      }
+    },
     { discom: 0, solar: 0, wind: 0, iex: 0, greenTariff: 0 },
   )
 }
 
-function Results({ siteIds, onGroup }: { siteIds: string[]; onGroup: () => void }) {
+const crore = (v: number) => `₹${(v / 1e7).toFixed(1)} Cr`
+
+/** Banking is being reduced: what that does to today's supply and to the plan, and what a battery buys back. */
+function StoragePanel({ list, mode, onMode }: { list: PlantPlan[]; mode: StorageMode; onMode: (m: StorageMode) => void }) {
+  const bank = totals(list, "banking")
+  const none = totals(list, "none")
+  const bess = totals(list, "bess")
+  const E = bank.E
+  const rows = [
+    { id: "bills", label: "Today's supply, as billed", sub: `${pct(bank.greenToday)} green · banking as until now`, cost: bank.costToday, tone: "grey" },
+    { id: "cut", label: "Today's supply, banking reduced", sub: `${pct(none.greenToday)} green · banked surplus now spills`, cost: none.costToday, tone: "amber" },
+    { id: "banking", label: "ergPLAN, banking as until now", sub: "100% green · what banking was worth", cost: bank.costPlan, tone: "grey", mode: "banking" as StorageMode },
+    { id: "none", label: "ergPLAN, banking reduced, no storage", sub: `100% green · ${fmt(none.spillMWh / 1000, 1)} GWh a year spills`, cost: none.costPlan, tone: "amber", mode: "none" as StorageMode },
+    { id: "bess", label: "ergPLAN, banking reduced + BESS", sub: `100% green · ${crore(none.costToday - bess.costPlan)} a year below today's supply`, cost: bess.costPlan, tone: "green", mode: "bess" as StorageMode },
+  ]
+  const top = Math.max(...rows.map((r) => r.cost)) || 1
+  return (
+    <Card className="p-0">
+      <div className="flex flex-wrap items-start justify-between gap-3 border-b border-line px-4 py-3">
+        <div className="min-w-0">
+          <p className="flex items-center gap-2 text-[14px] font-semibold">
+            <BatteryCharging size={16} className="text-[#8b5cf6]" /> Banking is being reduced. A battery keeps the plan whole.
+          </p>
+          <p className="mt-0.5 text-[12px] text-muted">
+            KERC&apos;s 2025 rules settle banking monthly, with no carry-forward and 8% kept in kind. Midday solar that used to be banked for the night now has to be used, stored or spilled.
+          </p>
+        </div>
+        <Pill tone="blue">ergPLAN sizes the battery</Pill>
+      </div>
+      <div className="grid gap-0 lg:grid-cols-12">
+        <ul className="divide-y divide-line lg:col-span-8 lg:border-r lg:border-line">
+          {rows.map((r) => {
+            const active = r.mode === mode
+            const Tag = r.mode ? "button" : "div"
+            return (
+              <li key={r.id}>
+                <Tag
+                  {...(r.mode ? { type: "button" as const, onClick: () => onMode(r.mode!) } : {})}
+                  className={cn("grid w-full grid-cols-[minmax(0,1fr)_auto] items-center gap-x-3 gap-y-1 px-4 py-2 text-left sm:grid-cols-[minmax(0,15rem)_minmax(0,1fr)_auto]", r.mode && "hover:bg-surface-2", active && "bg-accent-soft/60")}
+                >
+                  <span className="min-w-0">
+                    <span className={cn("block truncate text-[12.5px] font-medium", active && "text-accent")}>{r.label}</span>
+                    <span className="block truncate text-[11px] text-faint">{r.sub}</span>
+                  </span>
+                  <span className="col-span-2 row-start-2 h-2 overflow-hidden rounded-full bg-surface-2 sm:col-span-1 sm:row-start-1">
+                    <motion.span
+                      className="block h-full rounded-full"
+                      style={{ background: r.tone === "green" ? "var(--green)" : r.tone === "amber" ? "var(--amber)" : "var(--grey)" }}
+                      initial={false}
+                      animate={{ width: `${(r.cost / top) * 100}%` }}
+                      transition={{ duration: 0.6 }}
+                    />
+                  </span>
+                  <span className="tnum text-right text-[12.5px] font-semibold">
+                    {crore(r.cost)}
+                    <span className="block text-[10.5px] font-normal text-faint">₹{E ? (r.cost / (E * 1000)).toFixed(2) : "0"}/kWh</span>
+                  </span>
+                </Tag>
+              </li>
+            )
+          })}
+        </ul>
+        <div className="space-y-2 p-4 lg:col-span-4">
+          <p className="text-[12px] text-faint">Battery storage (BESS) in the plan</p>
+          <p className="tnum text-3xl font-semibold tracking-tight">
+            {fmt(bess.bessMWh, bess.bessMWh < 10 ? 1 : 0)} MWh <span className="text-lg font-medium text-muted">· {fmt(bess.bessMW, 1)} MW</span>
+          </p>
+          <p className="text-[12px] leading-snug text-muted">
+            Four-hour, {pct(BESS.rte)} round trip. Charges on the midday surplus and discharges into the evening and night: {fmt(bess.dischargeMWh / 1000, 1)} GWh a year, {pct(E ? bess.dischargeMWh / E : 0)} of the
+            load.
+          </p>
+          <div className="grid grid-cols-2 gap-2 pt-1">
+            <div className="rounded-lg bg-surface-2 px-2.5 py-2">
+              <p className="tnum text-[15px] font-semibold">₹{BESS.adder.toFixed(1)}/kWh</p>
+              <p className="text-[10.5px] leading-snug text-faint">discharged, as a service</p>
+            </div>
+            <div className="rounded-lg bg-surface-2 px-2.5 py-2">
+              <p className="tnum text-[15px] font-semibold">≈₹{fmt(bess.bessMWh * BESS.capexCrPerMWh, 0)} Cr</p>
+              <p className="text-[10.5px] leading-snug text-faint">to own, at ₹{BESS.capexCrPerMWh} Cr/MWh</p>
+            </div>
+          </div>
+          <p className="text-[11.5px] font-medium text-green">Recovers {crore(none.costPlan - bess.costPlan)} a year against no storage.</p>
+        </div>
+      </div>
+    </Card>
+  )
+}
+
+function Results({ siteIds, mode, onMode, onGroup }: { siteIds: string[]; mode: StorageMode; onMode: (m: StorageMode) => void; onGroup: () => void }) {
   const [view, setView] = useState<"today" | "plan">("today")
   const [picked, setPicked] = useState<string[]>(siteIds)
   const list = PLANS.filter((p) => picked.includes(p.siteId))
-  const t = totals(list)
-  const E = list.reduce((a, p) => a + p.annualMWh, 0)
-  const mix = sumMix(list, view)
-  const blocks = useMemo(() => typicalDay(mix, E), [mix.discom, mix.solar, mix.wind, mix.iex, E])
-  const green = view === "today" ? t.greenToday : 1
-  const avg = view === "today" ? t.avgToday : t.avgPlan
-  const cost = view === "today" ? t.costToday : t.costPlan
-  const share = (k: keyof Mix) => (E ? mix[k] / E : 0)
+  const plan = view === "plan"
+  // the bills are today's supply with banking; the plan is costed against today's supply under the same banking rules
+  const bills = totals(list, "banking")
+  const t = totals(list, mode)
+  const E = t.E
+  const dayMode: StorageMode = plan ? mode : "banking"
+  const mix = sumMix(list, view, mode)
+  const { blocks } = useMemo(() => typicalDay(mix, E, dayMode), [mix.discom, mix.solar, mix.wind, mix.iex, E, dayMode])
+  const green = plan ? 1 : bills.greenToday
+  const avg = plan ? t.avgPlan : bills.avgToday
+  const cost = plan ? t.costPlan : bills.costToday
+  const cut = mode !== "banking"
+  const demandKWh = blocks.reduce((a, b) => a + b.demand, 0) || 1
+  const share = (k: keyof DayBlock) => blocks.reduce((a, b) => a + b[k], 0) / demandKWh
+  const has = (k: keyof DayBlock) => blocks.some((b) => b[k] > 0.5)
 
   useEffect(() => {
     const id = setTimeout(() => setView("plan"), 2600)
@@ -372,10 +604,10 @@ function Results({ siteIds, onGroup }: { siteIds: string[]; onGroup: () => void 
       <div className="grid grid-cols-2 gap-3 lg:grid-cols-4">
         <Card className="p-4">
           <p className="text-[12px] text-faint">Green share</p>
-          <p className={cn("tnum mt-1 text-4xl font-semibold tracking-tight", view === "plan" ? "text-green" : "")}>
+          <p className={cn("tnum mt-1 text-4xl font-semibold tracking-tight", plan ? "text-green" : "")}>
             <Count value={green * 100} format={(n) => `${n.toFixed(0)}%`} />
           </p>
-          <p className="text-[12px] text-muted">of {fmt(E / 1000, 1)} GWh a year</p>
+          <p className="text-[12px] text-muted">{plan && cut ? `from ${pct(t.greenToday)} once banking is reduced` : `of ${fmt(E / 1000, 1)} GWh a year`}</p>
         </Card>
         <Card className="p-4">
           <p className="text-[12px] text-faint">Average power purchase cost</p>
@@ -383,59 +615,80 @@ function Results({ siteIds, onGroup }: { siteIds: string[]; onGroup: () => void 
             <Count value={avg} format={(n) => `₹${n.toFixed(2)}`} />
             <span className="ml-1 text-sm font-medium text-muted">/kWh</span>
           </p>
-          <p className="text-[12px] text-muted">{view === "plan" ? `from ₹${t.avgToday.toFixed(2)} today` : "blended across sources"}</p>
+          <p className="text-[12px] text-muted">{plan ? `from ₹${t.avgToday.toFixed(2)} today${cut ? ", banking reduced" : ""}` : "blended across sources"}</p>
         </Card>
         <Card className="p-4">
           <p className="text-[12px] text-faint">Power bill a year</p>
           <p className="tnum mt-1 text-4xl font-semibold tracking-tight">
             <Count value={cost / 1e7} format={(n) => `₹${n.toFixed(1)} Cr`} />
           </p>
-          <p className="text-[12px] text-muted">{list.length} plant{list.length === 1 ? "" : "s"}</p>
-        </Card>
-        <Card className={cn("p-4", view === "plan" && "border-green/40 bg-green-soft/50")}>
-          <p className="text-[12px] text-faint">Saving with ergPLAN</p>
-          <p className="tnum mt-1 text-4xl font-semibold tracking-tight text-green">
-            <Count value={view === "plan" ? t.saving / 1e7 : 0} format={(n) => `₹${n.toFixed(1)} Cr`} />
+          <p className="text-[12px] text-muted">
+            {list.length} plant{list.length === 1 ? "" : "s"}
+            {plan && mode === "bess" ? ` · incl. BESS ${fmt(t.bessMWh, t.bessMWh < 10 ? 1 : 0)} MWh` : ""}
           </p>
-          <p className="text-[12px] text-muted">a year · {pct(t.costToday ? t.saving / t.costToday : 0)} of today&apos;s bill</p>
+        </Card>
+        <Card className={cn("p-4", plan && t.saving >= 0 && "border-green/40 bg-green-soft/50", plan && t.saving < 0 && "border-amber/40 bg-amber-soft/60")}>
+          <p className="text-[12px] text-faint">{plan && t.saving < 0 ? "Extra cost with ergPLAN" : "Saving with ergPLAN"}</p>
+          <p className={cn("tnum mt-1 text-4xl font-semibold tracking-tight", plan && t.saving < 0 ? "text-amber" : "text-green")}>
+            <Count value={plan ? Math.abs(t.saving) / 1e7 : 0} format={(n) => `₹${n.toFixed(1)} Cr`} />
+          </p>
+          <p className="text-[12px] text-muted">
+            a year · {pct(t.costToday ? Math.abs(t.saving) / t.costToday : 0)} of today&apos;s {cut ? "supply cost, banking reduced" : "bill"}
+          </p>
         </Card>
       </div>
 
       <Card className="p-0">
-        <div className="flex flex-wrap items-center gap-x-5 gap-y-1 border-b border-line px-4 py-3 text-[12px]">
-          <p className="font-semibold">A typical weekday · {view === "today" ? "today" : "ergPLAN"}</p>
+        <div className="flex flex-wrap items-center justify-between gap-3 border-b border-line px-4 py-3">
+          <p className="text-[13px] font-semibold">A typical weekday · {plan ? `ergPLAN, ${STORAGE_OPTIONS.find((o) => o.id === mode)!.title}` : "today, from the bills"}</p>
+          {plan ? <Chips options={STORAGE_OPTIONS} value={mode} onChange={onMode} /> : <span className="text-[11.5px] text-faint">Today&apos;s PPAs bank their surplus with the DISCOM</span>}
+        </div>
+        <div className="flex flex-wrap items-center gap-x-5 gap-y-1 border-b border-line px-4 py-2 text-[12px]">
           {[
-            { k: "DISCOM", c: C.discom, v: share("discom"), note: view === "plan" ? " (green tariff)" : "" },
-            { k: "Solar", c: C.solar, v: share("solar") },
-            { k: "Wind", c: C.wind, v: share("wind") },
-            { k: "Power exchange (IEX)", c: C.iex, v: share("iex") },
-          ].map((l) => (
-            <span key={l.k} className="flex items-center gap-1.5 text-muted">
-              <span className="h-2.5 w-2.5 rounded-sm" style={{ background: l.c }} />
-              {l.k}
-              {l.note}
-              <b className="tnum text-fg">{pct(l.v)}</b>
+            { k: plan ? "DISCOM (green tariff)" : "DISCOM", c: C.discom, v: share("discom"), show: true },
+            { k: "Solar", c: C.solar, v: share("solar"), show: true },
+            { k: "Wind", c: C.wind, v: share("wind"), show: true },
+            { k: "Green exchange (IEX)", c: C.iex, v: share("iex"), show: true },
+            { k: "Battery, discharging", c: C.bessOut, v: share("bessOut"), show: has("bessOut") },
+          ]
+            .filter((l) => l.show)
+            .map((l) => (
+              <span key={l.k} className="flex items-center gap-1.5 text-muted">
+                <span className="h-2.5 w-2.5 rounded-sm" style={{ background: l.c }} />
+                {l.k}
+                <b className="tnum text-fg">{pct(l.v)}</b>
+              </span>
+            ))}
+          {has("banked") && (
+            <span className="flex items-center gap-1.5 text-muted">
+              <span className="h-2.5 w-2.5 rounded-sm" style={{ background: "repeating-linear-gradient(45deg,#14995a 0 2px,#c9eedb 2px 5px)" }} /> Banked, drawn back <b className="tnum text-fg">{pct(share("banked"))}</b>
             </span>
-          ))}
-          <span className="flex items-center gap-1.5 text-muted">
-            <span className="h-2.5 w-2.5 rounded-sm" style={{ background: "repeating-linear-gradient(45deg,#14995a 0 2px,#c9eedb 2px 5px)" }} /> Banked green, drawn back
-          </span>
-          <span className="flex items-center gap-1.5 text-muted">
-            <span className="h-2.5 w-2.5 rounded-sm" style={{ background: "repeating-linear-gradient(-45deg,#60a5fa 0 2px,transparent 2px 5px)" }} /> Surplus, banked
-          </span>
+          )}
+          {has("bessIn") && (
+            <span className="flex items-center gap-1.5 text-muted">
+              <span className="h-2.5 w-2.5 rounded-sm" style={{ background: `repeating-linear-gradient(-45deg,${C.bessOut} 0 2px,#ede7fe 2px 5px)` }} /> Battery, charging
+            </span>
+          )}
+          {has("surplus") && (
+            <span className="flex items-center gap-1.5 text-muted">
+              <span className="h-2.5 w-2.5 rounded-sm" style={{ background: "repeating-linear-gradient(-45deg,#60a5fa 0 2px,transparent 2px 5px)" }} /> Surplus, {dayMode === "banking" ? "banked" : "spilled"}
+            </span>
+          )}
           <span className="flex items-center gap-1.5 text-muted">
             <span className="h-0 w-4 border-t-2 border-dashed border-fg/70" /> Demand
           </span>
         </div>
         <div className="p-3">
-          <DayChart blocks={blocks} />
+          <DayChart blocks={blocks} plan={plan} mode={dayMode} />
         </div>
       </Card>
 
+      {plan && <StoragePanel list={list} mode={mode} onMode={onMode} />}
+
       <div className="flex flex-wrap items-center justify-between gap-3">
-        <p className="text-[12px] text-faint">
-          Plan levers: rooftop solar on RESCO (₹{PRICES.rooftop}), a wind–solar group-captive block, green day-ahead power in the solar hours (≈₹{PRICES.gdamLanded} landed) and the DISCOM green tariff for the
-          rest. Indicative prices by state; firmed up with quotes in the pilot.
+        <p className="max-w-3xl text-[12px] text-faint">
+          Plan levers: rooftop solar on RESCO (₹{PRICES.rooftop}), a wind–solar group-captive block, green day-ahead power in the solar hours (≈₹{PRICES.gdamLanded} landed), a battery where banking is reduced
+          (₹{BESS.adder.toFixed(1)}/kWh discharged) and the DISCOM green tariff for the rest. Indicative prices by state; firmed up with quotes in the pilot.
         </p>
         <button type="button" onClick={onGroup} className="flex items-center gap-2 rounded-xl bg-brand px-5 py-2.5 text-[14px] font-medium text-white">
           <MapIcon size={16} /> Group level <ArrowRight size={16} />
@@ -458,18 +711,28 @@ const LABEL_SIDE: Record<string, "l" | "r" | "b"> = {
   "fmsil-chakan": "b",
 }
 
-function GroupMap() {
+/** a change in the yearly bill: a cut reads −₹, a rise +₹ */
+const lakhDelta = (saving: number) => `${saving >= 0 ? "−" : "+"}₹${fmt(Math.abs(saving) / 1e5)} lakh`
+
+function GroupMap({ mode, onMode }: { mode: StorageMode; onMode: (m: StorageMode) => void }) {
   const [applied, setApplied] = useState<string[]>([])
   const [t, setT] = useState(0)
   const timers = useRef<ReturnType<typeof setTimeout>[]>([])
-  const all = totals(PLANS)
-  const order = [...PLANS].sort((a, b) => b.costToday - b.costPlan - (a.costToday - a.costPlan))
+  const all = totals(PLANS, mode)
+  const rows = PLANS.map((p) => {
+    const now = todayEconomics(p, mode)
+    const econ = planEconomics(p, mode)
+    const levers = [...p.levers, mode === "bess" && econ.bessMWh > 0.5 ? `BESS ${fmt(econ.bessMWh, econ.bessMWh < 10 ? 1 : 0)} MWh` : ""].filter(Boolean)
+    return { p, green: now.green, saving: now.cost - econ.cost, levers }
+  })
+  const order = [...rows].sort((a, b) => b.saving - a.saving)
+  const greenOf = (id: string) => rows.find((r) => r.p.siteId === id)!.green
 
   function run() {
     timers.current.forEach(clearTimeout)
     setApplied([])
     setT(0)
-    order.forEach((p, i) => timers.current.push(setTimeout(() => setApplied((a) => [...a, p.siteId]), 700 + i * 330)))
+    order.forEach((r, i) => timers.current.push(setTimeout(() => setApplied((a) => [...a, r.p.siteId]), 700 + i * 330)))
     const c = animate(0, 1, { duration: (order.length * 330 + 700) / 1000, ease: "easeInOut", onUpdate: setT })
     return () => c.stop()
   }
@@ -485,24 +748,28 @@ function GroupMap() {
   const layout = useMemo(() => declutter(PLANS.map((p) => ({ id: p.siteId, ...project(SITES.find((s) => s.id === p.siteId)!.lat, SITES.find((s) => s.id === p.siteId)!.lng) })), 78, 120), [])
   const greenNow = all.greenToday + (1 - all.greenToday) * t
   const costNow = all.costToday - all.saving * t
+  const cut = mode !== "banking"
 
   return (
     <div className="grid gap-5 lg:grid-cols-12">
-      <Card className="relative overflow-hidden p-0 lg:col-span-7">
-        <svg viewBox="50 10 900 1060" className="h-[68vh] min-h-[520px] w-full bg-gradient-to-b from-surface to-surface-2" role="img" aria-label="Tenneco factories, green share today and with ergPLAN">
+      <Card className="relative overflow-hidden bg-gradient-to-b from-surface to-surface-2 p-0 lg:col-span-7">
+        <svg viewBox="50 10 900 1060" className="h-[68vh] min-h-[520px] w-full lg:h-full lg:min-h-[68vh]" role="img" aria-label="Tenneco factories, green share today and with ergPLAN">
           <path d={INDIA_PATH} fill="var(--land)" stroke="var(--land-stroke)" strokeWidth="1.6" />
           {PLANS.map((p) => {
             const s = SITES.find((x) => x.id === p.siteId)!
             const tr = project(s.lat, s.lng)
             const l = layout[p.siteId]
             const on = applied.includes(p.siteId)
-            const g = on ? 1 : p.greenToday
+            const g = on ? 1 : greenOf(p.siteId)
             const r = 9 + Math.sqrt(p.annualMWh) / 12
             const side = LABEL_SIDE[p.siteId] ?? "r"
             return (
               <g key={p.siteId}>
                 {Math.hypot(l.dx, l.dy) > 6 && <line x1={tr.x} y1={tr.y} x2={l.x} y2={l.y} stroke="var(--line-strong)" strokeWidth="1.5" />}
                 {on && <motion.circle cx={l.x} cy={l.y} r={r} fill="none" stroke="var(--green)" strokeWidth="3" initial={{ scale: 1, opacity: 0.8 }} animate={{ scale: 2, opacity: 0 }} transition={{ duration: 1.2 }} style={{ transformBox: "fill-box", transformOrigin: "center" }} />}
+                {on && mode === "bess" && (
+                  <motion.rect initial={{ opacity: 0 }} animate={{ opacity: 1 }} x={l.x + r * 0.55} y={l.y - r - 4} width="16" height="10" rx="2" fill="#8b5cf6" stroke="#fff" strokeWidth="1.5" />
+                )}
                 <motion.circle cx={l.x} cy={l.y} r={r} animate={{ fill: lerpColor("b7c1ce", "14995a", g) }} transition={{ duration: 0.6 }} stroke="#fff" strokeWidth="3" />
                 <text x={l.x} y={l.y + Math.min(15, r * 0.62) / 3} textAnchor="middle" fontSize={Math.min(15, r * 0.62)} fontWeight="700" fill="#fff">
                   {Math.round(g * 100)}%
@@ -524,31 +791,42 @@ function GroupMap() {
             )
           })}
         </svg>
-        <div className="absolute bottom-3 left-3 flex items-center gap-2 rounded-full border border-line bg-surface/90 px-3 py-1.5 text-[11.5px] text-muted backdrop-blur">
+        <div className="absolute bottom-3 left-3 flex flex-wrap items-center gap-2 rounded-full border border-line bg-surface/90 px-3 py-1.5 text-[11.5px] text-muted backdrop-blur">
           <span className="h-3 w-3 rounded-full" style={{ background: "#b7c1ce" }} /> grid
           <span className="h-3 w-3 rounded-full" style={{ background: "#14995a" }} /> green · circle size = consumption
+          {mode === "bess" && (
+            <>
+              <span className="h-2.5 w-3.5 rounded-sm" style={{ background: "#8b5cf6" }} /> battery
+            </>
+          )}
         </div>
       </Card>
 
-      <div className="space-y-4 lg:col-span-5">
+      <div className="min-w-0 space-y-4 lg:col-span-5">
+        <div className="flex flex-wrap items-center justify-between gap-2">
+          <p className="text-[12px] text-faint">Banking rules</p>
+          <Chips options={STORAGE_OPTIONS} value={mode} onChange={onMode} />
+        </div>
         <div className="grid grid-cols-2 gap-3">
           <Card className="p-4">
             <p className="text-[12px] text-faint">Group green share</p>
             <p className="tnum mt-1 text-4xl font-semibold tracking-tight text-green">{pct(greenNow)}</p>
-            <p className="text-[12px] text-muted">from {pct(all.greenToday)} today</p>
+            <p className="text-[12px] text-muted">
+              from {pct(all.greenToday)} today{cut ? ", banking reduced" : ""}
+            </p>
           </Card>
           <Card className="p-4">
             <p className="text-[12px] text-faint">Group power bill a year</p>
             <p className="tnum mt-1 text-4xl font-semibold tracking-tight">₹{(costNow / 1e7).toFixed(1)} Cr</p>
             <p className="text-[12px] text-muted">from ₹{(all.costToday / 1e7).toFixed(1)} Cr</p>
           </Card>
-          <Card className="col-span-2 border-green/40 bg-green-soft/50 p-4">
+          <Card className={cn("col-span-2 p-4", all.saving >= 0 ? "border-green/40 bg-green-soft/50" : "border-amber/40 bg-amber-soft/60")}>
             <div className="flex items-end justify-between gap-3">
               <div>
-                <p className="text-[12px] text-faint">More that can be done, every year</p>
-                <p className="tnum mt-1 text-4xl font-semibold tracking-tight text-green">₹{((all.saving * t) / 1e7).toFixed(1)} Cr</p>
+                <p className="text-[12px] text-faint">{all.saving >= 0 ? "More that can be done, every year" : "What reduced banking costs without storage, every year"}</p>
+                <p className={cn("tnum mt-1 text-4xl font-semibold tracking-tight", all.saving >= 0 ? "text-green" : "text-amber")}>₹{((Math.abs(all.saving) * t) / 1e7).toFixed(1)} Cr</p>
                 <p className="text-[12px] text-muted">
-                  lower power cost · ₹{all.avgToday.toFixed(2)} → ₹{all.avgPlan.toFixed(2)}/kWh · {fmt((all.co2Avoided * t) / 1000, 1)}k tCO₂ avoided
+                  {all.saving >= 0 ? "lower power cost" : "higher power cost"} · ₹{all.avgToday.toFixed(2)} → ₹{all.avgPlan.toFixed(2)}/kWh · {fmt((all.co2Avoided * t) / 1000, 1)}k tCO₂ avoided
                 </p>
               </div>
               <button type="button" onClick={run} className="flex items-center gap-1.5 rounded-full bg-green px-3 py-1.5 text-[12.5px] font-medium text-white">
@@ -556,11 +834,24 @@ function GroupMap() {
               </button>
             </div>
           </Card>
+          {mode === "bess" && (
+            <Card className="col-span-2 flex items-center gap-3 p-3">
+              <span className="grid h-10 w-10 shrink-0 place-items-center rounded-xl bg-[#ede7fe] text-[#6d3fe0]">
+                <BatteryCharging size={20} />
+              </span>
+              <p className="min-w-0 text-[12px] leading-snug text-muted">
+                <b className="tnum text-[14px] text-fg">
+                  {fmt(all.bessMWh)} MWh · {fmt(all.bessMW, 1)} MW
+                </b>{" "}
+                of four-hour batteries across the plants shift {fmt(all.dischargeMWh / 1000, 1)} GWh a year from midday to the night, in place of the banking being reduced.
+              </p>
+            </Card>
+          )}
         </div>
         <Card className="p-0">
           <div className="border-b border-line px-4 py-2.5 text-[13px] font-semibold">Plant by plant</div>
           <ul className="scrollbar-thin max-h-[330px] divide-y divide-line overflow-y-auto">
-            {order.map((p) => {
+            {order.map(({ p, green, saving, levers }) => {
               const s = SITES.find((x) => x.id === p.siteId)!
               const on = applied.includes(p.siteId)
               return (
@@ -571,11 +862,11 @@ function GroupMap() {
                       {s.name} <span className="font-normal text-faint">· {entityById(s.entityId).short}</span>
                     </span>
                     <span className="tnum text-[12px] text-muted">
-                      {pct(p.greenToday)} → <b className={on ? "text-green" : ""}>100%</b>
+                      {pct(green)} → <b className={on ? "text-green" : ""}>100%</b>
                     </span>
-                    <span className="tnum w-[84px] text-right text-[12px] font-semibold text-green">−₹{((p.costToday - p.costPlan) / 1e5).toFixed(0)} lakh</span>
+                    <span className={cn("tnum w-[92px] text-right text-[12px] font-semibold", saving >= 0 ? "text-green" : "text-amber")}>{lakhDelta(saving)}</span>
                   </div>
-                  <p className="truncate pl-4 text-[11px] text-faint">{p.levers.join(" · ")}</p>
+                  <p className="truncate pl-4 text-[11px] text-faint">{levers.join(" · ")}</p>
                 </li>
               )
             })}
@@ -583,6 +874,7 @@ function GroupMap() {
         </Card>
         <p className="text-[11px] leading-snug text-faint">
           Bengaluru from the plant note; renewable shares from the filed BRSRs where public; other loads and all tariffs indicative by state until each plant&apos;s bills are read.
+          {cut ? " With banking reduced, today's supply is re-costed: the surplus that used to be banked spills and the DISCOM fills the gap." : ""}
         </p>
       </div>
     </div>
@@ -594,6 +886,7 @@ function GroupMap() {
 export default function ErgPlan() {
   const [stage, setStage] = useState<Stage>("bills")
   const [bills, setBills] = useState<Bill[]>([])
+  const [mode, setMode] = useState<StorageMode>("bess")
   const timer = useRef<ReturnType<typeof setTimeout> | null>(null)
 
   function addFiles(names: string[]) {
@@ -644,7 +937,7 @@ export default function ErgPlan() {
           stage === "bills"
             ? "Every factory sends its power bills to one place. ergPLAN reads each one, with the twelve-month history on it, and builds the supply picture plant by plant."
             : stage === "results"
-              ? "What the bills say the plants buy today, and the mix ergPLAN recommends: rooftop solar, wind–solar captive, green power from the exchange, and the DISCOM only where it is the cheapest green option left."
+              ? "What the bills say the plants buy today, and the mix ergPLAN recommends: rooftop solar, wind–solar captive, green power from the exchange, a battery now that banking is being reduced, and the DISCOM only where it is the cheapest green option left."
               : "Every Tenneco factory on one map: how green it is today, and how much more can be done to cut the power bill and reach 100% green."
         }
         right={
@@ -683,12 +976,12 @@ export default function ErgPlan() {
         )}
         {stage === "results" && (
           <motion.div key="results" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
-            <Results siteIds={parsedIds} onGroup={() => setStage("group")} />
+            <Results siteIds={parsedIds} mode={mode} onMode={setMode} onGroup={() => setStage("group")} />
           </motion.div>
         )}
         {stage === "group" && (
           <motion.div key="group" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
-            <GroupMap />
+            <GroupMap mode={mode} onMode={setMode} />
           </motion.div>
         )}
       </AnimatePresence>
