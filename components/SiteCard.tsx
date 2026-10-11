@@ -23,6 +23,7 @@ export function SiteCard({ site, compact, className }: { site: Site; compact?: b
           <p className="mt-0.5 text-[12.5px] text-muted">
             {site.area}, {site.city}, {site.state}
           </p>
+          {site.listedAs && <p className="mt-0.5 text-[11.5px] text-faint">Tenneco lists it as {site.listedAs}</p>}
         </div>
         <div className="flex shrink-0 flex-col items-end gap-1">
           <Pill tone={site.type === "planned" ? "amber" : site.type === "plant" ? "blue" : "grey"}>{TYPE_LABEL[site.type]}</Pill>

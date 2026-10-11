@@ -22,7 +22,7 @@ const GUESS: [RegExp, string][] = [
   [/chakan|msedcl|pune/i, "tcail-chakan1"],
   [/hosur/i, "taipl-hosur"],
   [/patiala|pspcl/i, "fmgil-patiala"],
-  [/bhiwadi|jvvnl|avvnl/i, "fmgil-bhiwadi"],
+  [/bhiwadi|jvvnl|avvnl/i, "fmps-bhiwadi"],
   [/parwanoo|hpsebl/i, "fmbil-parwanoo"],
   [/sanand|ugvcl|mgvcl/i, "taipl-sanand"],
   [/pithampur|mpwz/i, "tcail-pithampur"],
@@ -124,7 +124,7 @@ export default function Platform() {
           <div className="border-b border-line px-4 py-3">
             <p className="text-[13px] font-semibold">Tenneco India in esgOS</p>
             <p className="text-[12px] text-muted">
-              <span className="tnum font-medium text-fg">{[...reportingSites].filter((id) => plants.some((p) => p.id === id)).length}</span> of {plants.length} plants reporting
+              <span className="tnum font-medium text-fg">{[...reportingSites].filter((id) => plants.some((p) => p.id === id)).length}</span> of {plants.length} factories reporting
             </p>
           </div>
           <ul className="scrollbar-thin max-h-[520px] divide-y divide-line overflow-y-auto">
@@ -392,7 +392,7 @@ export default function Platform() {
               { k: "From renewables", v: pct(filedRe / filedEnergy, 1), s: "filed" },
               { k: "Scope 1", v: `${fmt(BRSR.tcail.scope1.value + BRSR.fmgil.scope1.value)} t`, s: "filed" },
               { k: "Scope 2", v: `${fmt(BRSR.tcail.scope2.value + BRSR.fmgil.scope2.value)} t`, s: "filed" },
-              { k: "TAIPL, FM Ignition, Bearings, Sealings", v: "8 plants", s: "from bills in esgOS", pending: true },
+              { k: "TAIPL, FM Bearings, FM Sealings, FM PT Solutions", v: "7 factories", s: "no BRSR of their own: from bills in esgOS", pending: true },
               { k: "Scope 3", v: "not reported", s: "both BRSRs", pending: true },
             ].map((r) => (
               <div key={r.k} className="flex items-center justify-between gap-3 py-2.5">

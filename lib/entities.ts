@@ -130,9 +130,9 @@ export const ENTITIES: Entity[] = [
     short: "FM Powertrain Solutions",
     relationship: "Wider group / promoter-group member",
     balanceSheet: "Not found publicly",
-    business: "Powertrain services",
+    business: "Manufacturing at Bhiwadi, Rajasthan (FM PT Solutions)",
     group: "Wider Tenneco group",
-    color: "#7f8ea3",
+    color: "#0e9aa7",
   },
   {
     id: "tgs",

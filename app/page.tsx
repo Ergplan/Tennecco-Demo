@@ -106,7 +106,7 @@ export default function Landing() {
                 </span>
                 <span className="min-w-0 flex-1">
                   <span className="block text-[17px] font-semibold tracking-tight">Tenneco India</span>
-                  <span className="block text-[13px] text-muted">12 entities · 16 plants · 2 listed (NSE: TENNIND, FMGOETZE)</span>
+                  <span className="block text-[13px] text-muted">12 entities · 13 factories · 2 listed (NSE: TENNIND, FMGOETZE)</span>
                 </span>
                 <span className="hidden font-mono text-[11px] uppercase tracking-[0.14em] text-accent sm:block">Open ↵</span>
               </motion.button>

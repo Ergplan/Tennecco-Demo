@@ -51,9 +51,8 @@ export const COVERAGE_COLS = ["Energy", "Renewable %", "Scope 1 + 2", "Water", "
 export const COVERAGE: { entityId: EntityId; cells: Cover[]; note: string }[] = [
   { entityId: "fmgil", cells: ["filed", "filed", "filed", "filed", "filed", "partial"], note: "BRSR filed; Bengaluru figures from the plant note" },
   { entityId: "tcail", cells: ["filed", "filed", "filed", "filed", "filed", "partial"], note: "BRSR standalone covers 4 plants; two site facts public" },
-  { entityId: "taipl", cells: ["none", "none", "none", "none", "none", "none"], note: "5 ride-control plants; unlisted, no BRSR of its own" },
-  { entityId: "fmipl", cells: ["none", "none", "none", "none", "none", "none"], note: "Bhiwadi; unlisted subsidiary" },
+  { entityId: "taipl", cells: ["none", "none", "none", "none", "none", "none"], note: "4 ride-control factories; unlisted, no BRSR of its own" },
   { entityId: "fmbil", cells: ["none", "none", "none", "none", "none", "none"], note: "Parwanoo; unlisted subsidiary" },
   { entityId: "fmsil", cells: ["none", "none", "none", "none", "none", "none"], note: "Chakan; unlisted subsidiary" },
-  { entityId: "fmtpr", cells: ["none", "none", "none", "none", "none", "none"], note: "Bengaluru; inside FMGIL's consolidation" },
+  { entityId: "fmps", cells: ["none", "none", "none", "none", "none", "none"], note: "Bhiwadi factory; promoter-group company, no BRSR" },
 ]

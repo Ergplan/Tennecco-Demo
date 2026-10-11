@@ -163,7 +163,6 @@ function EntitySection({ id }: { id: EntityId }) {
   const r = e.brsr ? BRSR[e.brsr] : null
   const esg = ENTITY_ESG.find((x) => x.entityId === id)
   const sites = sitesOf(id).filter((s) => s.type !== "office" && !s.featured)
-  const subs = id === "fmgil" ? sitesOf("fmtpr") : []
   return (
     <Card className="p-0">
       <div className="flex flex-wrap items-start justify-between gap-3 border-b border-line p-5">
@@ -197,7 +196,7 @@ function EntitySection({ id }: { id: EntityId }) {
         <div>
           <p className="text-[12px] font-medium uppercase tracking-[0.1em] text-faint">Plants and what is public about each</p>
           <ul className="mt-2 grid gap-2 md:grid-cols-2">
-            {[...sites, ...subs].map((s) => (
+            {sites.map((s) => (
               <li key={s.id} className="rounded-xl border border-line p-3">
                 <p className="text-[13.5px] font-medium">
                   {s.name} <span className="font-normal text-muted">· {s.city}</span>
@@ -235,7 +234,9 @@ function SubsidiaryRow({ id }: { id: EntityId }) {
           {e.relationship} · {sites.map((s) => s.city).join(", ")}
         </span>
       </span>
-      <span className="text-[12px] text-faint">Inside TCAIL&apos;s consolidated accounts; no BRSR of its own</span>
+      <span className="text-[12px] text-faint">
+        {e.group === "TCAIL group" ? "Inside TCAIL’s consolidated accounts; no BRSR of its own" : "Promoter-group company; no public ESG data"}
+      </span>
     </li>
   )
 }
@@ -263,10 +264,10 @@ export default function EsgPage() {
           <EntitySection id="tcail" />
           <Card className="p-0">
             <div className="border-b border-line px-5 py-3">
-              <p className="text-[13px] font-semibold">TCAIL subsidiaries</p>
+              <p className="text-[13px] font-semibold">Other entities with factories</p>
             </div>
             <ul className="divide-y divide-line">
-              {(["taipl", "fmipl", "fmbil", "fmsil"] as EntityId[]).map((id) => (
+              {(["taipl", "fmbil", "fmsil", "fmps"] as EntityId[]).map((id) => (
                 <SubsidiaryRow key={id} id={id} />
               ))}
             </ul>

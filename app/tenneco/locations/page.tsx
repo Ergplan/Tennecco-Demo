@@ -31,10 +31,10 @@ export default function Locations() {
         eyebrow="Locations"
         title={
           <>
-            {plantCount} plants, one map. <span className="text-accent">Bengaluru first.</span>
+            {plantCount} factories, one map. <span className="text-accent">Bengaluru first.</span>
           </>
         }
-        lede="Every plant and technical centre of Tenneco's Indian entities, from the IPO prospectus and the companies' filings. Pick an entity to see its footprint; pick a site to see what is public about it."
+        lede="Tenneco's 13 factories in India, from Tenneco's own location list, plus the Pune technical centre and the Kharkhoda plant under construction. Pick an entity to see its footprint; pick a site to see what is public about it."
       />
 
       <div className="grid gap-6 lg:grid-cols-12">

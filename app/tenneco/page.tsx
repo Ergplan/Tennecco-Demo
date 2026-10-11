@@ -45,7 +45,7 @@ export default function Overview() {
             <div>
               <Eyebrow>Tenneco in India</Eyebrow>
               <p className="mt-0.5 text-[13px] text-muted">
-                {plants.length} plants in {states.size - 1} states and 1 UT · 1 under construction · R&D centres and offices
+                {plants.length} factories in {states.size - 1} states and 1 UT · 1 under construction · technical centre and offices
               </p>
             </div>
             <div className="flex flex-wrap items-center gap-3 text-[11.5px] text-muted">
