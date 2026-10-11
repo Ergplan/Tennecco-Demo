@@ -1,0 +1,1689 @@
+{
+ "company": {
+  "legalName": "Bikaji Foods International Limited",
+  "cin": "L15499RJ1995PLC010856",
+  "pan": "AAICS1030P",
+  "registeredOffice": "F 196-199, F 178 & E 188 Bichhwal Industrial Area, Bikaner - 334 006, Rajasthan, India",
+  "listing": {
+   "exchange": "NSE",
+   "symbol": "BIKAJI",
+   "bse": "543653"
+  },
+  "website": "www.bikaji.com",
+  "brsrContact": "Mr. Rahul Joshi (Head - Legal and Company Secretary), cs@bikaji.com, +91 151-2259914",
+  "brsrOversight": "Mr. Deepak Agarwal, Managing Director (DIN 00192890)",
+  "boundaryAsReported": "Standalone. 'Under this report, the disclosures are made on a Standalone basis, covering period from April 01, 2024 to March 31, 2025, environmental and social parameters covered within the report is limited to Bikaji's owned facilities*' (*nine owned facilities).",
+  "assurance": {
+   "provider": null,
+   "type": "Not applicable (no BRSR Core assurance for FY2024-25)",
+   "source": {
+    "title": "Bikaji Foods International Ltd, Business Responsibility and Sustainability Report FY2024-25 (Annual Report 2024-25, pp. 154-191), filed with NSE/BSE 22 Aug 2025",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.154"
+   }
+  },
+  "revenueCr": {
+   "FY2024-25": 2536.86,
+   "FY2023-24": 2294.71
+  }
+ },
+ "brsr": {
+  "title": "Bikaji Foods International Ltd, Business Responsibility and Sustainability Report FY2024-25 (Annual Report 2024-25, pp. 154-191), filed with NSE/BSE 22 Aug 2025",
+  "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+  "page": "AR 2024-25 pp. 154-191",
+  "fy": "FY2024-25",
+  "filed": "2025-08-22"
+ },
+ "sites": [
+  {
+   "key": "bikaner-bichhwal-1",
+   "id": "site-bk-bichhwal-1",
+   "name": "Bichhwal Unit I",
+   "type": "factory",
+   "via": "brsr",
+   "city": "Bikaner",
+   "state": "Rajasthan",
+   "lat": 28.066,
+   "lng": 73.327,
+   "geoQuery": "Bichhwal Industrial Area, Bikaner, Rajasthan",
+   "entityName": "Bikaji Foods International Limited",
+   "ownerRole": "Plant head",
+   "products": "Packaged sweets",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.155"
+   },
+   "moreSources": [
+    {
+     "title": "Bikaji Foods International Ltd - Red Herring Prospectus (IPO, Oct 2022)",
+     "url": "https://github.com/bansal28/IPO_prediction_thesis/blob/HEAD/data/processed/risk_sections/Bikaji_Foods_International_Ltd_.md",
+     "page": "AR 2024-25 p.42"
+    }
+   ],
+   "note": "Listed among the 'nine owned facilities' in BRSR FY2024-25 Section A (footnote to Q13/Q18). Unit-I holds ISO 9001:2015 (BRSR p.160). Products/capacity from RHP p.42 (2022). Plot address not public in sources reached; the registered office is at F 196-199, F 178 & E 188 Bichhwal Industrial Area but the BRSR does not say which unit sits there. RHP (Oct 2022) capacity table 'as of June 30, 2022' gives 'average estimated"
+  },
+  {
+   "key": "bikaner-bichhwal-2",
+   "id": "site-bk-bichhwal-2",
+   "name": "Bichhwal Unit II",
+   "type": "factory",
+   "via": "brsr",
+   "city": "Bikaner",
+   "state": "Rajasthan",
+   "lat": 28.064,
+   "lng": 73.33,
+   "geoQuery": "Bichhwal Industrial Area, Bikaner, Rajasthan",
+   "entityName": "Bikaji Foods International Limited",
+   "ownerRole": "Plant head",
+   "products": "Namkeen, western snacks",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.155"
+   },
+   "moreSources": [
+    {
+     "title": "Bikaji Foods International Ltd - Red Herring Prospectus (IPO, Oct 2022)",
+     "url": "https://github.com/bansal28/IPO_prediction_thesis/blob/HEAD/data/processed/risk_sections/Bikaji_Foods_International_Ltd_.md",
+     "page": "AR 2024-25 p.42"
+    }
+   ],
+   "note": "Listed among the 'nine owned facilities' in BRSR FY2024-25 Section A (footnote to Q13/Q18). RHP (Oct 2022) capacity table 'as of June 30, 2022' gives 'average estimated annual available capacity' per product; the period basis is ambiguous (actual production shown is for the period), so do not read these as MTPA."
+  },
+  {
+   "key": "bikaner-bichhwal-3",
+   "id": "site-bk-bichhwal-3",
+   "name": "Bichhwal Unit III",
+   "type": "factory",
+   "via": "brsr",
+   "city": "Bikaner",
+   "state": "Rajasthan",
+   "lat": 28.062,
+   "lng": 73.333,
+   "geoQuery": "Bichhwal Industrial Area, Bikaner, Rajasthan",
+   "entityName": "Bikaji Foods International Limited",
+   "ownerRole": "Plant head",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.155"
+   },
+   "moreSources": [
+    {
+     "title": "Bikaji Foods International Ltd - Red Herring Prospectus (IPO, Oct 2022)",
+     "url": "https://github.com/bansal28/IPO_prediction_thesis/blob/HEAD/data/processed/risk_sections/Bikaji_Foods_International_Ltd_.md",
+     "page": "AR 2024-25 p.42"
+    }
+   ],
+   "note": "Listed among the 'nine owned facilities' in BRSR FY2024-25 Section A (footnote to Q13/Q18). Named as 'Bichhwal, Bikaner - III' in the RHP capacity table, but no product rows are attributed to it there; products not public in sources reached."
+  },
+  {
+   "key": "bikaner-karni-a",
+   "id": "site-bk-karni-1",
+   "name": "Karni facility 1",
+   "type": "factory",
+   "via": "brsr",
+   "city": "Bikaner",
+   "state": "Rajasthan",
+   "lat": 27.999,
+   "lng": 73.356,
+   "geoQuery": "Karni Extension, RIICO Industrial Area, Bikaner, Rajasthan",
+   "entityName": "Bikaji Foods International Limited",
+   "ownerRole": "Plant head",
+   "products": "Bhujia, namkeen, machine-made papad, western snacks, packaged sweets",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.155"
+   },
+   "moreSources": [
+    {
+     "title": "Bikaji Foods International Ltd - Red Herring Prospectus (IPO, Oct 2022)",
+     "url": "https://github.com/bansal28/IPO_prediction_thesis/blob/HEAD/data/processed/risk_sections/Bikaji_Foods_International_Ltd_.md",
+     "page": "AR 2024-25 p.42"
+    },
+    {
+     "title": "Bikaji Foods International Ltd - Red Herring Prospectus (IPO, Oct 2022)",
+     "url": "https://github.com/bansal28/IPO_prediction_thesis/blob/HEAD/data/processed/risk_sections/Bikaji_Foods_International_Ltd_.md",
+     "page": "AR 2024-25 p.43"
+    }
+   ],
+   "note": "Listed among the 'nine owned facilities' in BRSR FY2024-25 Section A (footnote to Q13/Q18). BRSR counts three Karni facilities but does not name them; the RHP (2022) describes one Karni facility as the only bhujia plant and the majority of bhujia/namkeen/sweets capacity, with 1,800 kW rooftop solar. Karni facility holds ISO 9001:2015 (BRSR p.160). Corporate office is at Plot No. E-558-561, C-569-572, E-573-577, F-585"
+  },
+  {
+   "key": "bikaner-karni-b",
+   "id": "site-bk-karni-2",
+   "name": "Karni facility 2",
+   "type": "factory",
+   "via": "brsr",
+   "city": "Bikaner",
+   "state": "Rajasthan",
+   "lat": 27.997,
+   "lng": 73.359,
+   "geoQuery": "Karni Industrial Area, Bikaner, Rajasthan",
+   "entityName": "Bikaji Foods International Limited",
+   "ownerRole": "Plant head",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.155"
+   },
+   "note": "Listed among the 'nine owned facilities' in BRSR FY2024-25 Section A (footnote to Q13/Q18). Not individually identified. FY2022-23 BRSR counted one Karni facility; by FY2023-24 there were three. Possible (unconfirmed) origins: the new Karni plant funded per the RHP, and the Bikaner unit of Hanuman Agrofood (merged Feb 2024)."
+  },
+  {
+   "key": "bikaner-karni-c",
+   "id": "site-bk-karni-3",
+   "name": "Karni facility 3",
+   "type": "factory",
+   "via": "brsr",
+   "city": "Bikaner",
+   "state": "Rajasthan",
+   "lat": 27.995,
+   "lng": 73.362,
+   "geoQuery": "Karni Industrial Area, Bikaner, Rajasthan",
+   "entityName": "Bikaji Foods International Limited",
+   "ownerRole": "Plant head",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.155"
+   },
+   "note": "Listed among the 'nine owned facilities' in BRSR FY2024-25 Section A (footnote to Q13/Q18). Not individually identified (see karni-b note)."
+  },
+  {
+   "key": "kamrup-guwahati",
+   "id": "site-bk-kamrup",
+   "name": "Kamrup",
+   "type": "factory",
+   "via": "brsr",
+   "city": "Guwahati",
+   "state": "Assam",
+   "lat": 26.12,
+   "lng": 91.62,
+   "geoQuery": "Kamrup, Assam",
+   "entityName": "Bikaji Foods International Limited",
+   "ownerRole": "Plant head",
+   "products": "Namkeen, western snacks",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.155"
+   },
+   "moreSources": [
+    {
+     "title": "Bikaji Foods International Ltd - Red Herring Prospectus (IPO, Oct 2022)",
+     "url": "https://github.com/bansal28/IPO_prediction_thesis/blob/HEAD/data/processed/risk_sections/Bikaji_Foods_International_Ltd_.md",
+     "page": "AR 2024-25 p.42"
+    },
+    {
+     "title": "Bikaji Foods International Ltd - BRSR FY2022-23 (Annual Report 2022-23)",
+     "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_15092023120543_BikajiBRSR31032023.pdf"
+    }
+   ],
+   "note": "Listed among the 'nine owned facilities' in BRSR FY2024-25 Section A (footnote to Q13/Q18). FY2022-23 BRSR footnote names this facility 'Guwahati' in one place and 'Kamrup' in another. Boiler fuel switched from coal to biomass briquettes (BRSR p.183). Commissioning date from RHP p.42. District given as Kamrup per BRSR; whether Kamrup or Kamrup Metropolitan district is not stated. RHP (Oct 2022) capacity table 'as of "
+  },
+  {
+   "key": "mumbai",
+   "id": "site-bk-mumbai",
+   "name": "Mumbai facility",
+   "type": "factory",
+   "via": "brsr",
+   "city": "Mumbai",
+   "state": "Maharashtra",
+   "lat": 19.18,
+   "lng": 72.845,
+   "geoQuery": "Mumbai, Maharashtra",
+   "entityName": "Bikaji Foods International Limited",
+   "ownerRole": "Plant head",
+   "products": "Restaurant / other (per RHP)",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.155"
+   },
+   "moreSources": [
+    {
+     "title": "Bikaji Foods International Ltd - Red Herring Prospectus (IPO, Oct 2022)",
+     "url": "https://github.com/bansal28/IPO_prediction_thesis/blob/HEAD/data/processed/risk_sections/Bikaji_Foods_International_Ltd_.md",
+     "page": "AR 2024-25 p.41"
+    },
+    {
+     "title": "Bikaji Foods International Ltd - Red Herring Prospectus (IPO, Oct 2022)",
+     "url": "https://github.com/bansal28/IPO_prediction_thesis/blob/HEAD/data/processed/risk_sections/Bikaji_Foods_International_Ltd_.md",
+     "page": "AR 2024-25 p.65"
+    }
+   ],
+   "note": "Listed among the 'nine owned facilities' in BRSR FY2024-25 Section A (footnote to Q13/Q18). RHP (2022) describes 'one small facility in Mumbai to manage our Mumbai restaurant sales' (p.41) and an owned regional office at Plot No. 39/40/41, Aroon Industrial Estate, Ramchandra Lane, Malad (West), Mumbai 400 064 (p.65). Whether the BRSR's Mumbai facility is at that address is not stated."
+  },
+  {
+   "key": "tumakuru",
+   "id": "site-bk-tumakuru",
+   "name": "Tumakuru",
+   "type": "factory",
+   "via": "brsr",
+   "city": "Tumakuru",
+   "state": "Karnataka",
+   "lat": 13.34,
+   "lng": 77.1,
+   "geoQuery": "Tumakuru, Karnataka",
+   "entityName": "Bikaji Foods International Limited",
+   "ownerRole": "Plant head",
+   "products": "Western snacks, namkeen, third-party contract manufacturing",
+   "reviewNote": "The FY2024-25 BRSR counts Tumakuru among Bikaji's nine owned facilities, but the 2022 prospectus says Petunt Food Processors owns the plant.",
+   "reviewSuggest": "Bikaji Foods International Limited",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.155"
+   },
+   "moreSources": [
+    {
+     "title": "Bikaji Foods International Ltd - Red Herring Prospectus (IPO, Oct 2022)",
+     "url": "https://github.com/bansal28/IPO_prediction_thesis/blob/HEAD/data/processed/risk_sections/Bikaji_Foods_International_Ltd_.md",
+     "page": "AR 2024-25 p.41"
+    },
+    {
+     "title": "Bikaji Foods International Ltd - Red Herring Prospectus (IPO, Oct 2022)",
+     "url": "https://github.com/bansal28/IPO_prediction_thesis/blob/HEAD/data/processed/risk_sections/Bikaji_Foods_International_Ltd_.md",
+     "page": "AR 2024-25 p.42"
+    }
+   ],
+   "note": "Listed among the 'nine owned facilities' in BRSR FY2024-25 Section A (footnote to Q13/Q18). RHP p.41-42: the Tumakuru facility is owned by subsidiary Petunt (51.22%), primarily makes western snacks and namkeen and also does contract manufacturing for third parties. The standalone BRSR nonetheless lists Tumkur among Bikaji's nine owned facilities - ownership basis for FY2024-25 not explained. Uses biomass briquettes ("
+  },
+  {
+   "key": "muzaffarpur",
+   "id": "site-bk-muzaffarpur",
+   "name": "Muzaffarpur",
+   "type": "factory",
+   "via": "brsr",
+   "city": "Muzaffarpur",
+   "state": "Bihar",
+   "lat": 26.12,
+   "lng": 85.39,
+   "geoQuery": "Muzaffarpur, Bihar",
+   "entityName": "Vindhyawasini Sales Private Limited",
+   "ownerRole": "Plant head",
+   "products": "Namkeen, western snacks",
+   "reviewNote": "Run by the subsidiary Vindhyawasini Sales in FY2024-25 and outside the nine owned facilities. Vindhyawasini's amalgamation into Bikaji is reported effective 30 Jun 2025, which would bring it into the standalone boundary for FY2025-26.",
+   "reviewSuggest": "Bikaji Foods International Limited",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Red Herring Prospectus (IPO, Oct 2022)",
+    "url": "https://github.com/bansal28/IPO_prediction_thesis/blob/HEAD/data/processed/risk_sections/Bikaji_Foods_International_Ltd_.md",
+    "page": "AR 2024-25 p.41"
+   },
+   "moreSources": [
+    {
+     "title": "Bikaji Foods International Ltd - Red Herring Prospectus (IPO, Oct 2022)",
+     "url": "https://github.com/bansal28/IPO_prediction_thesis/blob/HEAD/data/processed/risk_sections/Bikaji_Foods_International_Ltd_.md",
+     "page": "AR 2024-25 p.42"
+    },
+    {
+     "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+     "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+     "page": "AR 2024-25 p.183"
+    }
+   ],
+   "note": "Not among the nine owned facilities in BRSR FY2024-25 Section A, yet the same BRSR (P6 EI 8, p.183) cites the 'Muzaffarpur' plant's switch to biomass briquettes - boundary treatment ambiguous. FY2022-23 BRSR listed it as a subsidiary plant. Vindhyawasini was amalgamated into Bikaji (reported effective June 30, 2025). RHP (Oct 2022) capacity table 'as of June 30, 2022' gives 'average estimated annual available capacit"
+  },
+  {
+   "key": "registered-office",
+   "id": "site-bk-regd-office",
+   "name": "Registered office",
+   "type": "office",
+   "via": "registry",
+   "city": "Bikaner",
+   "state": "Rajasthan",
+   "lat": 28.061,
+   "lng": 73.324,
+   "geoQuery": "F 196-199, F 178 & E 188 Bichhwal Industrial Area, Bikaner - 334 006, Rajasthan, India",
+   "entityName": "Bikaji Foods International Limited",
+   "ownerRole": "Office admin",
+   "address": "F 196-199, F 178 & E 188 Bichhwal Industrial Area, Bikaner - 334 006, Rajasthan, India",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.154"
+   },
+   "note": "RHP (2022, p.65): held on 99-year lease."
+  },
+  {
+   "key": "corporate-office",
+   "id": "site-bk-corp-office",
+   "name": "Corporate office",
+   "type": "office",
+   "via": "registry",
+   "city": "Bikaner",
+   "state": "Rajasthan",
+   "lat": 28.001,
+   "lng": 73.353,
+   "geoQuery": "Plot No. E-558-561, C-569-572, E-573-577, F-585-592 Karni Extension, RIICO Industrial Area, Bikaner - 334 004, Rajasthan, India",
+   "entityName": "Bikaji Foods International Limited",
+   "ownerRole": "Office admin",
+   "address": "Plot No. E-558-561, C-569-572, E-573-577, F-585-592 Karni Extension, RIICO Industrial Area, Bikaner - 334 004, Rajasthan, India",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.154"
+   },
+   "note": "RHP (2022, p.65): held on 99-year lease."
+  },
+  {
+   "key": "mumbai-regional-office",
+   "id": "site-bk-mumbai-office",
+   "name": "Mumbai office",
+   "type": "office",
+   "via": "registry",
+   "city": "Mumbai",
+   "state": "Maharashtra",
+   "lat": 19.187,
+   "lng": 72.84,
+   "geoQuery": "Plot No. 39/40/41, Aroon Industrial Estate, Ramchandra Lane, Malad (West), Mumbai 400 064",
+   "entityName": "Bikaji Foods International Limited",
+   "ownerRole": "Office admin",
+   "address": "Plot No. 39/40/41, Aroon Industrial Estate, Ramchandra Lane, Malad (West), Mumbai 400 064",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Red Herring Prospectus (IPO, Oct 2022)",
+    "url": "https://github.com/bansal28/IPO_prediction_thesis/blob/HEAD/data/processed/risk_sections/Bikaji_Foods_International_Ltd_.md",
+    "page": "AR 2024-25 p.65"
+   },
+   "note": "From RHP (Oct 2022), owned. Current status not confirmed in FY2024-25 sources. District inferred from Malad (West) location - verify."
+  }
+ ],
+ "entities": [
+  {
+   "id": "ent-bk",
+   "name": "Bikaji Foods International Limited",
+   "shortName": "Bikaji Foods",
+   "relationship": "holding",
+   "country": "India",
+   "inBoundary": true,
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.154"
+   },
+   "cin": "L15499RJ1995PLC010856",
+   "note": "Hanuman Agrofood amalgamated into the company (effective 14 Feb 2024)."
+  },
+  {
+   "id": "ent-bk-vindhyawasini",
+   "name": "Vindhyawasini Sales Private Limited",
+   "shortName": "Vindhyawasini Sales",
+   "relationship": "subsidiary",
+   "country": "India",
+   "inBoundary": false,
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.156"
+   },
+   "holdingPct": 100.0,
+   "note": "Amalgamation into Bikaji reported effective 30 Jun 2025."
+  },
+  {
+   "id": "ent-bk-petunt",
+   "name": "Petunt Food Processors Private Limited",
+   "shortName": "Petunt Food Processors",
+   "relationship": "subsidiary",
+   "country": "India",
+   "inBoundary": false,
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.156"
+   },
+   "holdingPct": 51.22,
+   "note": "51.22% at 31 Mar 2025; became wholly owned on 6 Mar 2026."
+  },
+  {
+   "id": "ent-bk-bhujialalji",
+   "name": "Bhujialalji Private Limited",
+   "shortName": "Bhujialalji",
+   "relationship": "associate",
+   "country": "India",
+   "inBoundary": false,
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.156"
+   },
+   "holdingPct": 49.0,
+   "note": "49% associate."
+  },
+  {
+   "id": "ent-bk-others",
+   "name": "6 other group companies",
+   "shortName": "6 others",
+   "relationship": "subsidiary",
+   "country": "India and USA",
+   "inBoundary": false,
+   "aggregate": true,
+   "members": [
+    {
+     "name": "Bikaji Foods International USA Corp",
+     "relationship": "subsidiary",
+     "holdingPct": 100.0,
+     "country": "United States (country inferred from name; not stated in BRSR)"
+    },
+    {
+     "name": "Bikaji Bakes Private Limited",
+     "relationship": "subsidiary",
+     "holdingPct": 100.0,
+     "country": "India"
+    },
+    {
+     "name": "Bikaji Foods Retail Limited",
+     "relationship": "subsidiary",
+     "holdingPct": 100.0,
+     "country": "India"
+    },
+    {
+     "name": "Ariba Foods Private Limited",
+     "relationship": "subsidiary",
+     "holdingPct": 55.0,
+     "country": "India"
+    },
+    {
+     "name": "Bikaji Mega Food Park Private Limited",
+     "relationship": "subsidiary",
+     "holdingPct": 51.0,
+     "country": "India"
+    },
+    {
+     "name": "Bikaji Foundation",
+     "relationship": "subsidiary",
+     "holdingPct": 100.0,
+     "country": "India"
+    }
+   ],
+   "note": "Other subsidiaries listed in BRSR Section A Q23 (and Bikaji Foundation, incorporated Oct 2025). None takes part in the standalone BRSR.",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.156"
+   }
+  }
+ ],
+ "gst": [
+  {
+   "gstin": "08AAICS1030P1Z5",
+   "state": "Rajasthan",
+   "source": {
+    "title": "Company letterhead on exchange filings (e.g. BRSR FY2024-25 cover letter, 22-Aug-2025)",
+    "url": "https://github.com/praveen-kumar-inti/fictional-tribble/blob/950c0245b8e130230354ac6d533b19baafcc7ead/2024%20-%2025_txt_files/Bikaji_Foods_International_Limited_2024.txt"
+   },
+   "siteKeys": [
+    "registered-office"
+   ]
+  },
+  {
+   "gstin": "03AAICS1030P1ZF",
+   "state": "Punjab",
+   "source": {
+    "title": "Third-party GSTIN directory listing title 'BIKAJI FOODS INTERNATIONAL LIMITED - 03AAICS1030P1ZF' (search result only)",
+    "url": "https://fnshiftsolutions.com/gstin-search/bikaji-foods-international-limited-03AAICS1030P1ZF"
+   },
+   "note": "Low confidence: third-party directory only"
+  }
+ ],
+ "metrics": [
+  {
+   "key": "a.revenue",
+   "id": "a.turnover",
+   "indicator": "A.VI.24",
+   "label": "Revenue from operations (standalone)",
+   "fy": "FY2024-25",
+   "value": 2536.86,
+   "unit": "Rs crore",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.156"
+   }
+  },
+  {
+   "key": "a.plants",
+   "id": "a.plants.national",
+   "indicator": "A.III.18",
+   "label": "Plants, national",
+   "fy": "FY2024-25",
+   "value": 9,
+   "unit": "count",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.155"
+   },
+   "reported": "9*",
+   "note": "*Nine owned facilities of which six are in Bikaner (three in Karni and three in Bichhwal) and one each in Kamrup, Mumbai and Tumkur."
+  },
+  {
+   "key": "a.plants",
+   "id": "a.plants.national",
+   "indicator": "A.III.18",
+   "label": "Plants, national",
+   "fy": "FY2023-24",
+   "value": 9,
+   "unit": "count",
+   "source": {
+    "title": "Bikaji Foods International Ltd - BRSR FY2023-24 (part of Annual Report 2023-24; filed 03-Sep-2024, ref. BFIL/SEC/2024-25/60)",
+    "url": "https://www.bikaji.com/pub/media/Bikaji-Annual-Report-2023-24.pdf"
+   },
+   "reported": "9*",
+   "note": "Same nine-facility footnote as FY2024-25."
+  },
+  {
+   "key": "a.offices",
+   "id": "a.offices.national",
+   "indicator": "A.III.18",
+   "label": "Offices, national",
+   "fy": "FY2024-25",
+   "value": 4,
+   "unit": "count",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.155"
+   },
+   "reported": "4",
+   "note": "Office locations are not itemised in the BRSR."
+  },
+  {
+   "key": "a.offices",
+   "id": "a.offices.national",
+   "indicator": "A.III.18",
+   "label": "Offices, national",
+   "fy": "FY2023-24",
+   "value": 4,
+   "unit": "count",
+   "source": {
+    "title": "Bikaji Foods International Ltd - BRSR FY2023-24 (part of Annual Report 2023-24; filed 03-Sep-2024, ref. BFIL/SEC/2024-25/60)",
+    "url": "https://www.bikaji.com/pub/media/Bikaji-Annual-Report-2023-24.pdf"
+   },
+   "reported": "4"
+  },
+  {
+   "key": "a.employees.permanent",
+   "id": "a.emp.permanent.total",
+   "indicator": "A.IV.20",
+   "label": "Permanent employees",
+   "fy": "FY2024-25",
+   "value": 1364,
+   "unit": "count",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.155"
+   },
+   "reported": "1364",
+   "note": "As at end of FY (March 31, 2025)."
+  },
+  {
+   "key": "a.employees.permanent",
+   "id": "a.emp.permanent.total",
+   "indicator": "A.IV.20",
+   "label": "Permanent employees",
+   "fy": "FY2023-24",
+   "value": 1363,
+   "unit": "count",
+   "source": {
+    "title": "Bikaji Foods International Ltd - BRSR FY2023-24 (part of Annual Report 2023-24; filed 03-Sep-2024, ref. BFIL/SEC/2024-25/60)",
+    "url": "https://www.bikaji.com/pub/media/Bikaji-Annual-Report-2023-24.pdf"
+   },
+   "reported": "1363",
+   "note": "From the FY2023-24 BRSR (also matches FY2023-24 comparatives in FY2024-25 BRSR P3/P5 tables)."
+  },
+  {
+   "key": "a.workers.permanent",
+   "id": "a.wrk.permanent.total",
+   "indicator": "A.IV.20",
+   "label": "Permanent workers",
+   "fy": "FY2024-25",
+   "value": 1225,
+   "unit": "count",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.155"
+   },
+   "reported": "1225",
+   "note": "As at end of FY (March 31, 2025)."
+  },
+  {
+   "key": "a.workers.permanent",
+   "id": "a.wrk.permanent.total",
+   "indicator": "A.IV.20",
+   "label": "Permanent workers",
+   "fy": "FY2023-24",
+   "value": 1196,
+   "unit": "count",
+   "source": {
+    "title": "Bikaji Foods International Ltd - BRSR FY2023-24 (part of Annual Report 2023-24; filed 03-Sep-2024, ref. BFIL/SEC/2024-25/60)",
+    "url": "https://www.bikaji.com/pub/media/Bikaji-Annual-Report-2023-24.pdf"
+   },
+   "reported": "1196",
+   "note": "From the FY2023-24 BRSR (also matches FY2023-24 comparatives in FY2024-25 BRSR P3/P5 tables)."
+  },
+  {
+   "key": "a.workers.other",
+   "id": "a.wrk.otherThanPermanent.total",
+   "indicator": "A.IV.20",
+   "label": "Other than permanent workers",
+   "fy": "FY2024-25",
+   "value": 247,
+   "unit": "count",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.155"
+   },
+   "reported": "247",
+   "note": "As at end of FY (March 31, 2025)."
+  },
+  {
+   "key": "a.workers.other",
+   "id": "a.wrk.otherThanPermanent.total",
+   "indicator": "A.IV.20",
+   "label": "Other than permanent workers",
+   "fy": "FY2023-24",
+   "value": 199,
+   "unit": "count",
+   "source": {
+    "title": "Bikaji Foods International Ltd - BRSR FY2023-24 (part of Annual Report 2023-24; filed 03-Sep-2024, ref. BFIL/SEC/2024-25/60)",
+    "url": "https://www.bikaji.com/pub/media/Bikaji-Annual-Report-2023-24.pdf"
+   },
+   "reported": "199",
+   "note": "From the FY2023-24 BRSR (also matches FY2023-24 comparatives in FY2024-25 BRSR P3/P5 tables)."
+  },
+  {
+   "key": "p6.e1.A",
+   "id": "p6.e1.electricity.renewable",
+   "indicator": "P6.E1.elec",
+   "label": "Electricity from renewable sources (A)",
+   "fy": "FY2024-25",
+   "value": 9498.65,
+   "unit": "GJ",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.181"
+   },
+   "reported": "9,498.65"
+  },
+  {
+   "key": "p6.e1.A",
+   "id": "p6.e1.electricity.renewable",
+   "indicator": "P6.E1.elec",
+   "label": "Electricity from renewable sources (A)",
+   "fy": "FY2023-24",
+   "value": 7960.68,
+   "unit": "GJ",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.181"
+   },
+   "reported": "7,960.68",
+   "note": "Previous-year comparative as printed in the FY2024-25 BRSR."
+  },
+  {
+   "key": "p6.e1.B",
+   "id": "p6.e1.fuel.renewable",
+   "indicator": "P6.E1.fuel",
+   "label": "Fuel from renewable sources (B)",
+   "fy": "FY2024-25",
+   "value": 0,
+   "unit": "GJ",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.181"
+   },
+   "reported": "0 (Not Applicable)",
+   "note": "Reported as 0 even though the same report says biomass briquettes replaced coal at Kamrup, Muzaffarpur and Tumakuru and bio-gas is used at Bikaner units (P6 EI 8, p.183) - biomass appears to be counted within non-renewable fuel or excluded. Kept as reported."
+  },
+  {
+   "key": "p6.e1.B",
+   "id": "p6.e1.fuel.renewable",
+   "indicator": "P6.E1.fuel",
+   "label": "Fuel from renewable sources (B)",
+   "fy": "FY2023-24",
+   "value": 0,
+   "unit": "GJ",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.181"
+   },
+   "reported": "0",
+   "note": "Previous-year comparative as printed in the FY2024-25 BRSR."
+  },
+  {
+   "key": "p6.e1.C",
+   "id": "p6.e1.other.renewable",
+   "indicator": "P6.E1.fuel",
+   "label": "Other renewable sources (C)",
+   "fy": "FY2024-25",
+   "value": 0,
+   "unit": "GJ",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.181"
+   },
+   "reported": "0 (Not Applicable)"
+  },
+  {
+   "key": "p6.e1.C",
+   "id": "p6.e1.other.renewable",
+   "indicator": "P6.E1.fuel",
+   "label": "Other renewable sources (C)",
+   "fy": "FY2023-24",
+   "value": 0,
+   "unit": "GJ",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.181"
+   },
+   "reported": "0",
+   "note": "Previous-year comparative as printed in the FY2024-25 BRSR."
+  },
+  {
+   "key": "p6.e1.D",
+   "id": "p6.e1.electricity.nonRenewable",
+   "indicator": "P6.E1.elec",
+   "label": "Electricity from non-renewable sources (D)",
+   "fy": "FY2024-25",
+   "value": 71135.14,
+   "unit": "GJ",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.181"
+   },
+   "reported": "71,135.14"
+  },
+  {
+   "key": "p6.e1.D",
+   "id": "p6.e1.electricity.nonRenewable",
+   "indicator": "P6.E1.elec",
+   "label": "Electricity from non-renewable sources (D)",
+   "fy": "FY2023-24",
+   "value": 68922.17,
+   "unit": "GJ",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.181"
+   },
+   "reported": "68,922.17",
+   "note": "Previous-year comparative as printed in the FY2024-25 BRSR."
+  },
+  {
+   "key": "p6.e1.E",
+   "id": "p6.e1.fuel.nonRenewable",
+   "indicator": "P6.E1.fuel",
+   "label": "Fuel from non-renewable sources (E)",
+   "fy": "FY2024-25",
+   "value": 428399.58,
+   "unit": "GJ",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.181"
+   },
+   "reported": "4,28,399.58"
+  },
+  {
+   "key": "p6.e1.E",
+   "id": "p6.e1.fuel.nonRenewable",
+   "indicator": "P6.E1.fuel",
+   "label": "Fuel from non-renewable sources (E)",
+   "fy": "FY2023-24",
+   "value": 405288.0,
+   "unit": "GJ",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.181"
+   },
+   "reported": "4,05,288.00",
+   "note": "Previous-year comparative as printed in the FY2024-25 BRSR."
+  },
+  {
+   "key": "p6.e1.F",
+   "id": "p6.e1.other.nonRenewable",
+   "indicator": "P6.E1.fuel",
+   "label": "Other non-renewable sources (F)",
+   "fy": "FY2024-25",
+   "value": 0,
+   "unit": "GJ",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.181"
+   },
+   "reported": "0 (Not Applicable)"
+  },
+  {
+   "key": "p6.e1.F",
+   "id": "p6.e1.other.nonRenewable",
+   "indicator": "P6.E1.fuel",
+   "label": "Other non-renewable sources (F)",
+   "fy": "FY2023-24",
+   "value": 0,
+   "unit": "GJ",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.181"
+   },
+   "reported": "0",
+   "note": "Previous-year comparative as printed in the FY2024-25 BRSR."
+  },
+  {
+   "key": "p6.e1.total",
+   "id": "p6.e1.total",
+   "indicator": "P6.E1.intensity",
+   "label": "Total energy consumed (A+B+C+D+E+F)",
+   "fy": "FY2024-25",
+   "value": 509033.37,
+   "unit": "GJ",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.181"
+   },
+   "reported": "5,09,033.37"
+  },
+  {
+   "key": "p6.e1.total",
+   "id": "p6.e1.total",
+   "indicator": "P6.E1.intensity",
+   "label": "Total energy consumed (A+B+C+D+E+F)",
+   "fy": "FY2023-24",
+   "value": 482170.85,
+   "unit": "GJ",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.181"
+   },
+   "reported": "4,82,170.85",
+   "note": "Previous-year comparative as printed in the FY2024-25 BRSR."
+  },
+  {
+   "key": "p6.e1.intensity",
+   "id": "p6.e1.intensity.turnover",
+   "indicator": "P6.E1.intensity",
+   "label": "Energy intensity per rupee of turnover",
+   "fy": "FY2024-25",
+   "value": 2.01,
+   "unit": "GJ per INR lakh",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.181"
+   },
+   "reported": "2.01",
+   "note": "Unit printed as 'GJ/ ₹lakh'."
+  },
+  {
+   "key": "p6.e1.intensity",
+   "id": "p6.e1.intensity.turnover",
+   "indicator": "P6.E1.intensity",
+   "label": "Energy intensity per rupee of turnover",
+   "fy": "FY2023-24",
+   "value": 2.1,
+   "unit": "GJ per INR lakh",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.181"
+   },
+   "reported": "2.10",
+   "note": "Previous-year comparative as printed in the FY2024-25 BRSR."
+  },
+  {
+   "key": "p6.e1.intensity.physical",
+   "id": "p6.e1.intensity.physical",
+   "indicator": "P6.E1.intensity",
+   "label": "Energy intensity per unit of output",
+   "fy": "FY2024-25",
+   "value": 3.98,
+   "unit": "GJ per tonne of production",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.181"
+   },
+   "reported": "3.98"
+  },
+  {
+   "key": "p6.e1.intensity.physical",
+   "id": "p6.e1.intensity.physical",
+   "indicator": "P6.E1.intensity",
+   "label": "Energy intensity per unit of output",
+   "fy": "FY2023-24",
+   "value": 4.24,
+   "unit": "GJ per tonne of production",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.181"
+   },
+   "reported": "4.24",
+   "note": "Previous-year comparative as printed in the FY2024-25 BRSR."
+  },
+  {
+   "key": "p6.e3.withdrawal",
+   "id": "p6.e3.withdrawal.total",
+   "indicator": "P6.E3.withdrawal",
+   "label": "Water withdrawal",
+   "fy": "FY2024-25",
+   "value": 178070,
+   "unit": "kL",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.181"
+   },
+   "reported": "1,78,070"
+  },
+  {
+   "key": "p6.e3.withdrawal",
+   "id": "p6.e3.withdrawal.total",
+   "indicator": "P6.E3.withdrawal",
+   "label": "Water withdrawal",
+   "fy": "FY2023-24",
+   "value": 220000,
+   "unit": "kL",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.181"
+   },
+   "reported": "2,20,000",
+   "note": "Previous-year comparative as printed in the FY2024-25 BRSR."
+  },
+  {
+   "key": "p6.e3.ground",
+   "id": "p6.e3.withdrawal.groundwater",
+   "indicator": "P6.E3.withdrawal",
+   "label": "Groundwater withdrawal",
+   "fy": "FY2024-25",
+   "value": 163070,
+   "unit": "kL",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.181"
+   },
+   "reported": "1,63,070"
+  },
+  {
+   "key": "p6.e3.ground",
+   "id": "p6.e3.withdrawal.groundwater",
+   "indicator": "P6.E3.withdrawal",
+   "label": "Groundwater withdrawal",
+   "fy": "FY2023-24",
+   "value": 160000,
+   "unit": "kL",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.181"
+   },
+   "reported": "1,60,000",
+   "note": "Previous-year comparative as printed in the FY2024-25 BRSR."
+  },
+  {
+   "key": "p6.e3.thirdParty",
+   "id": "p6.e3.withdrawal.thirdParty",
+   "indicator": "P6.E3.withdrawal",
+   "label": "Third-party water withdrawal",
+   "fy": "FY2024-25",
+   "value": 15000,
+   "unit": "kL",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.181"
+   },
+   "reported": "15,000"
+  },
+  {
+   "key": "p6.e3.thirdParty",
+   "id": "p6.e3.withdrawal.thirdParty",
+   "indicator": "P6.E3.withdrawal",
+   "label": "Third-party water withdrawal",
+   "fy": "FY2023-24",
+   "value": 60000,
+   "unit": "kL",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.181"
+   },
+   "reported": "60,000",
+   "note": "Previous-year comparative as printed in the FY2024-25 BRSR."
+  },
+  {
+   "key": "p6.e3.consumption",
+   "id": "p6.e3.consumption.total",
+   "indicator": "P6.E3.withdrawal",
+   "label": "Water consumption",
+   "fy": "FY2024-25",
+   "value": 177970,
+   "unit": "kL",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.181"
+   },
+   "reported": "1,77,970",
+   "note": "Withdrawal minus consumption = 100 kL (FY25) and 10,000 kL (FY24), but no discharge volume is reported (all plants ZLD). FY24 figures are round numbers as printed."
+  },
+  {
+   "key": "p6.e3.consumption",
+   "id": "p6.e3.consumption.total",
+   "indicator": "P6.E3.withdrawal",
+   "label": "Water consumption",
+   "fy": "FY2023-24",
+   "value": 210000,
+   "unit": "kL",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.181"
+   },
+   "reported": "2,10,000",
+   "note": "Previous-year comparative as printed in the FY2024-25 BRSR."
+  },
+  {
+   "key": "p6.e5.zld",
+   "id": "p6.e5.zld",
+   "indicator": "P6.E5",
+   "label": "Zero liquid discharge",
+   "fy": "FY2024-25",
+   "value": "Yes",
+   "unit": "boolean",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.182"
+   },
+   "reported": "Yes, all our plants operate as Zero Liquid Discharge (ZLD) facilities",
+   "note": "Effluents treated in ETP and STP; treated water reused for landscaping, cleaning, utilities."
+  },
+  {
+   "key": "p6.e7.scope1",
+   "id": "p6.e7.scope1",
+   "indicator": "P6.E7.scope1",
+   "label": "Scope 1 emissions",
+   "fy": "FY2024-25",
+   "value": 28050.26,
+   "unit": "tCO2e",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.183"
+   },
+   "reported": "28050.26",
+   "note": "Independent assessment: 'Yes, Envirochem Testing Lab & Research Centre, a NABL accredited lab.' No GHG gas-wise break-up given."
+  },
+  {
+   "key": "p6.e7.scope1",
+   "id": "p6.e7.scope1",
+   "indicator": "P6.E7.scope1",
+   "label": "Scope 1 emissions",
+   "fy": "FY2023-24",
+   "value": 24660.1,
+   "unit": "tCO2e",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.183"
+   },
+   "reported": "24,660.10",
+   "note": "Previous-year comparative as printed in the FY2024-25 BRSR."
+  },
+  {
+   "key": "p6.e7.scope2",
+   "id": "p6.e7.scope2",
+   "indicator": "P6.E7.scope2",
+   "label": "Scope 2 emissions",
+   "fy": "FY2024-25",
+   "value": 14029.44,
+   "unit": "tCO2e",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.183"
+   },
+   "reported": "14029.44",
+   "note": "Independent assessment: 'Yes, Envirochem Testing Lab & Research Centre, a NABL accredited lab.' No GHG gas-wise break-up given."
+  },
+  {
+   "key": "p6.e7.scope2",
+   "id": "p6.e7.scope2",
+   "indicator": "P6.E7.scope2",
+   "label": "Scope 2 emissions",
+   "fy": "FY2023-24",
+   "value": 13592.99,
+   "unit": "tCO2e",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.183"
+   },
+   "reported": "13,592.99",
+   "note": "Previous-year comparative as printed in the FY2024-25 BRSR."
+  },
+  {
+   "key": "p6.e7.intensity",
+   "id": "p6.e7.intensity.turnover",
+   "indicator": "P6.E7.scope1",
+   "label": "Scope 1+2 intensity per rupee of turnover",
+   "fy": "FY2024-25",
+   "value": 0.17,
+   "unit": "tCO2e per INR lakh",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.183"
+   },
+   "reported": "0.17"
+  },
+  {
+   "key": "p6.e7.intensity",
+   "id": "p6.e7.intensity.turnover",
+   "indicator": "P6.E7.scope1",
+   "label": "Scope 1+2 intensity per rupee of turnover",
+   "fy": "FY2023-24",
+   "value": 0.17,
+   "unit": "tCO2e per INR lakh",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.183"
+   },
+   "reported": "0.17",
+   "note": "Previous-year comparative as printed in the FY2024-25 BRSR."
+  },
+  {
+   "key": "p6.l2.scope3",
+   "id": "p6.l2.scope3",
+   "indicator": "P6.L2",
+   "label": "Scope 3 emissions",
+   "fy": "FY2024-25",
+   "value": 2045.54,
+   "unit": "tCO2e",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.185"
+   },
+   "reported": "2045.54",
+   "note": "Scope 3 categories not specified. External assessment: No."
+  },
+  {
+   "key": "p6.l2.scope3",
+   "id": "p6.l2.scope3",
+   "indicator": "P6.L2",
+   "label": "Scope 3 emissions",
+   "fy": "FY2023-24",
+   "value": 1892.85,
+   "unit": "tCO2e",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.185"
+   },
+   "reported": "1892.85",
+   "note": "Previous-year comparative as printed in the FY2024-25 BRSR."
+  },
+  {
+   "key": "p6.e9.total",
+   "id": "p6.e9.total",
+   "indicator": "P6.E9",
+   "label": "Waste generated",
+   "fy": "FY2024-25",
+   "value": 4648.96,
+   "unit": "MT",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.183"
+   },
+   "reported": "4,648.96",
+   "note": "External assessment of waste data: No."
+  },
+  {
+   "key": "p6.e9.total",
+   "id": "p6.e9.total",
+   "indicator": "P6.E9",
+   "label": "Waste generated",
+   "fy": "FY2023-24",
+   "value": 4301.94,
+   "unit": "MT",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.183"
+   },
+   "reported": "4,301.94",
+   "note": "Previous-year comparative as printed in the FY2024-25 BRSR."
+  },
+  {
+   "key": "p6.e9.recovered",
+   "id": "p6.e9.recovered.total",
+   "indicator": "P6.E9",
+   "label": "Waste recovered",
+   "fy": "FY2024-25",
+   "value": 0,
+   "unit": "MT",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.184"
+   },
+   "reported": "0 (Not Applicable)"
+  },
+  {
+   "key": "p6.e9.recovered",
+   "id": "p6.e9.recovered.total",
+   "indicator": "P6.E9",
+   "label": "Waste recovered",
+   "fy": "FY2023-24",
+   "value": 0,
+   "unit": "MT",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.184"
+   },
+   "reported": "0",
+   "note": "Previous-year comparative as printed in the FY2024-25 BRSR."
+  },
+  {
+   "key": "p6.e9.disposed",
+   "id": "p6.e9.disposed.total",
+   "indicator": "P6.E9",
+   "label": "Waste disposed",
+   "fy": "FY2024-25",
+   "value": 992.96,
+   "unit": "MT",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.184"
+   },
+   "reported": "992.96",
+   "note": "Plastic waste (3,656 MT FY25; 3,468 MT FY24) does not appear in the recovery or disposal tables; the report says plastic is handled via an EPR agreement with Shakti Plastic Industries (P2 EI 4, p.167)."
+  },
+  {
+   "key": "p6.e9.disposed",
+   "id": "p6.e9.disposed.total",
+   "indicator": "P6.E9",
+   "label": "Waste disposed",
+   "fy": "FY2023-24",
+   "value": 833.94,
+   "unit": "MT",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.184"
+   },
+   "reported": "833.94",
+   "note": "Previous-year comparative as printed in the FY2024-25 BRSR."
+  },
+  {
+   "key": "p3.e1c.wellbeing",
+   "id": "p3.e1c.wellbeingSpend",
+   "indicator": "P3.E1",
+   "label": "Well-being spend, % of revenue",
+   "fy": "FY2024-25",
+   "value": 0.05,
+   "unit": "%",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.168"
+   },
+   "reported": "0.05"
+  },
+  {
+   "key": "p3.e1c.wellbeing",
+   "id": "p3.e1c.wellbeingSpend",
+   "indicator": "P3.E1",
+   "label": "Well-being spend, % of revenue",
+   "fy": "FY2023-24",
+   "value": 0.04,
+   "unit": "%",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.168"
+   },
+   "reported": "0.04",
+   "note": "Previous-year comparative as printed in the FY2024-25 BRSR."
+  },
+  {
+   "key": "p3.e11.ltifr.employees",
+   "id": "p3.e11.ltifr.employees",
+   "indicator": "P3.E11",
+   "label": "LTIFR, employees",
+   "fy": "FY2024-25",
+   "value": 0,
+   "unit": "per million person-hours",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.172"
+   },
+   "reported": "0",
+   "note": "Category footnote: 'Including in the contract workforce'."
+  },
+  {
+   "key": "p3.e11.ltifr.employees",
+   "id": "p3.e11.ltifr.employees",
+   "indicator": "P3.E11",
+   "label": "LTIFR, employees",
+   "fy": "FY2023-24",
+   "value": 0,
+   "unit": "per million person-hours",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.172"
+   },
+   "reported": "0",
+   "note": "Previous-year comparative as printed in the FY2024-25 BRSR. Category footnote: 'Including in the contract workforce'."
+  },
+  {
+   "key": "p3.e11.ltifr.workers",
+   "id": "p3.e11.ltifr.workers",
+   "indicator": "P3.E11",
+   "label": "LTIFR, workers",
+   "fy": "FY2024-25",
+   "value": 0.92,
+   "unit": "per million person-hours",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.172"
+   },
+   "reported": "0.92",
+   "note": "Category footnote: 'Including in the contract workforce'. Internal inconsistency as reported: a non-zero worker LTIFR (0.92 FY25, 0.19 FY24) alongside zero total recordable injuries for workers in both years."
+  },
+  {
+   "key": "p3.e11.ltifr.workers",
+   "id": "p3.e11.ltifr.workers",
+   "indicator": "P3.E11",
+   "label": "LTIFR, workers",
+   "fy": "FY2023-24",
+   "value": 0.19,
+   "unit": "per million person-hours",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.172"
+   },
+   "reported": "0.19",
+   "note": "Previous-year comparative as printed in the FY2024-25 BRSR. Category footnote: 'Including in the contract workforce'. Internal inconsistency as reported: a non-zero worker LTIFR (0.92 FY25, 0.19 FY24) alongside zero total recordable injuries for workers in both years."
+  },
+  {
+   "key": "p3.e11.fatalities.workers",
+   "id": "p3.e11.fatalities.workers",
+   "indicator": "P3.E11",
+   "label": "Fatalities, workers",
+   "fy": "FY2024-25",
+   "value": 0,
+   "unit": "count",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.172"
+   },
+   "reported": "0",
+   "note": "Category footnote: 'Including in the contract workforce'."
+  },
+  {
+   "key": "p3.e11.fatalities.workers",
+   "id": "p3.e11.fatalities.workers",
+   "indicator": "P3.E11",
+   "label": "Fatalities, workers",
+   "fy": "FY2023-24",
+   "value": 0,
+   "unit": "count",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.172"
+   },
+   "reported": "0",
+   "note": "Previous-year comparative as printed in the FY2024-25 BRSR. Category footnote: 'Including in the contract workforce'."
+  },
+  {
+   "key": "p5.e3b.femaleWages",
+   "id": "p5.e3b.femaleWagesShare",
+   "indicator": "P5.E3",
+   "label": "Wages paid to females, % of total",
+   "fy": "FY2024-25",
+   "value": 10.53,
+   "unit": "%",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.179"
+   },
+   "reported": "10.53",
+   "note": "Includes permanent employees and workers only (report footnote)."
+  },
+  {
+   "key": "p5.e3b.femaleWages",
+   "id": "p5.e3b.femaleWagesShare",
+   "indicator": "P5.E3",
+   "label": "Wages paid to females, % of total",
+   "fy": "FY2023-24",
+   "value": 10.49,
+   "unit": "%",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.179"
+   },
+   "reported": "10.49",
+   "note": "Previous-year comparative as printed in the FY2024-25 BRSR."
+  },
+  {
+   "key": "p5.e7.posh",
+   "id": "p5.e7.posh.complaints",
+   "indicator": "P5.E6",
+   "label": "POSH complaints",
+   "fy": "FY2024-25",
+   "value": 0,
+   "unit": "count",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.179"
+   },
+   "reported": "0"
+  },
+  {
+   "key": "p5.e7.posh",
+   "id": "p5.e7.posh.complaints",
+   "indicator": "P5.E6",
+   "label": "POSH complaints",
+   "fy": "FY2023-24",
+   "value": 0,
+   "unit": "count",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.179"
+   },
+   "reported": "0",
+   "note": "Previous-year comparative as printed in the FY2024-25 BRSR."
+  },
+  {
+   "key": "p1.e8.payableDays",
+   "id": "p1.e8.payableDays",
+   "indicator": "P1.E8",
+   "label": "Accounts payable days",
+   "fy": "FY2024-25",
+   "value": 10.85,
+   "unit": "days",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.164"
+   },
+   "reported": "10.85"
+  },
+  {
+   "key": "p1.e8.payableDays",
+   "id": "p1.e8.payableDays",
+   "indicator": "P1.E8",
+   "label": "Accounts payable days",
+   "fy": "FY2023-24",
+   "value": 12.32,
+   "unit": "days",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.164"
+   },
+   "reported": "12.32",
+   "note": "Previous-year comparative as printed in the FY2024-25 BRSR."
+  },
+  {
+   "key": "p1.e9.dealers",
+   "id": "p1.e9.sales.dealersPct",
+   "indicator": "P1.E9",
+   "label": "Sales through dealers, % of sales",
+   "fy": "FY2024-25",
+   "value": 100.0,
+   "unit": "%",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.165"
+   },
+   "reported": "100.00%"
+  },
+  {
+   "key": "p1.e9.dealers",
+   "id": "p1.e9.sales.dealersPct",
+   "indicator": "P1.E9",
+   "label": "Sales through dealers, % of sales",
+   "fy": "FY2023-24",
+   "value": 100.0,
+   "unit": "%",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.165"
+   },
+   "reported": "100.00%",
+   "note": "Previous-year comparative as printed in the FY2024-25 BRSR."
+  },
+  {
+   "key": "p8.e4.msme",
+   "id": "p8.e4.msmeSourcingPct",
+   "indicator": "P8.E4",
+   "label": "Inputs sourced from MSMEs, % by value",
+   "fy": "FY2024-25",
+   "value": 28.49,
+   "unit": "%",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.188"
+   },
+   "reported": "28.49"
+  },
+  {
+   "key": "p8.e4.msme",
+   "id": "p8.e4.msmeSourcingPct",
+   "indicator": "P8.E4",
+   "label": "Inputs sourced from MSMEs, % by value",
+   "fy": "FY2023-24",
+   "value": 32.83,
+   "unit": "%",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.188"
+   },
+   "reported": "32.83",
+   "note": "Previous-year comparative as printed in the FY2024-25 BRSR."
+  },
+  {
+   "key": "p9.e3.complaints",
+   "id": "p9.e3.complaints.others",
+   "indicator": "P9.E3",
+   "label": "Consumer complaints (product)",
+   "fy": "FY2024-25",
+   "value": 708,
+   "unit": "count",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.190"
+   },
+   "reported": "708*",
+   "note": "0 pending resolution at year end."
+  },
+  {
+   "key": "p9.e3.complaints",
+   "id": "p9.e3.complaints.others",
+   "indicator": "P9.E3",
+   "label": "Consumer complaints (product)",
+   "fy": "FY2023-24",
+   "value": 329,
+   "unit": "count",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.190"
+   },
+   "reported": "329*",
+   "note": "Previous-year comparative as printed in the FY2024-25 BRSR."
+  },
+  {
+   "key": "p9.e4.recalls",
+   "id": "p9.e4.recalls",
+   "indicator": "P9.E4",
+   "label": "Product recalls",
+   "fy": "FY2024-25",
+   "value": 0,
+   "unit": "count",
+   "source": {
+    "title": "Bikaji Foods International Ltd - Business Responsibility and Sustainability Report FY2024-25 (part of Annual Report 2024-25; filed with NSE/BSE 22-Aug-2025, ref. BFIL/SEC/2025-26/62)",
+    "url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22082025130708_62.pdf",
+    "page": "AR 2024-25 p.190"
+   },
+   "reported": "NIL"
+  }
+ ],
+ "notPublic": [
+  "CSR amount spent / obligation for FY2024-25 - not in the BRSR (only 'CSR applicable: Yes'); lives in the Annual Report CSR annexure, which could not be opened.",
+  "Plant-level street/plot addresses for the nine manufacturing facilities - BRSR gives only town names; Annual Report 'plant locations' section not reached.",
+  "Plant-level installed capacity (MTPA) for FY2024-25 - not in BRSR; only RHP (June 2022) per-product figures with an ambiguous period basis. Search excerpts quoting '3,25,320 MTPA' and '370,000 MT per annum' could not be traced to a document and were not used.",
+  "Names of the three Karni facilities and products made at Bichhwal Unit-III and Karni units 2-3.",
+  "Identity of the 4th national office counted in BRSR Q18.",
+  "Current solar PV capacity (kWp) - BRSR FY2024-25 only says capacity at Karni was 'enhanced'; last public figure is 1,800 kW (RHP 2022).",
+  "Quantitative ESG targets - BRSR says a sustainability roadmap is 'in the process of finalizing' (p.161); only the planned 3,00,000 litres/day wastewater recycling plant (launched Jan 2025) is stated.",
+  "GHG gas-wise breakup and Scope 3 categories - not given.",
+  "Water discharge volumes - not quantified (ZLD statement only).",
+  "ISO 45001 / OHSMS certification - not claimed; the BRSR describes an internal HSMS 'aligned with recognised standards'. Certifications named: HACCP/ISO 22000:2018, BRCGS, APEDA, EIC, HALAL; ISO 9001:2015 at Karni and Bichhwal Unit-I.",
+  "Subsidiary CINs (except Bikaji Foundation) and AOC-1 financials - Annual Report AOC-1 not reached.",
+  "PLI scheme unit list - the investor presentation refers to a 'PLI impact' on revenue, but no unit-wise PLI disclosure was found.",
+  "Differently abled employees/workers for FY2023-24 beyond the zero permanent count seen; FY2024-25 is all zero."
+ ]
+}

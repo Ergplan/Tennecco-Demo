@@ -1,0 +1,2 @@
+site,ergos_site_id,period,annual_mwh,grid_share,solar_share,wind_share,rooftop_share,exchange_share,peak_mw,contracted_mw,completeness,dg_diesel_kl,steam_t,water_kl,meters
+Khandala plant,ERG-KHD-01,Apr 2025 – Mar 2026,12000,0.62,0.30,0,0.08,0,2.4,3.0,0.97,40,,85000,grid;solar;rooftop;dg;water

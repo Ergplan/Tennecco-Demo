@@ -1,0 +1,2147 @@
+{
+ "company": {
+  "legalName": "Asian Paints Limited",
+  "cin": "L24220MH1945PLC004598",
+  "pan": "AAACA3622K",
+  "registeredOffice": "6A & 6B, Shantinagar, Santacruz (East), Mumbai - 400 055, Maharashtra, India",
+  "listing": {
+   "exchange": "NSE",
+   "symbol": "ASIANPAINT",
+   "bse": "500820"
+  },
+  "website": "www.asianpaints.com",
+  "brsrContact": "R J Jeyamurugan, CFO, Company Secretary & Compliance Officer",
+  "boundaryAsReported": "The disclosures under this report are made on standalone basis for Asian Paints Limited (\"the Company\") and includes all locations where we have operational control. As Sleek International Private Limited (\"Sleek\") and Maxbhumi Developers Limited (\"MDL\"), wholly owned subsidiaries of the Company had amalgamated with the Company effective from 01st March 2025, the reporting boundary for the current year includes details relating to Sleek & MDL from 1st April 2024.",
+  "assurance": {
+   "provider": "Deloitte Haskins & Sells LLP",
+   "type": "Reasonable assurance on all BRSR Core indicators",
+   "source": {
+    "title": "Deloitte Haskins & Sells LLP - Independent Practitioner's Assurance Report on Identified Sustainability Information (Integrated Annual Report 2024-25, pp. 549-556)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.549-556"
+   }
+  },
+  "revenueCr": {
+   "FY2024-25": 29552.65,
+   "FY2023-24": 30850.12
+  }
+ },
+ "brsr": {
+  "title": "Asian Paints Ltd, Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025",
+  "url": "https://www.asianpaints.com/AnnualReports.html",
+  "page": "IAR 2024-25 pp. 297-339",
+  "fy": "FY2024-25",
+  "filed": "2025-06-03"
+ },
+ "sites": [
+  {
+   "key": "khandala",
+   "id": "site-ap-khandala",
+   "name": "Khandala",
+   "type": "factory",
+   "via": "brsr",
+   "city": "Khandala",
+   "state": "Maharashtra",
+   "lat": 18.057,
+   "lng": 73.996,
+   "geoQuery": "MIDC Khandala, Satara, Maharashtra",
+   "entityName": "Asian Paints Limited",
+   "ownerRole": "Plant head",
+   "products": "Decorative paints",
+   "capacity": "400,000 KL per annum",
+   "capacityValue": 400000,
+   "capacityUnit": "KL/annum",
+   "source": {
+    "title": "Asian Paints - Footprint 2024-25 (manufacturing footprint from Integrated Annual Report 2024-25, mirrored page)",
+    "url": "https://the-ken.com/wp-content/themes/intermission/intermission-assets/Distribution/combined.html",
+    "note": "Search-engine extract of the page; verify against the primary document"
+   },
+   "moreSources": [
+    {
+     "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+     "url": "https://www.asianpaints.com/AnnualReports.html",
+     "page": "IAR 2024-25 p.317"
+    }
+   ],
+   "note": "Street address not taken from a primary source. Directory sites give conflicting plot numbers, so it is left blank."
+  },
+  {
+   "key": "kasna",
+   "id": "site-ap-kasna",
+   "name": "Kasna",
+   "type": "factory",
+   "via": "brsr",
+   "city": "Greater Noida",
+   "state": "Uttar Pradesh",
+   "lat": 28.44,
+   "lng": 77.537,
+   "geoQuery": "A-1, UPSIDC Industrial Estate, Kasna II, Greater Noida, Uttar Pradesh",
+   "entityName": "Asian Paints Limited",
+   "ownerRole": "Plant head",
+   "address": "A-1, UPSIDC Industrial Estate, Kasna II, Greater Noida, Uttar Pradesh",
+   "products": "Decorative paints",
+   "capacity": "120,000 KL per annum",
+   "capacityValue": 120000,
+   "capacityUnit": "KL/annum",
+   "source": {
+    "title": "Asian Paints - Footprint 2024-25 (manufacturing footprint from Integrated Annual Report 2024-25, mirrored page)",
+    "url": "https://the-ken.com/wp-content/themes/intermission/intermission-assets/Distribution/combined.html",
+    "note": "Search-engine extract of the page; verify against the primary document"
+   },
+   "moreSources": [
+    {
+     "title": "Public GST search listing for 09AAACA3622K1ZT",
+     "url": "https://www.knowyourgst.com/gst-number-search/asian-paints-limited-09AAACA3622K1ZT/",
+     "note": "Search-engine extract of the page; verify against the primary document"
+    },
+    {
+     "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+     "url": "https://www.asianpaints.com/AnnualReports.html",
+     "page": "IAR 2024-25 p.317"
+    }
+   ],
+   "note": "Address is a place of business on GSTIN 09AAACA3622K1ZT, taken from a GST-search snippet."
+  },
+  {
+   "key": "ankleshwar",
+   "id": "site-ap-ankleshwar",
+   "name": "Ankleshwar",
+   "type": "factory",
+   "via": "brsr",
+   "city": "Ankleshwar",
+   "state": "Gujarat",
+   "lat": 21.606,
+   "lng": 73.023,
+   "geoQuery": "GIDC Ankleshwar, Bharuch, Gujarat",
+   "entityName": "Asian Paints Limited",
+   "ownerRole": "Plant head",
+   "products": "Decorative paints (site also makes synthetic resins & emulsions per 2021 expansion announcement)",
+   "capacity": "250,000 KL per annum",
+   "capacityValue": 250000,
+   "capacityUnit": "KL/annum",
+   "source": {
+    "title": "Asian Paints - Footprint 2024-25 (manufacturing footprint from Integrated Annual Report 2024-25, mirrored page)",
+    "url": "https://the-ken.com/wp-content/themes/intermission/intermission-assets/Distribution/combined.html",
+    "note": "Search-engine extract of the page; verify against the primary document"
+   },
+   "moreSources": [
+    {
+     "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+     "url": "https://www.asianpaints.com/AnnualReports.html",
+     "page": "IAR 2024-25 p.317"
+    }
+   ],
+   "note": "Phthalic anhydride production at Ankleshwar was discontinued in July 2017 (news snippet). Street address not retrieved."
+  },
+  {
+   "key": "patancheru",
+   "id": "site-ap-patancheru",
+   "name": "Patancheru",
+   "type": "factory",
+   "via": "brsr",
+   "city": "Patancheru",
+   "state": "Telangana",
+   "lat": 17.533,
+   "lng": 78.264,
+   "geoQuery": "Patancheru, Sangareddy, Telangana",
+   "entityName": "Asian Paints Limited",
+   "ownerRole": "Plant head",
+   "products": "Decorative Paint Manufacturing Unit",
+   "capacity": "80,000 KL per annum",
+   "capacityValue": 80000,
+   "capacityUnit": "KL/annum",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.332"
+   },
+   "moreSources": [
+    {
+     "title": "Asian Paints - Footprint 2024-25 (manufacturing footprint from Integrated Annual Report 2024-25, mirrored page)",
+     "url": "https://the-ken.com/wp-content/themes/intermission/intermission-assets/Distribution/combined.html",
+     "note": "Search-engine extract of the page; verify against the primary document"
+    },
+    {
+     "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+     "url": "https://www.asianpaints.com/AnnualReports.html",
+     "page": "IAR 2024-25 p.317"
+    }
+   ],
+   "note": "The only plant with plant-level data in the BRSR: it is in a water-stressed area (CGWB 2024), see the p6.l1.* metrics. Street address not retrieved."
+  },
+  {
+   "key": "sriperumbudur",
+   "id": "site-ap-sriperumbudur",
+   "name": "Sriperumbudur",
+   "type": "factory",
+   "via": "brsr",
+   "city": "Sriperumbudur",
+   "state": "Tamil Nadu",
+   "lat": 12.956,
+   "lng": 79.923,
+   "geoQuery": "SIPCOT Industrial Park, Ponder Village, Sriperumbudur Taluka, Kancheepuram District, Tamil Nadu",
+   "entityName": "Asian Paints Limited",
+   "ownerRole": "Plant head",
+   "address": "SIPCOT Industrial Park, Ponder Village, Sriperumbudur Taluka, Kancheepuram District, Tamil Nadu",
+   "products": "Paints and water-based polymers",
+   "capacity": "140,000 KL per annum (paints)",
+   "capacityValue": 140000,
+   "capacityUnit": "KL/annum",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility & Sustainability Report FY2023-24 (part of Integrated Annual Report 2023-24), filed with BSE/NSE 31 May 2024 (letter APL/SEC/38/2024-25/10)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "BRSR FY2023-24 p.32 (BRSR document pagination)"
+   },
+   "moreSources": [
+    {
+     "title": "Asian Paints - Footprint 2024-25 (manufacturing footprint from Integrated Annual Report 2024-25, mirrored page)",
+     "url": "https://the-ken.com/wp-content/themes/intermission/intermission-assets/Distribution/combined.html",
+     "note": "Search-engine extract of the page; verify against the primary document"
+    },
+    {
+     "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+     "url": "https://www.asianpaints.com/AnnualReports.html",
+     "page": "IAR 2024-25 p.317"
+    }
+   ],
+   "note": "Address and products come from the FY2023-24 BRSR P6 EI12 (EIA for expansion, July 2023)."
+  },
+  {
+   "key": "rohtak",
+   "id": "site-ap-rohtak",
+   "name": "Rohtak",
+   "type": "factory",
+   "via": "brsr",
+   "city": "Rohtak",
+   "state": "Haryana",
+   "lat": 28.861,
+   "lng": 76.688,
+   "geoQuery": "Plot No. 1, Sector 30 B, HSIIDC, IMT Rohtak, Haryana",
+   "entityName": "Asian Paints Limited",
+   "ownerRole": "Plant head",
+   "address": "Plot No. 1, Sector 30 B, HSIIDC, IMT Rohtak, Haryana",
+   "products": "Integrated paint manufacturing plant (decorative)",
+   "capacity": "400,000 KL per annum",
+   "capacityValue": 400000,
+   "capacityUnit": "KL/annum",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.331"
+   },
+   "moreSources": [
+    {
+     "title": "Asian Paints - Footprint 2024-25 (manufacturing footprint from Integrated Annual Report 2024-25, mirrored page)",
+     "url": "https://the-ken.com/wp-content/themes/intermission/intermission-assets/Distribution/combined.html",
+     "note": "Search-engine extract of the page; verify against the primary document"
+    },
+    {
+     "title": "Public GST search listing for 06AAACA3622K1ZZ",
+     "url": "https://www.knowyourgst.com/gst-number-search/asian-paints-limited-06AAACA3622K1ZZ/",
+     "note": "Search-engine extract of the page; verify against the primary document"
+    }
+   ],
+   "note": "BRSR FY2024-25 P6 EI12 reports an EIA (Feb 2025) for a proposed expansion. The GST listing gives 'Plot No.1, Sector 30, phase no.1, IMT Rohtak, Kherisadh Village, Rohtak, Haryana 124021'."
+  },
+  {
+   "key": "visakhapatnam",
+   "id": "site-ap-visakhapatnam",
+   "name": "Visakhapatnam",
+   "type": "factory",
+   "via": "brsr",
+   "city": "Visakhapatnam",
+   "state": "Andhra Pradesh",
+   "lat": 17.468,
+   "lng": 82.93,
+   "geoQuery": "Plot No. 3, 4 & UDL, Industrial Cluster, Pudi (V), Rambilli (M), Visakhapatnam, Andhra Pradesh 531011",
+   "entityName": "Asian Paints Limited",
+   "ownerRole": "Plant head",
+   "address": "Plot No. 3, 4 & UDL, Industrial Cluster, Pudi (V), Rambilli (M), Visakhapatnam, Andhra Pradesh 531011",
+   "products": "Decorative paints",
+   "capacity": "300,000 KL per annum",
+   "capacityValue": 300000,
+   "capacityUnit": "KL/annum",
+   "source": {
+    "title": "Asian Paints Limited - 'To whomsoever it may concern' letter: Details of Mfg Facility (Invest India, Aug 2023)",
+    "url": "https://static.investindia.gov.in/s3fs-public/2023-08/Details%20of%20Mfg%20Facility%20Sd.pdf",
+    "note": "Search-engine extract of the page; verify against the primary document"
+   },
+   "moreSources": [
+    {
+     "title": "Asian Paints - Footprint 2024-25 (manufacturing footprint from Integrated Annual Report 2024-25, mirrored page)",
+     "url": "https://the-ken.com/wp-content/themes/intermission/intermission-assets/Distribution/combined.html",
+     "note": "Search-engine extract of the page; verify against the primary document"
+    },
+    {
+     "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+     "url": "https://www.asianpaints.com/AnnualReports.html",
+     "page": "IAR 2024-25 p.317"
+    }
+   ],
+   "note": "Address is from Asian Paints' signed facility letter on Invest India (search snippet). The PIN 531011 comes from a GST-search snippet."
+  },
+  {
+   "key": "mysuru",
+   "id": "site-ap-mysuru",
+   "name": "Mysuru",
+   "type": "factory",
+   "via": "brsr",
+   "city": "Mysuru",
+   "state": "Karnataka",
+   "lat": 12.24,
+   "lng": 76.66,
+   "geoQuery": "Mysuru, Karnataka",
+   "entityName": "Asian Paints Limited",
+   "ownerRole": "Plant head",
+   "products": "Decorative paints",
+   "capacity": "600,000 KL per annum",
+   "capacityValue": 600000,
+   "capacityUnit": "KL/annum",
+   "source": {
+    "title": "Asian Paints - Footprint 2024-25 (manufacturing footprint from Integrated Annual Report 2024-25, mirrored page)",
+    "url": "https://the-ken.com/wp-content/themes/intermission/intermission-assets/Distribution/combined.html",
+    "note": "Search-engine extract of the page; verify against the primary document"
+   },
+   "moreSources": [
+    {
+     "title": "Asian Paints expands capacity at Mysuru plant to 6,00,000 KL (Business Standard / Capital Market news, Jul 2024)",
+     "url": "https://www.business-standard.com/markets/capital-market-news/asian-paints-expands-capacity-at-mysuru-plant-to-6-00-000-kl-124070100298_1.html",
+     "note": "Search-engine extract of the page; verify against the primary document"
+    },
+    {
+     "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+     "url": "https://www.asianpaints.com/AnnualReports.html",
+     "page": "IAR 2024-25 p.317"
+    }
+   ],
+   "note": "Capacity was doubled from 300,000 to 600,000 KL (announced July 2024). Street address not retrieved."
+  },
+  {
+   "key": "taloja",
+   "id": "site-ap-taloja",
+   "name": "Taloja",
+   "type": "factory",
+   "via": "brsr",
+   "city": "Taloja",
+   "state": "Maharashtra",
+   "lat": 19.064,
+   "lng": 73.117,
+   "geoQuery": "MIDC Taloja, Raigad, Maharashtra",
+   "entityName": "Asian Paints Limited",
+   "ownerRole": "Plant head",
+   "products": "Industrial coatings",
+   "capacity": "21,000 KL per annum",
+   "capacityValue": 21000,
+   "capacityUnit": "KL/annum",
+   "source": {
+    "title": "Asian Paints - Footprint 2024-25 (manufacturing footprint from Integrated Annual Report 2024-25, mirrored page)",
+    "url": "https://the-ken.com/wp-content/themes/intermission/intermission-assets/Distribution/combined.html",
+    "note": "Search-engine extract of the page; verify against the primary document"
+   },
+   "moreSources": [
+    {
+     "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+     "url": "https://www.asianpaints.com/AnnualReports.html",
+     "page": "IAR 2024-25 p.317"
+    }
+   ],
+   "note": "Treated as the BRSR's 'one industrial paint plant'. This mapping is an inference, not stated in the BRSR. Street address not retrieved."
+  },
+  {
+   "key": "cuddalore",
+   "id": "site-ap-cuddalore",
+   "name": "Cuddalore",
+   "type": "factory",
+   "via": "brsr",
+   "city": "Cuddalore",
+   "state": "Tamil Nadu",
+   "lat": 11.683,
+   "lng": 79.762,
+   "geoQuery": "SIPCOT Industrial Complex, Cuddalore, Tamil Nadu",
+   "entityName": "Asian Paints Limited",
+   "ownerRole": "Plant head",
+   "address": "SIPCOT Industrial Complex, Cuddalore, Tamil Nadu",
+   "products": "Pentaerythritol (Penta); sodium formate co-product",
+   "capacity": "8,760 MT per annum (pentaerythritol)",
+   "capacityValue": 8760,
+   "capacityUnit": "MT/annum",
+   "source": {
+    "title": "Asian Paints Penta (chemicals) - About us",
+    "url": "https://penta.asianpaints.com/about-us.html",
+    "note": "Search-engine extract of the page; verify against the primary document"
+   },
+   "moreSources": [
+    {
+     "title": "Asian Paints - Footprint 2024-25 (manufacturing footprint from Integrated Annual Report 2024-25, mirrored page)",
+     "url": "https://the-ken.com/wp-content/themes/intermission/intermission-assets/Distribution/combined.html",
+     "note": "Search-engine extract of the page; verify against the primary document"
+    },
+    {
+     "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+     "url": "https://www.asianpaints.com/AnnualReports.html",
+     "page": "IAR 2024-25 p.317"
+    }
+   ],
+   "note": "Treated as the BRSR's 'one chemical plant' (inference). A 2024 news snippet mentions an enhancement to about 930 MT/month, which conflicts with the footprint figure."
+  },
+  {
+   "key": "sarigam",
+   "id": "site-ap-sarigam",
+   "name": "Sarigam",
+   "type": "factory",
+   "via": "brsr",
+   "city": "Sarigam",
+   "state": "Gujarat",
+   "lat": 20.258,
+   "lng": 72.79,
+   "geoQuery": "GIDC Sarigam, Valsad, Gujarat",
+   "entityName": "Asian Paints Industrial Coatings Limited",
+   "ownerRole": "Plant head",
+   "products": "Industrial coatings (powder / protective coatings)",
+   "capacity": "14,400 MT per annum",
+   "capacityValue": 14400,
+   "capacityUnit": "MT/annum",
+   "source": {
+    "title": "Asian Paints - Footprint 2024-25 (manufacturing footprint from Integrated Annual Report 2024-25, mirrored page)",
+    "url": "https://the-ken.com/wp-content/themes/intermission/intermission-assets/Distribution/combined.html",
+    "note": "Search-engine extract of the page; verify against the primary document"
+   },
+   "note": "A subsidiary plant, outside the standalone BRSR boundary. Directory listings give 'Plot No. 1914, Sarigam GIDC' (unverified, left blank)."
+  },
+  {
+   "key": "dahej",
+   "id": "site-ap-dahej",
+   "name": "Dahej",
+   "type": "factory",
+   "via": "brsr",
+   "city": "Dahej",
+   "state": "Gujarat",
+   "lat": 21.7,
+   "lng": 72.57,
+   "geoQuery": "Dahej, Bharuch, Gujarat",
+   "entityName": "Asian Paints (Polymers) Private Limited",
+   "ownerRole": "Plant head",
+   "products": "VAM / VAE (vinyl acetate monomer / vinyl acetate ethylene emulsion)",
+   "status": "unconfirmed",
+   "statusNote": "The footprint lists a VAM/VAE facility at Dahej under a subsidiary. Its operating status and owning company aren't public. Include it for FY2025-26?",
+   "source": {
+    "title": "Asian Paints - Footprint 2024-25 (manufacturing footprint from Integrated Annual Report 2024-25, mirrored page)",
+    "url": "https://the-ken.com/wp-content/themes/intermission/intermission-assets/Distribution/combined.html",
+    "note": "Search-engine extract of the page; verify against the primary document"
+   },
+   "note": "Listed in the footprint as a subsidiary facility. Capacity and commissioning status were not retrieved."
+  },
+  {
+   "key": "hq-mumbai",
+   "id": "site-ap-mumbai-hq",
+   "name": "Mumbai HQ",
+   "type": "office",
+   "via": "registry",
+   "city": "Mumbai",
+   "state": "Maharashtra",
+   "lat": 19.0815,
+   "lng": 72.856,
+   "geoQuery": "6A & 6B, Shantinagar, Santacruz (East), Mumbai - 400 055, Maharashtra, India",
+   "entityName": "Asian Paints Limited",
+   "ownerRole": "Office admin",
+   "address": "6A & 6B, Shantinagar, Santacruz (East), Mumbai - 400 055, Maharashtra, India",
+   "source": {
+    "title": "Asian Paints Ltd, Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.297"
+   },
+   "moreSources": [
+    {
+     "title": "Public GST search listing for 27AAACA3622K1ZV",
+     "url": "https://www.knowyourgst.com/gst-number-search/asian-paints-limited-27AAACA3622K1ZV/",
+     "note": "Search-engine extract of the page; verify against the primary document"
+    }
+   ],
+   "note": "The GST principal place for 27AAACA3622K1ZV reads '6A & 6B Asian Paints Ltd Head Office Pipeline Road Mumbai, Mumbai Suburban, Maharashtra 400055'."
+  },
+  {
+   "key": "rnt-turbhe",
+   "id": "site-ap-turbhe",
+   "name": "R&T Centre, Turbhe",
+   "type": "office",
+   "via": "brsr",
+   "city": "Navi Mumbai",
+   "state": "Maharashtra",
+   "lat": 19.079,
+   "lng": 73.016,
+   "geoQuery": "Turbhe, Navi Mumbai, Maharashtra",
+   "entityName": "Asian Paints Limited",
+   "ownerRole": "Office admin",
+   "source": {
+    "title": "Asian Paints Ltd, Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.331"
+   },
+   "moreSources": [
+    {
+     "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+     "url": "https://www.asianpaints.com/AnnualReports.html",
+     "page": "IAR 2024-25 p.331"
+    }
+   ],
+   "note": "The FY2024-25 BRSR calls it the 'Research & Technology Centre in Mumbai'. Its wastewater after tertiary treatment goes to a CETP: 566 KL in FY2024-25 (p.328). Street address not retrieved."
+  },
+  {
+   "key": "off-ahmedabad",
+   "id": "site-ap-ahmedabad",
+   "name": "Ahmedabad office",
+   "type": "office",
+   "via": "gst",
+   "city": "Ahmedabad",
+   "state": "Gujarat",
+   "lat": 23.012,
+   "lng": 72.511,
+   "geoQuery": "6th Floor, 603/604, Venus Alantics, Near Reliance Petrol Pump, Prahalaad Nagar Road, Anand Nagar, Satellite, Ahmedabad, Gujarat 380009",
+   "entityName": "Asian Paints Limited",
+   "ownerRole": "Office admin",
+   "address": "6th Floor, 603/604, Venus Alantics, Near Reliance Petrol Pump, Prahalaad Nagar Road, Anand Nagar, Satellite, Ahmedabad, Gujarat 380009",
+   "source": {
+    "title": "Public GST search listing for 24AAACA3622K1Z1",
+    "url": "https://www.knowyourgst.com/gst-number-search/asian-paints-limited-24AAACA3622K1Z1/",
+    "note": "Search-engine extract of the page; verify against the primary document"
+   }
+  },
+  {
+   "key": "off-chennai",
+   "id": "site-ap-chennai",
+   "name": "Chennai office",
+   "type": "office",
+   "via": "gst",
+   "city": "Chennai",
+   "state": "Tamil Nadu",
+   "lat": 13.06,
+   "lng": 80.243,
+   "geoQuery": "4th Floor, No. 25 and 26, Prince Towers, College Road, Nungambakkam, Chennai, Tamil Nadu 600034",
+   "entityName": "Asian Paints Limited",
+   "ownerRole": "Office admin",
+   "address": "4th Floor, No. 25 and 26, Prince Towers, College Road, Nungambakkam, Chennai, Tamil Nadu 600034",
+   "source": {
+    "title": "Public GST search listing for 33AAACA3622K1Z2",
+    "url": "https://www.knowyourgst.com/gst-number-search/asian-paints-limited-33AAACA3622K1Z2/",
+    "note": "Search-engine extract of the page; verify against the primary document"
+   }
+  },
+  {
+   "key": "off-bengaluru",
+   "id": "site-ap-bengaluru",
+   "name": "Bengaluru office",
+   "type": "office",
+   "via": "gst",
+   "city": "Bengaluru",
+   "state": "Karnataka",
+   "lat": 13.029,
+   "lng": 77.52,
+   "geoQuery": "1st Floor, 32-B, 2nd Phase, Peenya Industrial Area, Bengaluru Urban, Karnataka 560058",
+   "entityName": "Asian Paints Limited",
+   "ownerRole": "Office admin",
+   "address": "1st Floor, 32-B, 2nd Phase, Peenya Industrial Area, Bengaluru Urban, Karnataka 560058",
+   "source": {
+    "title": "Public GST search listing for 29AAACA3622K1ZR",
+    "url": "https://www.knowyourgst.com/gst-number-search/asian-paints-limited-29AAACA3622K1ZR/",
+    "note": "Search-engine extract of the page; verify against the primary document"
+   },
+   "note": "GST nature of business: service provision, recipient of goods/services, warehouse/depot, office/sale office."
+  },
+  {
+   "key": "off-secunderabad",
+   "id": "site-ap-secunderabad",
+   "name": "Secunderabad office",
+   "type": "office",
+   "via": "gst",
+   "city": "Secunderabad",
+   "state": "Telangana",
+   "lat": 17.472,
+   "lng": 78.481,
+   "geoQuery": "First floor, Sy No 155, Mahalaxmi Trade Centre, Opp Bowenpally Market Yard, Tirumalgiri Mandal, Secunderabad, Hyderabad, Telangana 500009",
+   "entityName": "Asian Paints Limited",
+   "ownerRole": "Office admin",
+   "address": "First floor, Sy No 155, Mahalaxmi Trade Centre, Opp Bowenpally Market Yard, Tirumalgiri Mandal, Secunderabad, Hyderabad, Telangana 500009",
+   "source": {
+    "title": "Public GST search listing for 36AAACA3622K1ZW",
+    "url": "https://www.knowyourgst.com/gst-number-search/asian-paints-limited-36AAACA3622K1ZW/",
+    "note": "Search-engine extract of the page; verify against the primary document"
+   }
+  },
+  {
+   "key": "off-agra",
+   "id": "site-ap-agra",
+   "name": "Agra office",
+   "type": "office",
+   "via": "gst",
+   "city": "Agra",
+   "state": "Uttar Pradesh",
+   "lat": 27.218,
+   "lng": 77.95,
+   "geoQuery": "Unit No. 104, 105 & 106, 1st Floor, Padam Corporate Park, Near Avas Vikas Yojana, Sikandra, Agra, Uttar Pradesh 282007",
+   "entityName": "Asian Paints Limited",
+   "ownerRole": "Office admin",
+   "address": "Unit No. 104, 105 & 106, 1st Floor, Padam Corporate Park, Near Avas Vikas Yojana, Sikandra, Agra, Uttar Pradesh 282007",
+   "source": {
+    "title": "Public GST search listing for 09AAACA3622K1ZT",
+    "url": "https://www.knowyourgst.com/gst-number-search/asian-paints-limited-09AAACA3622K1ZT/",
+    "note": "Search-engine extract of the page; verify against the primary document"
+   },
+   "note": "Snippet lists this as the principal place on 09AAACA3622K1ZT, with the Kasna plant as an additional place."
+  }
+ ],
+ "entities": [
+  {
+   "id": "ent-ap",
+   "name": "Asian Paints Limited",
+   "shortName": "Asian Paints Ltd",
+   "relationship": "holding",
+   "country": "India",
+   "inBoundary": true,
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.297"
+   },
+   "cin": "L24220MH1945PLC004598",
+   "note": "Sleek International and Maxbhumi Developers amalgamated into the company from 1 Mar 2025; the FY2024-25 BRSR includes them from 1 Apr 2024."
+  },
+  {
+   "id": "ent-ap-apicl",
+   "name": "Asian Paints Industrial Coatings Limited",
+   "shortName": "AP Industrial Coatings",
+   "relationship": "subsidiary",
+   "country": "India",
+   "inBoundary": false,
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.300-301"
+   },
+   "holdingPct": 100
+  },
+  {
+   "id": "ent-ap-polymers",
+   "name": "Asian Paints (Polymers) Private Limited",
+   "shortName": "AP Polymers",
+   "relationship": "subsidiary",
+   "country": "India",
+   "inBoundary": false,
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.300-301"
+   },
+   "holdingPct": 100,
+   "note": "Likely owner of the Dahej facility (not confirmed in public records)."
+  },
+  {
+   "id": "ent-ap-ppg",
+   "name": "PPG Asian Paints Private Limited",
+   "shortName": "PPG Asian Paints JV",
+   "relationship": "jv",
+   "country": "India",
+   "inBoundary": false,
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.300-301"
+   },
+   "holdingPct": 50,
+   "note": "50:50 JV with PPG Industries. No plant in the public footprint."
+  },
+  {
+   "id": "ent-ap-others",
+   "name": "25 other group companies",
+   "shortName": "25 others",
+   "relationship": "subsidiary",
+   "country": "India and overseas",
+   "inBoundary": false,
+   "aggregate": true,
+   "members": [
+    {
+     "name": "Asian Paints (Nepal) Private Limited",
+     "relationship": "subsidiary",
+     "holdingPct": 52.71,
+     "country": "Nepal"
+    },
+    {
+     "name": "Asian Paints International Private Limited",
+     "relationship": "subsidiary",
+     "holdingPct": 100,
+     "country": null
+    },
+    {
+     "name": "Weatherseal Fenestration Private Limited",
+     "relationship": "subsidiary",
+     "holdingPct": 51,
+     "country": "India"
+    },
+    {
+     "name": "Asian White Cement Holding Limited",
+     "relationship": "subsidiary",
+     "holdingPct": 70,
+     "country": null
+    },
+    {
+     "name": "Obgenix Software Private Limited",
+     "relationship": "subsidiary",
+     "holdingPct": 60,
+     "country": "India"
+    },
+    {
+     "name": "Harind Chemicals and Pharmaceuticals Private Limited",
+     "relationship": "subsidiary",
+     "holdingPct": 51,
+     "country": "India"
+    },
+    {
+     "name": "Enterprise Paints Limited",
+     "relationship": "subsidiary",
+     "holdingPct": 100,
+     "country": null
+    },
+    {
+     "name": "Universal Paints Limited",
+     "relationship": "subsidiary",
+     "holdingPct": 100,
+     "country": null
+    },
+    {
+     "name": "Kadisco Paint and Adhesive Industry Share Company",
+     "relationship": "subsidiary",
+     "holdingPct": 51,
+     "country": null
+    },
+    {
+     "name": "Asian Paints (South Pacific) Pte Limited",
+     "relationship": "subsidiary",
+     "holdingPct": 54.07,
+     "country": null
+    },
+    {
+     "name": "Asian Paints (S.I) Limited",
+     "relationship": "subsidiary",
+     "holdingPct": 75,
+     "country": null
+    },
+    {
+     "name": "Asian Paints (Bangladesh) Limited",
+     "relationship": "subsidiary",
+     "holdingPct": 95.09,
+     "country": "Bangladesh"
+    },
+    {
+     "name": "Asian Paints (Middle East) SPC",
+     "relationship": "subsidiary",
+     "holdingPct": 100,
+     "country": null
+    },
+    {
+     "name": "SCIB Chemicals S.A.E.",
+     "relationship": "subsidiary",
+     "holdingPct": 85.6,
+     "country": null
+    },
+    {
+     "name": "Samoa Paints Limited",
+     "relationship": "subsidiary",
+     "holdingPct": 80,
+     "country": "Samoa"
+    },
+    {
+     "name": "Asian Paints (Vanuatu) Limited",
+     "relationship": "subsidiary",
+     "holdingPct": 60,
+     "country": "Vanuatu"
+    },
+    {
+     "name": "Causeway Paints Lanka (Pvt) Ltd",
+     "relationship": "subsidiary",
+     "holdingPct": 99.98,
+     "country": "Sri Lanka"
+    },
+    {
+     "name": "Asian Paints Doha Trading W.L.L.",
+     "relationship": "subsidiary",
+     "holdingPct": 100,
+     "country": "Qatar"
+    },
+    {
+     "name": "Nirvana Investments Limited",
+     "relationship": "subsidiary",
+     "holdingPct": 100,
+     "country": null
+    },
+    {
+     "name": "Berger Paints Emirates L.L.C.",
+     "relationship": "subsidiary",
+     "holdingPct": 100,
+     "country": "United Arab Emirates"
+    },
+    {
+     "name": "Berger Paints Bahrain W.L.L.",
+     "relationship": "subsidiary",
+     "holdingPct": 100,
+     "country": "Bahrain"
+    },
+    {
+     "name": "Asian White Inc. FZE",
+     "relationship": "subsidiary",
+     "holdingPct": 70,
+     "country": null
+    },
+    {
+     "name": "Nova Surface-Care Centre Private Limited",
+     "relationship": "subsidiary",
+     "holdingPct": 51,
+     "country": "India"
+    },
+    {
+     "name": "Asian Paints PPG Private Limited",
+     "relationship": "jv",
+     "holdingPct": 50,
+     "country": "India"
+    },
+    {
+     "name": "Revocoat India Private Limited",
+     "relationship": "associate",
+     "holdingPct": 100,
+     "country": "India"
+    }
+   ],
+   "note": "Overseas subsidiaries and smaller Indian companies listed in BRSR Section A Q23. None takes part in the standalone BRSR.",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.300-301"
+   }
+  }
+ ],
+ "gst": [
+  {
+   "gstin": "27AAACA3622K1ZV",
+   "state": "Maharashtra",
+   "source": {
+    "title": "Public GST search listing for 27AAACA3622K1ZV",
+    "url": "https://www.knowyourgst.com/gst-number-search/asian-paints-limited-27AAACA3622K1ZV/",
+    "note": "Search-engine extract of the page; verify against the primary document"
+   },
+   "address": "6A & 6B, Asian Paints Ltd Head Office, Pipeline Road, Mumbai, Mumbai Suburban, Maharashtra 400055",
+   "siteKeys": [
+    "hq-mumbai"
+   ]
+  },
+  {
+   "gstin": "27AAACA3622K2ZU",
+   "state": "Maharashtra",
+   "source": {
+    "title": "Public GST search listing for 27AAACA3622K2ZU",
+    "url": "https://www.knowyourgst.com/gst-number-search/asian-paints-limited-27AAACA3622K2ZU/",
+    "note": "Search-engine extract of the page; verify against the primary document"
+   }
+  },
+  {
+   "gstin": "27AAACA3622K1C6",
+   "state": "Maharashtra",
+   "source": {
+    "title": "GST Number for Asian Paints Limited is 27AAACA3622K1C6",
+    "url": "https://piceapp.com/gst-number-search/asian-paints-limited-27aaaca3622k1c6/",
+    "note": "Search-engine extract of the page; verify against the primary document"
+   }
+  },
+  {
+   "gstin": "24AAACA3622K1Z1",
+   "state": "Gujarat",
+   "source": {
+    "title": "Public GST search listing for 24AAACA3622K1Z1",
+    "url": "https://www.knowyourgst.com/gst-number-search/asian-paints-limited-24AAACA3622K1Z1/",
+    "note": "Search-engine extract of the page; verify against the primary document"
+   },
+   "address": "6th Floor, 603/604, Venus Alantics, Near Reliance Petrol Pump, Prahalaad Nagar Road, Anand Nagar, Satellite, Ahmedabad, Gujarat 380009",
+   "siteKeys": [
+    "off-ahmedabad"
+   ]
+  },
+  {
+   "gstin": "24AAACA3622K2Z0",
+   "state": "Gujarat",
+   "source": {
+    "title": "GST Number for ASIAN PAINTS LIMITED is 24AAACA3622K2Z0",
+    "url": "https://piceapp.com/gst-number-search/asian-paints-limited-24aaaca3622k2z0/",
+    "note": "Search-engine extract of the page; verify against the primary document"
+   }
+  },
+  {
+   "gstin": "29AAACA3622K1ZR",
+   "state": "Karnataka",
+   "source": {
+    "title": "Public GST search listing for 29AAACA3622K1ZR",
+    "url": "https://www.knowyourgst.com/gst-number-search/asian-paints-limited-29AAACA3622K1ZR/",
+    "note": "Search-engine extract of the page; verify against the primary document"
+   },
+   "address": "1st Floor, 32-B, 2nd Phase, Peenya Industrial Area, Bengaluru Urban, Karnataka 560058",
+   "siteKeys": [
+    "off-bengaluru"
+   ]
+  },
+  {
+   "gstin": "29AAACA3622K2ZQ",
+   "state": "Karnataka",
+   "source": {
+    "title": "Public GST search listing for 29AAACA3622K2ZQ",
+    "url": "https://www.knowyourgst.com/gst-number-search/asian-paints-limited-29AAACA3622K2ZQ/",
+    "note": "Search-engine extract of the page; verify against the primary document"
+   }
+  },
+  {
+   "gstin": "29AAACA3622K1C2",
+   "state": "Karnataka",
+   "source": {
+    "title": "Asian Paints Limited 29AAACA3622K1C2 GST Details",
+    "url": "https://gst.jamku.app/gstin/29AAACA3622K1C2",
+    "note": "Search-engine extract of the page; verify against the primary document"
+   }
+  },
+  {
+   "gstin": "33AAACA3622K1Z2",
+   "state": "Tamil Nadu",
+   "source": {
+    "title": "Public GST search listing for 33AAACA3622K1Z2",
+    "url": "https://www.knowyourgst.com/gst-number-search/asian-paints-limited-33AAACA3622K1Z2/",
+    "note": "Search-engine extract of the page; verify against the primary document"
+   },
+   "address": "4th Floor, No. 25 and 26, Prince Towers, College Road, Nungambakkam, Chennai, Tamil Nadu 600034",
+   "siteKeys": [
+    "off-chennai"
+   ]
+  },
+  {
+   "gstin": "06AAACA3622K1ZZ",
+   "state": "Haryana",
+   "source": {
+    "title": "Public GST search listing for 06AAACA3622K1ZZ",
+    "url": "https://www.knowyourgst.com/gst-number-search/asian-paints-limited-06AAACA3622K1ZZ/",
+    "note": "Search-engine extract of the page; verify against the primary document"
+   },
+   "address": "Plot No. 1, Asian Paints Limited, Sector 30, Phase No. 1, IMT Rohtak, Kherisadh Village, Rohtak, Haryana 124021",
+   "siteKeys": [
+    "rohtak"
+   ]
+  },
+  {
+   "gstin": "09AAACA3622K1ZT",
+   "state": "Uttar Pradesh",
+   "source": {
+    "title": "Public GST search listing for 09AAACA3622K1ZT",
+    "url": "https://www.knowyourgst.com/gst-number-search/asian-paints-limited-09AAACA3622K1ZT/",
+    "note": "Search-engine extract of the page; verify against the primary document"
+   },
+   "address": "Principal: Unit No. 104, 105 & 106, 1st Floor, Padam Corporate Park, Near Avas Vikas Yojana, Sikandra, Agra 282007; additional place: A-1, UPSIDC Industrial Estate, Kasna II, Greater Noida",
+   "siteKeys": [
+    "off-agra",
+    "kasna"
+   ]
+  },
+  {
+   "gstin": "09AAACA3622K2ZS",
+   "state": "Uttar Pradesh",
+   "source": {
+    "title": "Search-result summary listing Asian Paints UP GSTIN",
+    "url": "https://www.microvistatech.com/gstin-search/asian-paints-limited-09aaaca3622k1zt",
+    "note": "Search-engine extract of the page; verify against the primary document"
+   }
+  },
+  {
+   "gstin": "36AAACA3622K1ZW",
+   "state": "Telangana",
+   "source": {
+    "title": "Public GST search listing for 36AAACA3622K1ZW",
+    "url": "https://www.knowyourgst.com/gst-number-search/asian-paints-limited-36AAACA3622K1ZW/",
+    "note": "Search-engine extract of the page; verify against the primary document"
+   },
+   "address": "First floor, Sy No 155, Mahalaxmi Trade Centre, Opp Bowenpally Market Yard, Tirumalgiri Mandal, Secunderabad, Hyderabad, Telangana 500009",
+   "siteKeys": [
+    "off-secunderabad"
+   ]
+  },
+  {
+   "gstin": "36AAACA3622K1C7",
+   "state": "Telangana",
+   "source": {
+    "title": "Search-result summary",
+    "url": "https://www.microvistatech.com/gstin-search/asian-paints-limited-36aaaca3622k1zw",
+    "note": "Search-engine extract of the page; verify against the primary document"
+   }
+  },
+  {
+   "gstin": "37AAACA3622K1ZU",
+   "state": "Andhra Pradesh",
+   "source": {
+    "title": "Asian Paints Limited, Andhra Pradesh GST number - 37AAACA3622K1ZU",
+    "url": "https://www.microvistatech.com/gstin-search/asian-paints-limited-37aaaca3622k1zu",
+    "note": "Search-engine extract of the page; verify against the primary document"
+   },
+   "siteKeys": [
+    "visakhapatnam"
+   ]
+  },
+  {
+   "gstin": "03AAACA3622K1Z5",
+   "state": "Punjab",
+   "source": {
+    "title": "Asian Paints Ltd., Punjab GST number - 03AAACA3622K1Z5",
+    "url": "https://www.microvistatech.com/gstin-search/asian-paints-ltd-03aaaca3622k1z5",
+    "note": "Search-engine extract of the page; verify against the primary document"
+   }
+  },
+  {
+   "gstin": "08AAACA3622K1ZV",
+   "state": "Rajasthan",
+   "source": {
+    "title": "Asian Paints Limited, Rajasthan GST number - 08AAACA3622K1ZV",
+    "url": "https://www.microvistatech.com/gstin-search/asian-paints-limited-08aaaca3622k1zv",
+    "note": "Search-engine extract of the page; verify against the primary document"
+   }
+  },
+  {
+   "gstin": "19AAACA3622K1ZS",
+   "state": "West Bengal",
+   "source": {
+    "title": "GST Number for ASIAN PAINTS LIMITED is 19AAACA3622K1ZS",
+    "url": "https://piceapp.com/gst-number-search/asian-paints-limited-19aaaca3622k1zs/",
+    "note": "Search-engine extract of the page; verify against the primary document"
+   }
+  }
+ ],
+ "metrics": [
+  {
+   "key": "a.revenue",
+   "id": "fin.revenueFromOperations.standalone",
+   "indicator": "A.VI.24",
+   "label": "Revenue from operations (standalone)",
+   "fy": "FY2024-25",
+   "value": 29552.65,
+   "unit": "Rs crore",
+   "source": {
+    "title": "Asian Paints Integrated Annual Report 2024-25 - Board's Report (standalone financial performance)",
+    "url": "https://www.asianpaints.com/content/annualreport/annual-report-24-25.html",
+    "note": "Search-engine extract of the page; verify against the primary document"
+   },
+   "note": "The denominator of the BRSR intensity ratios."
+  },
+  {
+   "key": "a.plants",
+   "id": "sa.q18.plants.national",
+   "indicator": "A.III.18",
+   "label": "Plants, national",
+   "fy": "FY2024-25",
+   "value": 13,
+   "unit": "count",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.298"
+   },
+   "note": "FY2023-24 excludes one plant yet to be commissioned (pending regulatory approvals). The FY2021-22 value (14 plants, 206 offices) is from the FY2021-22 BRSR. No international plants: international operations are via subsidiaries, outside the boundary."
+  },
+  {
+   "key": "a.plants",
+   "id": "sa.q18.plants.national",
+   "indicator": "A.III.18",
+   "label": "Plants, national",
+   "fy": "FY2023-24",
+   "value": 11,
+   "unit": "count",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility & Sustainability Report FY2023-24 (part of Integrated Annual Report 2023-24), filed with BSE/NSE 31 May 2024 (letter APL/SEC/38/2024-25/10)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "BRSR FY2023-24 p.2 (BRSR document pagination)"
+   },
+   "note": "FY2023-24 excludes one plant yet to be commissioned (pending regulatory approvals). The FY2021-22 value (14 plants, 206 offices) is from the FY2021-22 BRSR. No international plants: international operations are via subsidiaries, outside the boundary."
+  },
+  {
+   "key": "a.offices",
+   "id": "sa.q18.offices.national",
+   "indicator": "A.III.18",
+   "label": "Offices, national",
+   "fy": "FY2024-25",
+   "value": 256,
+   "unit": "count",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.298"
+   },
+   "note": "Excludes 24 Beautiful Homes Academy (FY24: Colour Academy) CSR locations and outside processing centres without operational control."
+  },
+  {
+   "key": "a.offices",
+   "id": "sa.q18.offices.national",
+   "indicator": "A.III.18",
+   "label": "Offices, national",
+   "fy": "FY2023-24",
+   "value": 238,
+   "unit": "count",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility & Sustainability Report FY2023-24 (part of Integrated Annual Report 2023-24), filed with BSE/NSE 31 May 2024 (letter APL/SEC/38/2024-25/10)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "BRSR FY2023-24 p.2 (BRSR document pagination)"
+   },
+   "note": "Excludes 24 Beautiful Homes Academy (FY24: Colour Academy) CSR locations and outside processing centres without operational control."
+  },
+  {
+   "key": "a.employees.permanent",
+   "id": "sa.q20.employees.permanent.total",
+   "indicator": "A.IV.20",
+   "label": "Permanent employees",
+   "fy": "FY2024-25",
+   "value": 9396,
+   "unit": "headcount",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.299"
+   }
+  },
+  {
+   "key": "a.employees.permanent",
+   "id": "sa.q20.employees.permanent.total",
+   "indicator": "A.IV.20",
+   "label": "Permanent employees",
+   "fy": "FY2023-24",
+   "value": 7804,
+   "unit": "headcount",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility & Sustainability Report FY2023-24 (part of Integrated Annual Report 2023-24), filed with BSE/NSE 31 May 2024 (letter APL/SEC/38/2024-25/10)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "BRSR FY2023-24 p.2 (BRSR document pagination)"
+   }
+  },
+  {
+   "key": "a.workers.permanent",
+   "id": "sa.q20.workers.permanent.total",
+   "indicator": "A.IV.20",
+   "label": "Permanent workers",
+   "fy": "FY2024-25",
+   "value": 1715,
+   "unit": "headcount",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.299"
+   }
+  },
+  {
+   "key": "a.workers.permanent",
+   "id": "sa.q20.workers.permanent.total",
+   "indicator": "A.IV.20",
+   "label": "Permanent workers",
+   "fy": "FY2023-24",
+   "value": 1678,
+   "unit": "headcount",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility & Sustainability Report FY2023-24 (part of Integrated Annual Report 2023-24), filed with BSE/NSE 31 May 2024 (letter APL/SEC/38/2024-25/10)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "BRSR FY2023-24 p.2 (BRSR document pagination)"
+   }
+  },
+  {
+   "key": "a.workers.other",
+   "id": "sa.q20.workers.otherThanPermanent.total",
+   "indicator": "A.IV.20",
+   "label": "Other than permanent workers",
+   "fy": "FY2024-25",
+   "value": 14609,
+   "unit": "headcount",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.299"
+   }
+  },
+  {
+   "key": "a.workers.other",
+   "id": "sa.q20.workers.otherThanPermanent.total",
+   "indicator": "A.IV.20",
+   "label": "Other than permanent workers",
+   "fy": "FY2023-24",
+   "value": 14139,
+   "unit": "headcount",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility & Sustainability Report FY2023-24 (part of Integrated Annual Report 2023-24), filed with BSE/NSE 31 May 2024 (letter APL/SEC/38/2024-25/10)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "BRSR FY2023-24 p.2 (BRSR document pagination)"
+   }
+  },
+  {
+   "key": "p6.e1.A",
+   "id": "p6.e1.electricity.renewable",
+   "indicator": "P6.E1.elec",
+   "label": "Electricity from renewable sources (A)",
+   "fy": "FY2024-25",
+   "value": 226199,
+   "unit": "GJ",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.327"
+   },
+   "note": "FY2024-25 BRSR values for both years. FY2022-23 is from the FY2023-24 BRSR, after the expanded boundary (all paint & chemical units, R&T, owned and leased offices/warehouses). Leased-asset diesel is estimated from spend divided by the average diesel price in 4 metros. NCV per IPCC Guidelines Ch.1."
+  },
+  {
+   "key": "p6.e1.A",
+   "id": "p6.e1.electricity.renewable",
+   "indicator": "P6.E1.elec",
+   "label": "Electricity from renewable sources (A)",
+   "fy": "FY2023-24",
+   "value": 232622,
+   "unit": "GJ",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.327"
+   },
+   "note": "FY2024-25 BRSR values for both years. FY2022-23 is from the FY2023-24 BRSR, after the expanded boundary (all paint & chemical units, R&T, owned and leased offices/warehouses). Leased-asset diesel is estimated from spend divided by the average diesel price in 4 metros. NCV per IPCC Guidelines Ch.1."
+  },
+  {
+   "key": "p6.e1.B",
+   "id": "p6.e1.fuel.renewable",
+   "indicator": "P6.E1.fuel",
+   "label": "Fuel from renewable sources (B)",
+   "fy": "FY2024-25",
+   "value": 803,
+   "unit": "GJ",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.327"
+   },
+   "note": "FY2023-24 BRSR: 122 MT of biogas used in place of fossil fuel in FY2023-24."
+  },
+  {
+   "key": "p6.e1.B",
+   "id": "p6.e1.fuel.renewable",
+   "indicator": "P6.E1.fuel",
+   "label": "Fuel from renewable sources (B)",
+   "fy": "FY2023-24",
+   "value": 6172,
+   "unit": "GJ",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.327"
+   },
+   "note": "FY2023-24 BRSR: 122 MT of biogas used in place of fossil fuel in FY2023-24."
+  },
+  {
+   "key": "p6.e1.C",
+   "id": "p6.e1.other.renewable",
+   "indicator": "P6.E1.fuel",
+   "label": "Other renewable sources (C)",
+   "fy": "FY2024-25",
+   "value": 0,
+   "unit": "GJ",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.327"
+   },
+   "note": "Reported as '-' (nil)."
+  },
+  {
+   "key": "p6.e1.C",
+   "id": "p6.e1.other.renewable",
+   "indicator": "P6.E1.fuel",
+   "label": "Other renewable sources (C)",
+   "fy": "FY2023-24",
+   "value": 0,
+   "unit": "GJ",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.327"
+   },
+   "note": "Reported as '-' (nil)."
+  },
+  {
+   "key": "p6.e1.D",
+   "id": "p6.e1.electricity.nonrenewable",
+   "indicator": "P6.E1.elec",
+   "label": "Electricity from non-renewable sources (D)",
+   "fy": "FY2024-25",
+   "value": 253923,
+   "unit": "GJ",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.327"
+   },
+   "note": "Includes electricity at leased offices/warehouses."
+  },
+  {
+   "key": "p6.e1.D",
+   "id": "p6.e1.electricity.nonrenewable",
+   "indicator": "P6.E1.elec",
+   "label": "Electricity from non-renewable sources (D)",
+   "fy": "FY2023-24",
+   "value": 187649,
+   "unit": "GJ",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.327"
+   },
+   "note": "Includes electricity at leased offices/warehouses."
+  },
+  {
+   "key": "p6.e1.E",
+   "id": "p6.e1.fuel.nonrenewable",
+   "indicator": "P6.E1.fuel",
+   "label": "Fuel from non-renewable sources (E)",
+   "fy": "FY2024-25",
+   "value": 1032540,
+   "unit": "GJ",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.327"
+   }
+  },
+  {
+   "key": "p6.e1.E",
+   "id": "p6.e1.fuel.nonrenewable",
+   "indicator": "P6.E1.fuel",
+   "label": "Fuel from non-renewable sources (E)",
+   "fy": "FY2023-24",
+   "value": 853773,
+   "unit": "GJ",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.327"
+   }
+  },
+  {
+   "key": "p6.e1.F",
+   "id": "p6.e1.other.nonrenewable",
+   "indicator": "P6.E1.fuel",
+   "label": "Other non-renewable sources (F)",
+   "fy": "FY2024-25",
+   "value": 12251,
+   "unit": "GJ",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.327"
+   },
+   "note": "Category not itemised in the BRSR. The GHG note mentions emission factors for 'fuels and steam'."
+  },
+  {
+   "key": "p6.e1.F",
+   "id": "p6.e1.other.nonrenewable",
+   "indicator": "P6.E1.fuel",
+   "label": "Other non-renewable sources (F)",
+   "fy": "FY2023-24",
+   "value": 12329,
+   "unit": "GJ",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.327"
+   },
+   "note": "Category not itemised in the BRSR. The GHG note mentions emission factors for 'fuels and steam'."
+  },
+  {
+   "key": "p6.e1.total",
+   "id": "p6.e1.total",
+   "indicator": "P6.E1.intensity",
+   "label": "Total energy consumed (A+B+C+D+E+F)",
+   "fy": "FY2024-25",
+   "value": 1525716,
+   "unit": "GJ",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.327"
+   }
+  },
+  {
+   "key": "p6.e1.total",
+   "id": "p6.e1.total",
+   "indicator": "P6.E1.intensity",
+   "label": "Total energy consumed (A+B+C+D+E+F)",
+   "fy": "FY2023-24",
+   "value": 1292545,
+   "unit": "GJ",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.327"
+   }
+  },
+  {
+   "key": "p6.e1.intensity",
+   "id": "p6.e1.intensity.revenue",
+   "indicator": "P6.E1.intensity",
+   "label": "Energy intensity per rupee of turnover",
+   "fy": "FY2024-25",
+   "value": 51.6,
+   "unit": "GJ/Rs crore",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.327"
+   }
+  },
+  {
+   "key": "p6.e1.intensity",
+   "id": "p6.e1.intensity.revenue",
+   "indicator": "P6.E1.intensity",
+   "label": "Energy intensity per rupee of turnover",
+   "fy": "FY2023-24",
+   "value": 41.9,
+   "unit": "GJ/Rs crore",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.327"
+   }
+  },
+  {
+   "key": "p6.e1.intensity.physical",
+   "id": "p6.e1.intensity.physical",
+   "indicator": "P6.E1.intensity",
+   "label": "Energy intensity per unit of output",
+   "fy": "FY2024-25",
+   "value": 1.18,
+   "unit": "GJ/KL",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.327"
+   },
+   "note": "Physical output covers paints and chemicals only (>95% of output)."
+  },
+  {
+   "key": "p6.e1.intensity.physical",
+   "id": "p6.e1.intensity.physical",
+   "indicator": "P6.E1.intensity",
+   "label": "Energy intensity per unit of output",
+   "fy": "FY2023-24",
+   "value": 0.98,
+   "unit": "GJ/KL",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.327"
+   },
+   "note": "Physical output covers paints and chemicals only (>95% of output)."
+  },
+  {
+   "key": "p6.e3.withdrawal",
+   "id": "p6.e3.withdrawal.total",
+   "indicator": "P6.E3.withdrawal",
+   "label": "Water withdrawal",
+   "fy": "FY2024-25",
+   "value": 1365903,
+   "unit": "KL",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.328"
+   },
+   "note": "All manufacturing units are ZLD. Withdrawal includes owned offices: 13,712 KL in FY2024-25 and 9,453 KL in FY2023-24. Leased offices are excluded. Their estimated withdrawal per IS 1172:1993 is 61,763 KL in FY2024-25 and 53,000 KL in FY2023-24 (FY24 BRSR)."
+  },
+  {
+   "key": "p6.e3.withdrawal",
+   "id": "p6.e3.withdrawal.total",
+   "indicator": "P6.E3.withdrawal",
+   "label": "Water withdrawal",
+   "fy": "FY2023-24",
+   "value": 1333823,
+   "unit": "KL",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.328"
+   },
+   "note": "All manufacturing units are ZLD. Withdrawal includes owned offices: 13,712 KL in FY2024-25 and 9,453 KL in FY2023-24. Leased offices are excluded. Their estimated withdrawal per IS 1172:1993 is 61,763 KL in FY2024-25 and 53,000 KL in FY2023-24 (FY24 BRSR)."
+  },
+  {
+   "key": "p6.e3.ground",
+   "id": "p6.e3.withdrawal.ground",
+   "indicator": "P6.E3.withdrawal",
+   "label": "Groundwater withdrawal",
+   "fy": "FY2024-25",
+   "value": 67915,
+   "unit": "KL",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.328"
+   }
+  },
+  {
+   "key": "p6.e3.ground",
+   "id": "p6.e3.withdrawal.ground",
+   "indicator": "P6.E3.withdrawal",
+   "label": "Groundwater withdrawal",
+   "fy": "FY2023-24",
+   "value": 57998,
+   "unit": "KL",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.328"
+   }
+  },
+  {
+   "key": "p6.e3.thirdParty",
+   "id": "p6.e3.withdrawal.thirdParty",
+   "indicator": "P6.E3.withdrawal",
+   "label": "Third-party water withdrawal",
+   "fy": "FY2024-25",
+   "value": 1222529,
+   "unit": "KL",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.328"
+   }
+  },
+  {
+   "key": "p6.e3.thirdParty",
+   "id": "p6.e3.withdrawal.thirdParty",
+   "indicator": "P6.E3.withdrawal",
+   "label": "Third-party water withdrawal",
+   "fy": "FY2023-24",
+   "value": 1208996,
+   "unit": "KL",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.328"
+   }
+  },
+  {
+   "key": "p6.e3.consumption",
+   "id": "p6.e3.consumption.total",
+   "indicator": "P6.E3.withdrawal",
+   "label": "Water consumption",
+   "fy": "FY2024-25",
+   "value": 1351625,
+   "unit": "KL",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.328"
+   },
+   "note": "All manufacturing units are ZLD. Withdrawal includes owned offices: 13,712 KL in FY2024-25 and 9,453 KL in FY2023-24. Leased offices are excluded. Their estimated withdrawal per IS 1172:1993 is 61,763 KL in FY2024-25 and 53,000 KL in FY2023-24 (FY24 BRSR)."
+  },
+  {
+   "key": "p6.e3.consumption",
+   "id": "p6.e3.consumption.total",
+   "indicator": "P6.E3.withdrawal",
+   "label": "Water consumption",
+   "fy": "FY2023-24",
+   "value": 1324370,
+   "unit": "KL",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.328"
+   },
+   "note": "All manufacturing units are ZLD. Withdrawal includes owned offices: 13,712 KL in FY2024-25 and 9,453 KL in FY2023-24. Leased offices are excluded. Their estimated withdrawal per IS 1172:1993 is 61,763 KL in FY2024-25 and 53,000 KL in FY2023-24 (FY24 BRSR)."
+  },
+  {
+   "key": "p6.e4.discharge",
+   "id": "p6.e4.discharge.total",
+   "indicator": "P6.E4",
+   "label": "Water discharged",
+   "fy": "FY2024-25",
+   "value": 14278,
+   "unit": "KL",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.328"
+   },
+   "note": "Excludes the estimated 61,763 KL (FY2024-25) from leased offices, which is assumed fully discharged."
+  },
+  {
+   "key": "p6.e4.discharge",
+   "id": "p6.e4.discharge.total",
+   "indicator": "P6.E4",
+   "label": "Water discharged",
+   "fy": "FY2023-24",
+   "value": 9453,
+   "unit": "KL",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.328"
+   },
+   "note": "Excludes the estimated 61,763 KL (FY2024-25) from leased offices, which is assumed fully discharged."
+  },
+  {
+   "key": "p6.e5.zld",
+   "id": "p6.e5.zld",
+   "indicator": "P6.E5",
+   "label": "Zero liquid discharge",
+   "fy": "FY2024-25",
+   "value": "Yes",
+   "unit": "",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.329"
+   },
+   "note": "Yes - all manufacturing plants of the Company have Zero Liquid Discharge facilities; wastewater recovered and reused in process."
+  },
+  {
+   "key": "p6.e5.zld",
+   "id": "p6.e5.zld",
+   "indicator": "P6.E5",
+   "label": "Zero liquid discharge",
+   "fy": "FY2023-24",
+   "value": "Yes",
+   "unit": "",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility & Sustainability Report FY2023-24 (part of Integrated Annual Report 2023-24), filed with BSE/NSE 31 May 2024 (letter APL/SEC/38/2024-25/10)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "BRSR FY2023-24 p.31 (BRSR document pagination)"
+   },
+   "note": "Yes - all manufacturing plants including the R&T centre are ZLD facilities (FY2023-24 BRSR)."
+  },
+  {
+   "key": "p6.e7.scope1",
+   "id": "p6.e7.scope1",
+   "indicator": "P6.E7.scope1",
+   "label": "Scope 1 emissions",
+   "fy": "FY2024-25",
+   "value": 87435,
+   "unit": "tCO2e",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.329"
+   },
+   "note": "Emission factors: fuels and steam from IPCC guidelines; electricity from the latest CEA database. Calculated from total energy consumption. Excludes fugitive emissions; FY2024-25 refrigerant fugitive Scope 1 is estimated at 2,690 tCO2e. No gas-wise breakup disclosed. From FY2023-24, leased office/warehouse emissions moved from Scope 3 cat. 8 into Scope 1/2 (FY2022-23 restated)."
+  },
+  {
+   "key": "p6.e7.scope1",
+   "id": "p6.e7.scope1",
+   "indicator": "P6.E7.scope1",
+   "label": "Scope 1 emissions",
+   "fy": "FY2023-24",
+   "value": 72794,
+   "unit": "tCO2e",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.329"
+   },
+   "note": "Emission factors: fuels and steam from IPCC guidelines; electricity from the latest CEA database. Calculated from total energy consumption. Excludes fugitive emissions; FY2024-25 refrigerant fugitive Scope 1 is estimated at 2,690 tCO2e. No gas-wise breakup disclosed. From FY2023-24, leased office/warehouse emissions moved from Scope 3 cat. 8 into Scope 1/2 (FY2022-23 restated)."
+  },
+  {
+   "key": "p6.e7.scope2",
+   "id": "p6.e7.scope2",
+   "indicator": "P6.E7.scope2",
+   "label": "Scope 2 emissions",
+   "fy": "FY2024-25",
+   "value": 52727,
+   "unit": "tCO2e",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.329"
+   },
+   "note": "Emission factors: fuels and steam from IPCC guidelines; electricity from the latest CEA database. Calculated from total energy consumption. Excludes fugitive emissions; FY2024-25 refrigerant fugitive Scope 1 is estimated at 2,690 tCO2e. No gas-wise breakup disclosed. From FY2023-24, leased office/warehouse emissions moved from Scope 3 cat. 8 into Scope 1/2 (FY2022-23 restated)."
+  },
+  {
+   "key": "p6.e7.scope2",
+   "id": "p6.e7.scope2",
+   "indicator": "P6.E7.scope2",
+   "label": "Scope 2 emissions",
+   "fy": "FY2023-24",
+   "value": 44357,
+   "unit": "tCO2e",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.329"
+   },
+   "note": "Emission factors: fuels and steam from IPCC guidelines; electricity from the latest CEA database. Calculated from total energy consumption. Excludes fugitive emissions; FY2024-25 refrigerant fugitive Scope 1 is estimated at 2,690 tCO2e. No gas-wise breakup disclosed. From FY2023-24, leased office/warehouse emissions moved from Scope 3 cat. 8 into Scope 1/2 (FY2022-23 restated)."
+  },
+  {
+   "key": "p6.e7.intensity",
+   "id": "p6.e7.intensity.revenue",
+   "indicator": "P6.E7.scope1",
+   "label": "Scope 1+2 intensity per rupee of turnover",
+   "fy": "FY2024-25",
+   "value": 4.7,
+   "unit": "tCO2e/Rs crore",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.329"
+   }
+  },
+  {
+   "key": "p6.e7.intensity",
+   "id": "p6.e7.intensity.revenue",
+   "indicator": "P6.E7.scope1",
+   "label": "Scope 1+2 intensity per rupee of turnover",
+   "fy": "FY2023-24",
+   "value": 3.8,
+   "unit": "tCO2e/Rs crore",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.329"
+   }
+  },
+  {
+   "key": "p6.l2.scope3",
+   "id": "p6.l2.scope3",
+   "indicator": "P6.L2",
+   "label": "Scope 3 emissions",
+   "fy": "FY2024-25",
+   "value": 32.2,
+   "unit": "lakh tCO2e",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.333"
+   },
+   "note": "Reported as '32.2 lakhs' / '33.2 lakhs' metric tonnes CO2e (= 3,220,000 / 3,320,000 tCO2e). Limited assurance on absolute Scope 3 (GRI 305-3). Category breakdown not given in the BRSR."
+  },
+  {
+   "key": "p6.l2.scope3",
+   "id": "p6.l2.scope3",
+   "indicator": "P6.L2",
+   "label": "Scope 3 emissions",
+   "fy": "FY2023-24",
+   "value": 33.2,
+   "unit": "lakh tCO2e",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.333"
+   },
+   "note": "Reported as '32.2 lakhs' / '33.2 lakhs' metric tonnes CO2e (= 3,220,000 / 3,320,000 tCO2e). Limited assurance on absolute Scope 3 (GRI 305-3). Category breakdown not given in the BRSR."
+  },
+  {
+   "key": "p6.e9.total",
+   "id": "p6.e9.total",
+   "indicator": "P6.E9",
+   "label": "Waste generated",
+   "fy": "FY2024-25",
+   "value": 19490.4,
+   "unit": "MT",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.330"
+   },
+   "note": "Covers manufacturing locations and owned offices. Leased offices/warehouses are estimated not material. From FY2024-25, hazardous waste includes empty barrels by weight and FY2023-24 was restated. Original FY2023-24 BRSR: other hazardous 1,362.8 MT, total 13,779 MT, PPP intensity 10.2, physical 10.4 kg/KL."
+  },
+  {
+   "key": "p6.e9.total",
+   "id": "p6.e9.total",
+   "indicator": "P6.E9",
+   "label": "Waste generated",
+   "fy": "FY2023-24",
+   "value": 14566.0,
+   "unit": "MT",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.330"
+   },
+   "note": "Covers manufacturing locations and owned offices. Leased offices/warehouses are estimated not material. From FY2024-25, hazardous waste includes empty barrels by weight and FY2023-24 was restated. Original FY2023-24 BRSR: other hazardous 1,362.8 MT, total 13,779 MT, PPP intensity 10.2, physical 10.4 kg/KL."
+  },
+  {
+   "key": "p6.e9.recovered",
+   "id": "p6.e9.recovered.total",
+   "indicator": "P6.E9",
+   "label": "Waste recovered",
+   "fy": "FY2024-25",
+   "value": 18751.7,
+   "unit": "MT",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.330"
+   },
+   "note": "FY2023-24 recovered+disposed (13,779) matches the original, un-restated total, so recovery/disposal does not appear restated for barrels."
+  },
+  {
+   "key": "p6.e9.recovered",
+   "id": "p6.e9.recovered.total",
+   "indicator": "P6.E9",
+   "label": "Waste recovered",
+   "fy": "FY2023-24",
+   "value": 13054,
+   "unit": "MT",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.330"
+   },
+   "note": "FY2023-24 recovered+disposed (13,779) matches the original, un-restated total, so recovery/disposal does not appear restated for barrels."
+  },
+  {
+   "key": "p6.e9.disposed",
+   "id": "p6.e9.disposed.total",
+   "indicator": "P6.E9",
+   "label": "Waste disposed",
+   "fy": "FY2024-25",
+   "value": 738.6,
+   "unit": "MT",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.330"
+   }
+  },
+  {
+   "key": "p6.e9.disposed",
+   "id": "p6.e9.disposed.total",
+   "indicator": "P6.E9",
+   "label": "Waste disposed",
+   "fy": "FY2023-24",
+   "value": 725,
+   "unit": "MT",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.330"
+   }
+  },
+  {
+   "key": "p3.e1c.wellbeing",
+   "id": "p3.e1c.wellbeingCost",
+   "indicator": "P3.E1",
+   "label": "Well-being spend, % of revenue",
+   "fy": "FY2024-25",
+   "value": 0.4,
+   "unit": "%",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.315"
+   }
+  },
+  {
+   "key": "p3.e1c.wellbeing",
+   "id": "p3.e1c.wellbeingCost",
+   "indicator": "P3.E1",
+   "label": "Well-being spend, % of revenue",
+   "fy": "FY2023-24",
+   "value": 0.4,
+   "unit": "%",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.315"
+   }
+  },
+  {
+   "key": "p3.e11.ltifr.employees",
+   "id": "p3.e11.ltifr.employees",
+   "indicator": "P3.E11",
+   "label": "LTIFR, employees",
+   "fy": "FY2024-25",
+   "value": 0.17,
+   "unit": "per million person-hours",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.318"
+   },
+   "note": "LTI criteria: Factories Act 1948 for manufacturing and R&T; man-days lost >= 2 at non-manufacturing sites. From FY2023-24, includes non-manufacturing units (FY2022-23 restated in the FY24 BRSR)."
+  },
+  {
+   "key": "p3.e11.ltifr.employees",
+   "id": "p3.e11.ltifr.employees",
+   "indicator": "P3.E11",
+   "label": "LTIFR, employees",
+   "fy": "FY2023-24",
+   "value": 0.15,
+   "unit": "per million person-hours",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.318"
+   },
+   "note": "LTI criteria: Factories Act 1948 for manufacturing and R&T; man-days lost >= 2 at non-manufacturing sites. From FY2023-24, includes non-manufacturing units (FY2022-23 restated in the FY24 BRSR)."
+  },
+  {
+   "key": "p3.e11.ltifr.workers",
+   "id": "p3.e11.ltifr.workers",
+   "indicator": "P3.E11",
+   "label": "LTIFR, workers",
+   "fy": "FY2024-25",
+   "value": 0.16,
+   "unit": "per million person-hours",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.318"
+   },
+   "note": "LTI criteria: Factories Act 1948 for manufacturing and R&T; man-days lost >= 2 at non-manufacturing sites. From FY2023-24, includes non-manufacturing units (FY2022-23 restated in the FY24 BRSR)."
+  },
+  {
+   "key": "p3.e11.ltifr.workers",
+   "id": "p3.e11.ltifr.workers",
+   "indicator": "P3.E11",
+   "label": "LTIFR, workers",
+   "fy": "FY2023-24",
+   "value": 0.25,
+   "unit": "per million person-hours",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.318"
+   },
+   "note": "LTI criteria: Factories Act 1948 for manufacturing and R&T; man-days lost >= 2 at non-manufacturing sites. From FY2023-24, includes non-manufacturing units (FY2022-23 restated in the FY24 BRSR)."
+  },
+  {
+   "key": "p3.e11.fatalities.workers",
+   "id": "p3.e11.fatalities.workers",
+   "indicator": "P3.E11",
+   "label": "Fatalities, workers",
+   "fy": "FY2024-25",
+   "value": 0,
+   "unit": "count",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.318"
+   }
+  },
+  {
+   "key": "p3.e11.fatalities.workers",
+   "id": "p3.e11.fatalities.workers",
+   "indicator": "P3.E11",
+   "label": "Fatalities, workers",
+   "fy": "FY2023-24",
+   "value": 0,
+   "unit": "count",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.318"
+   }
+  },
+  {
+   "key": "p5.e3b.femaleWages",
+   "id": "p5.e3b.femaleWagesPct",
+   "indicator": "P5.E3",
+   "label": "Wages paid to females, % of total",
+   "fy": "FY2024-25",
+   "value": 7.9,
+   "unit": "%",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.324"
+   },
+   "note": "FY2024-25 covers permanent and other-than-permanent female employees and workers (industry standard)."
+  },
+  {
+   "key": "p5.e3b.femaleWages",
+   "id": "p5.e3b.femaleWagesPct",
+   "indicator": "P5.E3",
+   "label": "Wages paid to females, % of total",
+   "fy": "FY2023-24",
+   "value": 7.8,
+   "unit": "%",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.324"
+   },
+   "note": "FY2024-25 covers permanent and other-than-permanent female employees and workers (industry standard)."
+  },
+  {
+   "key": "p5.e7.posh",
+   "id": "p5.e7.posh.complaints",
+   "indicator": "P5.E6",
+   "label": "POSH complaints",
+   "fy": "FY2024-25",
+   "value": 7,
+   "unit": "count",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.325"
+   }
+  },
+  {
+   "key": "p5.e7.posh",
+   "id": "p5.e7.posh.complaints",
+   "indicator": "P5.E6",
+   "label": "POSH complaints",
+   "fy": "FY2023-24",
+   "value": 11,
+   "unit": "count",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.325"
+   }
+  },
+  {
+   "key": "p1.e8.payableDays",
+   "id": "p1.e8.payableDays",
+   "indicator": "P1.E8",
+   "label": "Accounts payable days",
+   "fy": "FY2024-25",
+   "value": 66,
+   "unit": "days",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.308"
+   },
+   "note": "Average trade payables and net purchases of RM, PM and stock-in-trade."
+  },
+  {
+   "key": "p1.e8.payableDays",
+   "id": "p1.e8.payableDays",
+   "indicator": "P1.E8",
+   "label": "Accounts payable days",
+   "fy": "FY2023-24",
+   "value": 67,
+   "unit": "days",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.308"
+   },
+   "note": "Average trade payables and net purchases of RM, PM and stock-in-trade."
+  },
+  {
+   "key": "p1.e9.dealers",
+   "id": "p1.e9.sales.dealersPct",
+   "indicator": "P1.E9",
+   "label": "Sales through dealers, % of sales",
+   "fy": "FY2024-25",
+   "value": 99.0,
+   "unit": "%",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.309"
+   },
+   "note": "Gross sales considered."
+  },
+  {
+   "key": "p1.e9.dealers",
+   "id": "p1.e9.sales.dealersPct",
+   "indicator": "P1.E9",
+   "label": "Sales through dealers, % of sales",
+   "fy": "FY2023-24",
+   "value": 99.1,
+   "unit": "%",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.309"
+   },
+   "note": "Gross sales considered."
+  },
+  {
+   "key": "p8.e4.msme",
+   "id": "p8.e4.msmeSourcing",
+   "indicator": "P8.E4",
+   "label": "Inputs sourced from MSMEs, % by value",
+   "fy": "FY2024-25",
+   "value": 28.1,
+   "unit": "%",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.336"
+   }
+  },
+  {
+   "key": "p8.e4.msme",
+   "id": "p8.e4.msmeSourcing",
+   "indicator": "P8.E4",
+   "label": "Inputs sourced from MSMEs, % by value",
+   "fy": "FY2023-24",
+   "value": 28.3,
+   "unit": "%",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.336"
+   }
+  },
+  {
+   "key": "p9.e3.complaints",
+   "id": "p9.e3.consumerComplaints.other.received",
+   "indicator": "P9.E3",
+   "label": "Consumer complaints (product)",
+   "fy": "FY2024-25",
+   "value": 29022,
+   "unit": "count",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.337"
+   },
+   "note": "Data privacy, advertising, cyber-security, essential services, restrictive and unfair trade practices: NIL. Counts are 'agreed complaints'."
+  },
+  {
+   "key": "p9.e3.complaints",
+   "id": "p9.e3.consumerComplaints.other.received",
+   "indicator": "P9.E3",
+   "label": "Consumer complaints (product)",
+   "fy": "FY2023-24",
+   "value": 24502,
+   "unit": "count",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.337"
+   },
+   "note": "Data privacy, advertising, cyber-security, essential services, restrictive and unfair trade practices: NIL. Counts are 'agreed complaints'."
+  },
+  {
+   "key": "p9.e4.recalls",
+   "id": "p9.e4.recalls",
+   "indicator": "P9.E4",
+   "label": "Product recalls",
+   "fy": "FY2024-25",
+   "value": 0,
+   "unit": "count",
+   "source": {
+    "title": "Asian Paints Ltd - Business Responsibility and Sustainability Report FY2024-25 (Integrated Annual Report 2024-25, pp. 297-339), filed with BSE/NSE 3 Jun 2025 (letter APL/SEC/26/2025-26/14)",
+    "url": "https://www.asianpaints.com/AnnualReports.html",
+    "page": "IAR 2024-25 p.338"
+   },
+   "note": "NIL"
+  }
+ ],
+ "notPublic": [
+  "Plant-level energy, fuel mix, GHG and waste: the BRSR reports company totals only. The only plant-level data is Patancheru water (water-stress disclosure).",
+  "GHG gas-wise breakup (CO2, CH4, N2O, HFCs, PFCs, SF6, NF3): not disclosed in the BRSR.",
+  "Scope 3 by category: not in the BRSR (may be in the Sustainability Report / IAR, not retrieved).",
+  "Market-based Scope 2: not disclosed (CEA grid factor, i.e. location-based).",
+  "POP and HAP air emissions: reported as '-'.",
+  "Plant commissioning years: not in the BRSR; not retrieved from the IAR.",
+  "Street addresses for Khandala, Ankleshwar, Patancheru, Mysuru, Taloja, Sarigam and Dahej: not in the BRSR; IAR 'plant locations' section not reachable.",
+  "Identity of 3 of the 13 plants in the FY2024-25 BRSR count: only 10 standalone plants identified (8 decorative + Taloja industrial + Cuddalore chemicals). The rest likely include Sleek units (amalgamated 1 Mar 2025); unverified.",
+  "Per-plant production volumes (KL): not disclosed.",
+  "CINs of subsidiaries/JVs: not in retrieved documents (MCA blocked).",
+  "Country of incorporation for several overseas subsidiaries (APIPL, Enterprise Paints, Universal Paints, Nirvana Investments, Asian White Cement Holding, etc.): AOC-1 not reachable.",
+  "Total CSR spend FY2024-25 and FY2023-24: not in the BRSR text (in the IAR CSR annexure, not reachable). Only the aspirational-district spend (Rs 0.9 cr) is captured.",
+  "ESG target values (IAR 2024-25 p.8 'ESG performance snapshot', Net Zero position statement): not retrieved.",
+  "Training hours: the company states they are not tracked. Skill training for workers and human-rights training for non-permanent staff: not tracked.",
+  "Well-being coverage breakdown for FY2023-24: only FY2024-25 extracted (FY2023-24 BRSR not fully parsed for this table)."
+ ]
+}

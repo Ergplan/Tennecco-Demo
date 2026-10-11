@@ -1,13 +1,15 @@
 export type Step = { id: string; href: string; label: string; short: string }
 
+// Company → map → one factory → its two tracks → the group platforms → the pilot.
 export const STEPS: Step[] = [
-  { id: "overview", href: "/tenneco", label: "Tenneco in India", short: "Overview" },
-  { id: "locations", href: "/tenneco/locations", label: "Locations", short: "Locations" },
-  { id: "esg", href: "/tenneco/esg", label: "ESG by entity and site", short: "Site ESG" },
-  { id: "green-power", href: "/tenneco/green-power", label: "Greening electricity", short: "Green power" },
-  { id: "bengaluru-power", href: "/tenneco/bengaluru/power", label: "Bengaluru: 100% green power", short: "Bengaluru power" },
-  { id: "bengaluru-heat", href: "/tenneco/bengaluru/heat", label: "Bengaluru: process heat", short: "Bengaluru heat" },
-  { id: "platform", href: "/tenneco/platform", label: "One ESG platform", short: "ESG platform" },
+  { id: "company", href: "/tenneco", label: "Tenneco India", short: "Company" },
+  { id: "map", href: "/tenneco/map", label: "Footprint and shareholding", short: "Map" },
+  { id: "bengaluru", href: "/tenneco/bengaluru", label: "Bengaluru today", short: "Bengaluru" },
+  { id: "electricity", href: "/tenneco/bengaluru/power", label: "Bengaluru · electricity track", short: "Electricity" },
+  { id: "heat", href: "/tenneco/bengaluru/heat", label: "Bengaluru · heat track", short: "Heat" },
+  { id: "ergplan", href: "/tenneco/ergplan", label: "ergPLAN · bills in, power plan out", short: "ergPLAN" },
+  { id: "ergos", href: "/tenneco/ergos", label: "ergOS · the group on one platform", short: "ergOS" },
+  { id: "esgos", href: "/tenneco/esgos", label: "esgOS · gap assessment", short: "esgOS" },
   { id: "pilot", href: "/tenneco/pilot", label: "Proposed pilot", short: "Pilot" },
 ]
 

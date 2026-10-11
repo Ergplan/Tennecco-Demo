@@ -1,0 +1,187 @@
+@import "tailwindcss";
+@import "@fontsource-variable/inter-tight";
+@import "@fontsource/ibm-plex-mono/400.css";
+@import "@fontsource/ibm-plex-mono/500.css";
+@import "../../styles/heatpump.css";
+
+/* Tenneco-inspired corporate palette: deep navy, bright corporate blue, clean white
+   surfaces. Green marks renewable power, orange marks process heat. */
+:root {
+  color-scheme: light;
+  --bg: #f3f6fa;
+  --bg-elev: #ffffff;
+  --surface: #ffffff;
+  --surface-2: #eef2f8;
+  --surface-3: #e1e8f1;
+  --line: #dde4ee;
+  --line-strong: #c3cedc;
+  --fg: #001d34;
+  --fg-muted: #45566e;
+  --faint: #7f8ea3;
+  --brand: #0033a0;
+  --brand-deep: #001d34;
+  --accent: #0033a0;
+  --sky: #2f80ed;
+  --accent-soft: #e7edf9;
+  --green: #14995a;
+  --green-soft: #e3f5ec;
+  --heat: #e2601f;
+  --heat-soft: #fdeee5;
+  --amber: #c98a06;
+  --amber-soft: #fbf3df;
+  --danger: #cc3b3b;
+  --grey: #9aa6b5;
+  --land: #e4ebf3;
+  --land-stroke: rgba(0, 51, 160, 0.3);
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-elev: var(--bg-elev);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-surface-3: var(--surface-3);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-fg: var(--fg);
+  --color-muted: var(--fg-muted);
+  --color-faint: var(--faint);
+  --color-brand: var(--brand);
+  --color-brand-deep: var(--brand-deep);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-sky: var(--sky);
+  --color-green: var(--green);
+  --color-green-soft: var(--green-soft);
+  --color-heat: var(--heat);
+  --color-heat-soft: var(--heat-soft);
+  --color-amber: var(--amber);
+  --color-amber-soft: var(--amber-soft);
+  --color-danger: var(--danger);
+  --color-grey: var(--grey);
+  --font-sans: "Inter Tight Variable", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+html,
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-sans);
+  letter-spacing: -0.005em;
+  -webkit-font-smoothing: antialiased;
+}
+
+.tnum {
+  font-variant-numeric: tabular-nums;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+button {
+  cursor: pointer;
+}
+button:disabled {
+  cursor: not-allowed;
+}
+
+::selection {
+  background: color-mix(in oklab, var(--accent) 25%, transparent);
+}
+
+.scrollbar-thin {
+  scrollbar-width: thin;
+  scrollbar-color: var(--line-strong) transparent;
+}
+
+/* Range sliders in the brand colour, with a filled track up to the thumb */
+input[type="range"].slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 6px;
+  border-radius: 999px;
+  background: linear-gradient(to right, var(--track-fill, var(--accent)) var(--fill, 50%), var(--surface-3) var(--fill, 50%));
+  outline: none;
+}
+input[type="range"].slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 999px;
+  background: #fff;
+  border: 3px solid var(--track-fill, var(--accent));
+  box-shadow: 0 1px 4px rgba(0, 31, 74, 0.25);
+  cursor: grab;
+}
+input[type="range"].slider::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  border-radius: 999px;
+  background: #fff;
+  border: 3px solid var(--track-fill, var(--accent));
+  box-shadow: 0 1px 4px rgba(0, 31, 74, 0.25);
+  cursor: grab;
+}
+input[type="range"].slider.big {
+  height: 12px;
+}
+input[type="range"].slider.big::-webkit-slider-thumb {
+  width: 32px;
+  height: 32px;
+  border-width: 5px;
+}
+input[type="range"].slider.big::-moz-range-thumb {
+  width: 26px;
+  height: 26px;
+  border-width: 5px;
+}
+
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.6);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(2.4);
+    opacity: 0;
+  }
+}
+.motion-pulse {
+  animation: pulse-ring 1.8s ease-out infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes flow {
+  to {
+    stroke-dashoffset: -24;
+  }
+}
+.motion-flow {
+  stroke-dasharray: 3 5;
+  animation: flow 1.1s linear infinite;
+}
+
+@keyframes caret {
+  50% {
+    opacity: 0;
+  }
+}
+.caret {
+  animation: caret 1s step-end infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .motion-pulse {
+    display: none;
+  }
+  .motion-flow,
+  .caret {
+    animation: none;
+  }
+}

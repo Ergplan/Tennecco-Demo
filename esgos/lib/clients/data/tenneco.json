@@ -1,0 +1,683 @@
+{
+ "company": {
+  "legalName": "Tenneco Clean Air India Limited",
+  "cin": "L29308TN2018FLC126510",
+  "pan": "",
+  "registeredOffice": "2 SIPCOT Industrial Area, Nissan Supplier Park, Oragadam, Sriperumbudur, Kanchipuram, Tamil Nadu 602105",
+  "listing": {
+   "exchange": "NSE",
+   "symbol": "TENNIND"
+  },
+  "website": "tennecoindia.com",
+  "boundaryAsReported": "Standalone: Tenneco Clean Air India Limited's own plants. Subsidiaries are in the consolidated accounts but not in the BRSR; Federal-Mogul Goetze files its own BRSR.",
+  "assurance": {
+   "provider": "Adwin Advisory",
+   "type": "Reasonable assurance on BRSR Core (FY2025-26, standalone)",
+   "source": {
+    "title": "TCAIL BRSR FY2025-26, summary (ScanX)",
+    "url": "https://scanx.trade/stock-market-news/companies/tenneco-clean-air-india-releases-business-responsibility-and-sustainability-report-for-fy2025-26/47591683"
+   }
+  },
+  "revenueCr": {
+   "FY2025-26": 2288.52
+  }
+ },
+ "brsr": {
+  "title": "Tenneco Clean Air India Limited · Business Responsibility and Sustainability Report FY2025-26 (filed with NSE, 6 Aug 2026)",
+  "url": "https://nsearchives.nseindia.com/corporate/TENNECO_06082026231114_Tenneco_Clean_Air_India_-_BRSR_2025-26_Signed.pdf",
+  "page": "BRSR FY2025-26",
+  "fy": "FY2025-26",
+  "filed": "2026-08-06"
+ },
+ "sites": [
+  {
+   "key": "chakan-1",
+   "id": "site-tn-chakan-1",
+   "name": "Chakan I",
+   "type": "factory",
+   "via": "brsr",
+   "city": "Pune",
+   "state": "Maharashtra",
+   "lat": 18.78,
+   "lng": 73.83,
+   "geoQuery": "G-6, Phase-III, Chakan MIDC, Kuruli, Khed, Pune",
+   "entityName": "Tenneco Clean Air India Limited",
+   "ownerRole": "Plant head",
+   "approximatePin": true,
+   "source": {
+    "title": "Tenneco · India locations",
+    "url": "https://www.tenneco.com/contact-us/find-a-location"
+   },
+   "products": "Catalytic converters, mufflers, BS6.2 exhaust",
+   "moreSources": [
+    {
+     "title": "Tenneco Clean Air India Limited · Red Herring Prospectus (Nov 2025)",
+     "url": "https://www.axiscapital.co.in/contents/Tenneco%20Clean%20Air%20India%20Limited-RHP-1762411489.pdf"
+    }
+   ],
+   "note": "920 kWp rooftop solar at Chakan (BRSR FY2025-26)"
+  },
+  {
+   "key": "chakan-2",
+   "id": "site-tn-chakan-2",
+   "name": "Chakan II",
+   "type": "factory",
+   "via": "brsr",
+   "city": "Pune",
+   "state": "Maharashtra",
+   "lat": 18.74,
+   "lng": 73.8,
+   "geoQuery": "Gat No. 278/1/A, Nighoje, Khed, Pune",
+   "entityName": "Tenneco Clean Air India Limited",
+   "ownerRole": "Plant head",
+   "approximatePin": true,
+   "source": {
+    "title": "Tenneco · India locations",
+    "url": "https://www.tenneco.com/contact-us/find-a-location"
+   },
+   "products": "Clean Air systems",
+   "moreSources": [
+    {
+     "title": "Tenneco Clean Air India Limited · Red Herring Prospectus (Nov 2025)",
+     "url": "https://www.axiscapital.co.in/contents/Tenneco%20Clean%20Air%20India%20Limited-RHP-1762411489.pdf"
+    }
+   ]
+  },
+  {
+   "key": "chennai",
+   "id": "site-tn-chennai",
+   "name": "Chennai (Oragadam)",
+   "type": "factory",
+   "via": "brsr",
+   "city": "Chennai",
+   "state": "Tamil Nadu",
+   "lat": 12.82,
+   "lng": 79.94,
+   "geoQuery": "Nissan Supplier Park, SIPCOT Oragadam, Sriperumbudur",
+   "entityName": "Tenneco Clean Air India Limited",
+   "ownerRole": "Plant head",
+   "approximatePin": true,
+   "source": {
+    "title": "Tenneco · India locations",
+    "url": "https://www.tenneco.com/contact-us/find-a-location"
+   },
+   "products": "Exhaust and after-treatment",
+   "moreSources": [
+    {
+     "title": "Tenneco Clean Air India Limited · Red Herring Prospectus (Nov 2025)",
+     "url": "https://www.axiscapital.co.in/contents/Tenneco%20Clean%20Air%20India%20Limited-RHP-1762411489.pdf"
+    }
+   ],
+   "note": "Over 90% of energy from solar and wind through a PPA (BRSR FY2025-26)"
+  },
+  {
+   "key": "pithampur",
+   "id": "site-tn-pithampur",
+   "name": "Pithampur",
+   "type": "factory",
+   "via": "brsr",
+   "city": "Pithampur",
+   "state": "Madhya Pradesh",
+   "lat": 22.57,
+   "lng": 75.62,
+   "geoQuery": "Plot 81, Smart Industrial Park, Pithampur",
+   "entityName": "Tenneco Clean Air India Limited",
+   "ownerRole": "Plant head",
+   "approximatePin": true,
+   "source": {
+    "title": "Tenneco · India locations",
+    "url": "https://www.tenneco.com/contact-us/find-a-location"
+   },
+   "products": "Clean Air for commercial vehicles",
+   "moreSources": [
+    {
+     "title": "Tenneco Clean Air India Limited · Red Herring Prospectus (Nov 2025)",
+     "url": "https://www.axiscapital.co.in/contents/Tenneco%20Clean%20Air%20India%20Limited-RHP-1762411489.pdf"
+    }
+   ]
+  },
+  {
+   "key": "kharkhoda",
+   "id": "site-tn-kharkhoda",
+   "name": "Kharkhoda (greenfield)",
+   "type": "factory",
+   "via": "brsr",
+   "city": "Sonipat",
+   "state": "Haryana",
+   "lat": 28.86,
+   "lng": 76.91,
+   "geoQuery": "IMT Kharkhoda, Sonipat",
+   "entityName": "Tenneco Clean Air India Limited",
+   "ownerRole": "Plant head",
+   "approximatePin": true,
+   "source": {
+    "title": "TCAIL Kharkhoda greenfield plant (The Machine Maker)",
+    "url": "https://themachinemaker.com/?p=105373"
+   },
+   "products": "Clean Air systems",
+   "status": "under-construction",
+   "statusNote": "A greenfield plant at IMT Kharkhoda, with production expected from Q3 FY2027. Include it in this year's boundary?"
+  },
+  {
+   "key": "hosur",
+   "id": "site-tn-hosur",
+   "name": "Hosur",
+   "type": "factory",
+   "via": "brsr",
+   "city": "Hosur",
+   "state": "Tamil Nadu",
+   "lat": 12.75,
+   "lng": 77.82,
+   "geoQuery": "122 SIPCOT Complex, Hosur",
+   "entityName": "Tenneco Automotive India Private Limited",
+   "ownerRole": "Plant head",
+   "approximatePin": true,
+   "source": {
+    "title": "Tenneco · India locations",
+    "url": "https://www.tenneco.com/contact-us/find-a-location"
+   },
+   "products": "Monroe shock absorbers and struts",
+   "moreSources": [
+    {
+     "title": "Tenneco Clean Air India Limited · Red Herring Prospectus (Nov 2025)",
+     "url": "https://www.axiscapital.co.in/contents/Tenneco%20Clean%20Air%20India%20Limited-RHP-1762411489.pdf"
+    }
+   ]
+  },
+  {
+   "key": "bawal",
+   "id": "site-tn-bawal",
+   "name": "Bawal",
+   "type": "factory",
+   "via": "brsr",
+   "city": "Bawal",
+   "state": "Haryana",
+   "lat": 28.09,
+   "lng": 76.58,
+   "geoQuery": "Plot 321, Sector 3, Phase II, Growth Centre, Bawal",
+   "entityName": "Tenneco Automotive India Private Limited",
+   "ownerRole": "Plant head",
+   "approximatePin": true,
+   "source": {
+    "title": "Tenneco · India locations",
+    "url": "https://www.tenneco.com/contact-us/find-a-location"
+   },
+   "products": "Shock absorbers and struts",
+   "moreSources": [
+    {
+     "title": "Tenneco Clean Air India Limited · Red Herring Prospectus (Nov 2025)",
+     "url": "https://www.axiscapital.co.in/contents/Tenneco%20Clean%20Air%20India%20Limited-RHP-1762411489.pdf"
+    }
+   ]
+  },
+  {
+   "key": "sanand",
+   "id": "site-tn-sanand",
+   "name": "Sanand",
+   "type": "factory",
+   "via": "brsr",
+   "city": "Sanand",
+   "state": "Gujarat",
+   "lat": 22.976,
+   "lng": 72.265,
+   "geoQuery": "Plot AV35, Sanand Industrial Estate II",
+   "entityName": "Tenneco Automotive India Private Limited",
+   "ownerRole": "Plant head",
+   "approximatePin": true,
+   "source": {
+    "title": "Tenneco · India locations",
+    "url": "https://www.tenneco.com/contact-us/find-a-location"
+   },
+   "products": "Shock absorbers and struts",
+   "moreSources": [
+    {
+     "title": "Tenneco Clean Air India Limited · Red Herring Prospectus (Nov 2025)",
+     "url": "https://www.axiscapital.co.in/contents/Tenneco%20Clean%20Air%20India%20Limited-RHP-1762411489.pdf"
+    }
+   ]
+  },
+  {
+   "key": "puducherry",
+   "id": "site-tn-puducherry",
+   "name": "Puducherry",
+   "type": "factory",
+   "via": "brsr",
+   "city": "Puducherry",
+   "state": "Puducherry",
+   "lat": 11.96,
+   "lng": 79.8,
+   "geoQuery": "PIPDIC Industrial Estate, Mettupalayam",
+   "entityName": "Tenneco Automotive India Private Limited",
+   "ownerRole": "Plant head",
+   "approximatePin": true,
+   "source": {
+    "title": "Tenneco · India locations",
+    "url": "https://www.tenneco.com/contact-us/find-a-location"
+   },
+   "products": "Shock absorbers and struts",
+   "moreSources": [
+    {
+     "title": "Tenneco Clean Air India Limited · Red Herring Prospectus (Nov 2025)",
+     "url": "https://www.axiscapital.co.in/contents/Tenneco%20Clean%20Air%20India%20Limited-RHP-1762411489.pdf"
+    }
+   ]
+  },
+  {
+   "key": "parwanoo",
+   "id": "site-tn-parwanoo",
+   "name": "Parwanoo",
+   "type": "factory",
+   "via": "brsr",
+   "city": "Parwanoo",
+   "state": "Himachal Pradesh",
+   "lat": 30.84,
+   "lng": 76.96,
+   "geoQuery": "Plot 5, Sector II, Parwanoo",
+   "entityName": "Federal-Mogul Bearings India Limited",
+   "ownerRole": "Plant head",
+   "approximatePin": true,
+   "source": {
+    "title": "Tenneco · India locations",
+    "url": "https://www.tenneco.com/contact-us/find-a-location"
+   },
+   "products": "Engine bearings and bushes",
+   "moreSources": [
+    {
+     "title": "Tenneco Clean Air India Limited · Red Herring Prospectus (Nov 2025)",
+     "url": "https://www.axiscapital.co.in/contents/Tenneco%20Clean%20Air%20India%20Limited-RHP-1762411489.pdf"
+    }
+   ]
+  },
+  {
+   "key": "chakan-sealings",
+   "id": "site-tn-chakan-sealings",
+   "name": "Chakan sealings",
+   "type": "factory",
+   "via": "brsr",
+   "city": "Pune",
+   "state": "Maharashtra",
+   "lat": 18.725,
+   "lng": 73.82,
+   "geoQuery": "152/223 Mahalunge, Chakan–Talegaon Road",
+   "entityName": "Federal-Mogul Sealings India Limited",
+   "ownerRole": "Plant head",
+   "approximatePin": true,
+   "source": {
+    "title": "Tenneco · India locations",
+    "url": "https://www.tenneco.com/contact-us/find-a-location"
+   },
+   "products": "Gaskets and heat shields",
+   "moreSources": [
+    {
+     "title": "Tenneco Clean Air India Limited · Red Herring Prospectus (Nov 2025)",
+     "url": "https://www.axiscapital.co.in/contents/Tenneco%20Clean%20Air%20India%20Limited-RHP-1762411489.pdf"
+    }
+   ]
+  },
+  {
+   "key": "bengaluru",
+   "id": "site-tn-bengaluru",
+   "name": "Bengaluru (FMGIL)",
+   "type": "factory",
+   "via": "brsr",
+   "city": "Bengaluru",
+   "state": "Karnataka",
+   "lat": 13.1,
+   "lng": 77.59,
+   "geoQuery": "Bellary Road, Yelahanka, Bengaluru",
+   "entityName": "Federal-Mogul Goetze (India) Limited",
+   "ownerRole": "Plant head",
+   "approximatePin": true,
+   "source": {
+    "title": "Tenneco · India locations",
+    "url": "https://www.tenneco.com/contact-us/find-a-location"
+   },
+   "products": "Pistons, pins and rings",
+   "note": "Federal-Mogul Goetze files its own BRSR"
+  },
+  {
+   "key": "patiala",
+   "id": "site-tn-patiala",
+   "name": "Patiala (FMGIL)",
+   "type": "factory",
+   "via": "brsr",
+   "city": "Patiala",
+   "state": "Punjab",
+   "lat": 30.37,
+   "lng": 76.45,
+   "geoQuery": "Rajpura Road, Bahadurgarh, Patiala",
+   "entityName": "Federal-Mogul Goetze (India) Limited",
+   "ownerRole": "Plant head",
+   "approximatePin": true,
+   "source": {
+    "title": "Tenneco · India locations",
+    "url": "https://www.tenneco.com/contact-us/find-a-location"
+   },
+   "products": "Pistons, pins and rings",
+   "note": "Federal-Mogul Goetze files its own BRSR"
+  },
+  {
+   "key": "gurugram",
+   "id": "site-tn-gurugram",
+   "name": "Corporate office, Gurugram",
+   "type": "office",
+   "via": "registry",
+   "city": "Gurugram",
+   "state": "Haryana",
+   "lat": 28.44,
+   "lng": 77.1,
+   "geoQuery": "Paras Twin Towers, Golf Course Road, Gurugram",
+   "entityName": "Tenneco Clean Air India Limited",
+   "ownerRole": "Office admin",
+   "approximatePin": true,
+   "source": {
+    "title": "Tenneco Clean Air India Limited · Red Herring Prospectus (Nov 2025)",
+    "url": "https://www.axiscapital.co.in/contents/Tenneco%20Clean%20Air%20India%20Limited-RHP-1762411489.pdf"
+   }
+  }
+ ],
+ "entities": [
+  {
+   "id": "ent-tn",
+   "name": "Tenneco Clean Air India Limited",
+   "shortName": "TCAIL",
+   "cin": "L29308TN2018FLC126510",
+   "relationship": "holding",
+   "country": "India",
+   "inBoundary": true,
+   "source": {
+    "title": "Tenneco Clean Air India Limited · Business Responsibility and Sustainability Report FY2025-26 (filed with NSE, 6 Aug 2026)",
+    "url": "https://nsearchives.nseindia.com/corporate/TENNECO_06082026231114_Tenneco_Clean_Air_India_-_BRSR_2025-26_Signed.pdf",
+    "page": "BRSR FY2025-26"
+   }
+  },
+  {
+   "id": "ent-tn-taipl",
+   "name": "Tenneco Automotive India Private Limited",
+   "shortName": "Tenneco Automotive India",
+   "relationship": "subsidiary",
+   "holdingPct": 100,
+   "country": "India",
+   "inBoundary": false,
+   "source": {
+    "title": "Tenneco Clean Air India Limited · Red Herring Prospectus (Nov 2025)",
+    "url": "https://www.axiscapital.co.in/contents/Tenneco%20Clean%20Air%20India%20Limited-RHP-1762411489.pdf"
+   }
+  },
+  {
+   "id": "ent-tn-fmipl",
+   "name": "Federal-Mogul Ignition Products India Limited",
+   "shortName": "FM Ignition",
+   "relationship": "subsidiary",
+   "holdingPct": 100,
+   "country": "India",
+   "inBoundary": false,
+   "note": "No factory in Tenneco's India location list",
+   "source": {
+    "title": "Tenneco Clean Air India Limited · Red Herring Prospectus (Nov 2025)",
+    "url": "https://www.axiscapital.co.in/contents/Tenneco%20Clean%20Air%20India%20Limited-RHP-1762411489.pdf"
+   }
+  },
+  {
+   "id": "ent-tn-fmbil",
+   "name": "Federal-Mogul Bearings India Limited",
+   "shortName": "FM Bearings",
+   "relationship": "subsidiary",
+   "holdingPct": 99.37,
+   "country": "India",
+   "inBoundary": false,
+   "source": {
+    "title": "Tenneco Clean Air India Limited · Red Herring Prospectus (Nov 2025)",
+    "url": "https://www.axiscapital.co.in/contents/Tenneco%20Clean%20Air%20India%20Limited-RHP-1762411489.pdf"
+   }
+  },
+  {
+   "id": "ent-tn-fmsil",
+   "name": "Federal-Mogul Sealings India Limited",
+   "shortName": "FM Sealings",
+   "relationship": "subsidiary",
+   "holdingPct": 89.89,
+   "country": "India",
+   "inBoundary": false,
+   "source": {
+    "title": "Tenneco Clean Air India Limited · Red Herring Prospectus (Nov 2025)",
+    "url": "https://www.axiscapital.co.in/contents/Tenneco%20Clean%20Air%20India%20Limited-RHP-1762411489.pdf"
+   }
+  },
+  {
+   "id": "ent-tn-fmgil",
+   "name": "Federal-Mogul Goetze (India) Limited",
+   "shortName": "FMGIL (listed separately)",
+   "relationship": "subsidiary",
+   "country": "India",
+   "inBoundary": false,
+   "aggregate": true,
+   "note": "A fellow subsidiary under Tenneco: listed on NSE (FMGOETZE) and files its own BRSR, so it sits outside TCAIL's boundary.",
+   "members": [
+    {
+     "name": "Federal-Mogul Goetze (India) Limited",
+     "relationship": "Fellow subsidiary · listed, files its own BRSR"
+    },
+    {
+     "name": "Federal-Mogul TPR (India) Limited",
+     "relationship": "subsidiary of FMGIL",
+     "holdingPct": 51
+    }
+   ],
+   "source": {
+    "title": "Federal-Mogul Goetze (India) Limited · BRSR FY2025-26",
+    "url": "https://nsearchives.nseindia.com/corporate/BRSR_505744_02092026234800.pdf"
+   }
+  }
+ ],
+ "gst": [],
+ "metrics": [
+  {
+   "key": "a.plants",
+   "id": "sa.q18.plants.national",
+   "indicator": "A.III.18",
+   "label": "Plants, national",
+   "fy": "FY2025-26",
+   "value": 4,
+   "unit": "count",
+   "source": {
+    "title": "Tenneco Clean Air India Limited · Business Responsibility and Sustainability Report FY2025-26 (filed with NSE, 6 Aug 2026)",
+    "url": "https://nsearchives.nseindia.com/corporate/TENNECO_06082026231114_Tenneco_Clean_Air_India_-_BRSR_2025-26_Signed.pdf",
+    "page": "BRSR FY2025-26"
+   },
+   "note": "TCAIL's own plants: Chakan I and II, Chennai and Pithampur (standalone BRSR, per the prospectus); confirm against Section A of the filing"
+  },
+  {
+   "key": "a.offices",
+   "id": "sa.q18.offices.national",
+   "indicator": "A.III.18",
+   "label": "Offices, national",
+   "fy": "FY2025-26",
+   "value": 1,
+   "unit": "count",
+   "source": {
+    "title": "Tenneco Clean Air India Limited · Business Responsibility and Sustainability Report FY2025-26 (filed with NSE, 6 Aug 2026)",
+    "url": "https://nsearchives.nseindia.com/corporate/TENNECO_06082026231114_Tenneco_Clean_Air_India_-_BRSR_2025-26_Signed.pdf",
+    "page": "BRSR FY2025-26"
+   },
+   "note": "Corporate office in Gurugram; the registered office sits at the Chennai plant"
+  },
+  {
+   "key": "a.revenue",
+   "id": "fin.revenueFromOperations.standalone",
+   "indicator": "A.VI.24",
+   "label": "Turnover (standalone)",
+   "fy": "FY2025-26",
+   "value": 2288.52,
+   "unit": "Rs crore",
+   "source": {
+    "title": "Tenneco Clean Air India Limited · Business Responsibility and Sustainability Report FY2025-26 (filed with NSE, 6 Aug 2026)",
+    "url": "https://nsearchives.nseindia.com/corporate/TENNECO_06082026231114_Tenneco_Clean_Air_India_-_BRSR_2025-26_Signed.pdf",
+    "page": "BRSR FY2025-26"
+   }
+  },
+  {
+   "key": "p6.e1.total",
+   "id": "p6.e1.total",
+   "indicator": "P6.E1.intensity",
+   "label": "Total energy consumed (A+B+C+D+E+F)",
+   "fy": "FY2025-26",
+   "value": 43017.64,
+   "unit": "GJ",
+   "source": {
+    "title": "Tenneco Clean Air India Limited · Business Responsibility and Sustainability Report FY2025-26 (filed with NSE, 6 Aug 2026)",
+    "url": "https://nsearchives.nseindia.com/corporate/TENNECO_06082026231114_Tenneco_Clean_Air_India_-_BRSR_2025-26_Signed.pdf",
+    "page": "BRSR FY2025-26"
+   }
+  },
+  {
+   "key": "p6.e1.renewable",
+   "id": "p6.e1.renewable",
+   "indicator": "P6.E1.intensity",
+   "label": "Energy from renewable sources (A+B+C)",
+   "fy": "FY2025-26",
+   "value": 9925.24,
+   "unit": "GJ",
+   "source": {
+    "title": "Tenneco Clean Air India Limited · Business Responsibility and Sustainability Report FY2025-26 (filed with NSE, 6 Aug 2026)",
+    "url": "https://nsearchives.nseindia.com/corporate/TENNECO_06082026231114_Tenneco_Clean_Air_India_-_BRSR_2025-26_Signed.pdf",
+    "page": "BRSR FY2025-26"
+   }
+  },
+  {
+   "key": "p6.e1.nonrenewable",
+   "id": "p6.e1.nonrenewable",
+   "indicator": "P6.E1.intensity",
+   "label": "Energy from non-renewable sources (D+E+F)",
+   "fy": "FY2025-26",
+   "value": 33092.4,
+   "unit": "GJ",
+   "source": {
+    "title": "Tenneco Clean Air India Limited · Business Responsibility and Sustainability Report FY2025-26 (filed with NSE, 6 Aug 2026)",
+    "url": "https://nsearchives.nseindia.com/corporate/TENNECO_06082026231114_Tenneco_Clean_Air_India_-_BRSR_2025-26_Signed.pdf",
+    "page": "BRSR FY2025-26"
+   }
+  },
+  {
+   "key": "p6.e1.intensity",
+   "id": "p6.e1.intensity.revenue",
+   "indicator": "P6.E1.intensity",
+   "label": "Energy intensity per rupee of turnover",
+   "fy": "FY2025-26",
+   "value": 18.8,
+   "unit": "GJ/Rs crore",
+   "source": {
+    "title": "Tenneco Clean Air India Limited · Business Responsibility and Sustainability Report FY2025-26 (filed with NSE, 6 Aug 2026)",
+    "url": "https://nsearchives.nseindia.com/corporate/TENNECO_06082026231114_Tenneco_Clean_Air_India_-_BRSR_2025-26_Signed.pdf",
+    "page": "BRSR FY2025-26"
+   },
+   "note": "43,017.64 GJ ÷ ₹2,288.52 crore"
+  },
+  {
+   "key": "p6.e7.scope1",
+   "id": "p6.e7.scope1",
+   "indicator": "P6.E7.scope1",
+   "label": "Scope 1 emissions",
+   "fy": "FY2025-26",
+   "value": 375.69,
+   "unit": "tCO2e",
+   "source": {
+    "title": "Tenneco Clean Air India Limited · Business Responsibility and Sustainability Report FY2025-26 (filed with NSE, 6 Aug 2026)",
+    "url": "https://nsearchives.nseindia.com/corporate/TENNECO_06082026231114_Tenneco_Clean_Air_India_-_BRSR_2025-26_Signed.pdf",
+    "page": "BRSR FY2025-26"
+   }
+  },
+  {
+   "key": "p6.e7.scope2",
+   "id": "p6.e7.scope2",
+   "indicator": "P6.E7.scope2",
+   "label": "Scope 2 emissions",
+   "fy": "FY2025-26",
+   "value": 5141.28,
+   "unit": "tCO2e",
+   "source": {
+    "title": "Tenneco Clean Air India Limited · Business Responsibility and Sustainability Report FY2025-26 (filed with NSE, 6 Aug 2026)",
+    "url": "https://nsearchives.nseindia.com/corporate/TENNECO_06082026231114_Tenneco_Clean_Air_India_-_BRSR_2025-26_Signed.pdf",
+    "page": "BRSR FY2025-26"
+   }
+  },
+  {
+   "key": "p6.e7.intensity",
+   "id": "p6.e7.intensity.revenue",
+   "indicator": "P6.E7.scope1",
+   "label": "Scope 1+2 intensity per rupee of turnover",
+   "fy": "FY2025-26",
+   "value": 2.41,
+   "unit": "tCO2e/Rs crore",
+   "source": {
+    "title": "Tenneco Clean Air India Limited · Business Responsibility and Sustainability Report FY2025-26 (filed with NSE, 6 Aug 2026)",
+    "url": "https://nsearchives.nseindia.com/corporate/TENNECO_06082026231114_Tenneco_Clean_Air_India_-_BRSR_2025-26_Signed.pdf",
+    "page": "BRSR FY2025-26"
+   },
+   "note": "5,516.97 tCO2e ÷ ₹2,288.52 crore"
+  },
+  {
+   "key": "p6.e3.withdrawal",
+   "id": "p6.e3.withdrawal.total",
+   "indicator": "P6.E3.withdrawal",
+   "label": "Water withdrawal",
+   "fy": "FY2025-26",
+   "value": 39174,
+   "unit": "KL",
+   "source": {
+    "title": "Tenneco Clean Air India Limited · Business Responsibility and Sustainability Report FY2025-26 (filed with NSE, 6 Aug 2026)",
+    "url": "https://nsearchives.nseindia.com/corporate/TENNECO_06082026231114_Tenneco_Clean_Air_India_-_BRSR_2025-26_Signed.pdf",
+    "page": "BRSR FY2025-26"
+   }
+  },
+  {
+   "key": "p6.e9.total",
+   "id": "p6.e9.total",
+   "indicator": "P6.E9",
+   "label": "Waste generated",
+   "fy": "FY2025-26",
+   "value": 1721.57,
+   "unit": "MT",
+   "source": {
+    "title": "Tenneco Clean Air India Limited · Business Responsibility and Sustainability Report FY2025-26 (filed with NSE, 6 Aug 2026)",
+    "url": "https://nsearchives.nseindia.com/corporate/TENNECO_06082026231114_Tenneco_Clean_Air_India_-_BRSR_2025-26_Signed.pdf",
+    "page": "BRSR FY2025-26"
+   }
+  },
+  {
+   "key": "p3.e11.ltifr.workers",
+   "id": "p3.e11.ltifr.workers",
+   "indicator": "P3.E11",
+   "label": "LTIFR, workers",
+   "fy": "FY2025-26",
+   "value": 0.28,
+   "unit": "per million person-hours",
+   "source": {
+    "title": "Tenneco Clean Air India Limited · Business Responsibility and Sustainability Report FY2025-26 (filed with NSE, 6 Aug 2026)",
+    "url": "https://nsearchives.nseindia.com/corporate/TENNECO_06082026231114_Tenneco_Clean_Air_India_-_BRSR_2025-26_Signed.pdf",
+    "page": "BRSR FY2025-26"
+   }
+  },
+  {
+   "key": "p8.e4.msme",
+   "id": "p8.e4.msmeSourcing",
+   "indicator": "P8.E4",
+   "label": "Inputs sourced from MSMEs, % by value",
+   "fy": "FY2025-26",
+   "value": 52.12,
+   "unit": "%",
+   "source": {
+    "title": "Tenneco Clean Air India Limited · Business Responsibility and Sustainability Report FY2025-26 (filed with NSE, 6 Aug 2026)",
+    "url": "https://nsearchives.nseindia.com/corporate/TENNECO_06082026231114_Tenneco_Clean_Air_India_-_BRSR_2025-26_Signed.pdf",
+    "page": "BRSR FY2025-26"
+   }
+  }
+ ],
+ "notPublic": [
+  "Plant-level energy, fuel, water and waste: the BRSR reports company totals only.",
+  "The split of electricity and fuel in the energy table (rows A to F): renewable and non-renewable totals only.",
+  "Scope 3 emissions: not reported for FY2025-26.",
+  "Subsidiaries' ESG data (Tenneco Automotive India, FM Ignition, FM Bearings, FM Sealings): no BRSR of their own.",
+  "Market-based Scope 2 and the certificates behind the Chennai PPA."
+ ]
+}

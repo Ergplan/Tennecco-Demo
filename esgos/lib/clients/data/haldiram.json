@@ -1,0 +1,1022 @@
+{
+ "generated": "2026-10-04",
+ "readNote": "Every public value here was read from search-engine extracts because the source pages were not reachable; each carries its URL and a confidence rating. Plant ownership after the demerger is assumed.",
+ "company": {
+  "legalName": "Haldiram Snacks Food Private Limited",
+  "cin": "U15400HR2022PTC108327",
+  "pan": "AAGCH6000C",
+  "panNote": "Derived from HSFPL GSTINs (characters 3-12) and linked to the CIN by a Falcon Ebiz snippet; not read from an MCA record.",
+  "registeredOffice": "Haldiram - Village Kherki Daula, Delhi - Jaipur Highway, Gurgaon (Gurugram), Haryana 122001, India",
+  "incorporated": "2022-12-12 (Registrar of Companies, Haryana; status Active)",
+  "formedBy": "HSFPL was incorporated on 12 Dec 2022 as the resulting company of a composite Scheme of Arrangement (ss. 230-232 and s. 66, Companies Act 2013) under which the FMCG (packaged snacks/food) undertakings of Haldiram Snacks Pvt Ltd (HSPL, Delhi family) and Haldiram Foods International Pvt Ltd (HFIPL, Nagpur family) were DEMERGED into HSFPL, with HSPL's shareholders receiving 56% and HFIPL's shareholders 44% of HSFPL. Milestones: CCI notice filed 14 Mar 2023, CCI approval 3 Apr 2023; HFIPL board approved the scheme 15 Jul 2023; NCLT Chandigarh first-motion order reported as 19 Jan 2024 (CA(CAA) 42/Chd/Hry/2023, snippet only); creditor meetings 28 Mar 2024; second-motion petition CP(CAA) No. 10/Chd/Hry/2024 with an order dated 01 Jul 2024 (snippet; not confirmed whether that order is the final sanction). Completion was announced publicly by CEO Krishan Kumar Chutani in April 2025 (The Hitavada 9 Apr 2025). The scheme's appointed date and the date it became effective (ROC filing) were not found. Because this was a demerger, HSPL and HFIPL themselves were not dissolved: MCA-mirror sites still show both as Active, and the restaurant businesses remained outside HSFPL.",
+  "ipo": "No DRHP for Haldiram Snacks Food was found. SEBI, NSE and BSE could not be checked directly because those sites were blocked. A secondary IPO-news site said in June 2026 that no DRHP had been filed. What is reported: (a) Jan-Mar 2025 coverage of the Temasek deal presented the stake sales as pre-IPO, with a listing expected in roughly 12-24 months (Lapaas Voice: 18-24 months at USD 10-12 bn). (b) Retail-broker and IPO-news sites (Angel One, IPOCentral, about Sep 2025) said the board had started discussing issue size and timing, targeting a Rs 4,000-5,000 crore issue (fresh issue plus OFS) at a USD 8-10 bn valuation, first for FY26 and later 2027. No timing has been confirmed by the company, and none of this comes from a primary source. Confidence: low.",
+  "excluded": "NOT part of HSFPL: (1) The Kolkata family business, Haldiram Bhujiawala Ltd (brand 'Prabhuji', from the Rameshwar Lal / Prabhu Shankar Agarwal line). Its plants are in Hooghly district, West Bengal (Singur; Ghanashyampur, NH-2, PIN 712409), with 3 facilities of 6,035 MTPA per CARE 2023. An IPAB order of 26 Apr 2013 removed its 'Haldiram Bhujiawala' registration. The 'Hooghly' plant on Wikipedia's plant list very probably belongs to this Kolkata business and is left out here. (2) Bikaner-origin relatives' companies: Bikaji Foods International (listed) and Bikanervala, which are separate brands and families. (3) Delhi-family companies outside the FMCG demerger: Haldiram Marketing Pvt Ltd, the resulting company of a separate NCLT Chandigarh scheme (second-motion hearing 2 May 2025) that took in Haldiram Manufacturing Co Pvt Ltd (Kherki Daula), Haldiram Ethnic Foods Pvt Ltd (Mohan Co-op Industrial Estate, New Delhi), Haldi Ram Products, HR Bakers, Haldiram Retail and Dreamcann Foods. These cover the restaurant, retail, sweets and bakery businesses. Also outside: Haldiram India Pvt Ltd (the trademark plaintiff in the 2024 Delhi HC 'well-known mark' case; its relationship to HSFPL, such as a brand licence, is not public) and Haldiram Snacks Manufacturing Pvt Ltd (CIN U15490DL2021PTC390449). (4) Nagpur-family restaurants and base kitchens, which haldirams.com lists as operated by OAM Industries (India) Pvt Ltd. (5) The residual HSPL and HFIPL companies themselves. Reports that the merger included 'Bikaner operations' (Angel One / IPO blogs) are not supported by CCI, NCLT or CRISIL.",
+  "shareholders": [
+   {
+    "name": "Delhi Agarwal family (shareholders of HSPL: Manohar Agarwal, Madhusudan Agarwal and relatives)",
+    "stakePct": 56,
+    "date": "2023-04-03 (scheme ratio, before the 2025 investor deals)",
+    "valuationUsdBn": null,
+    "note": "Stake after the Temasek, Alpha Wave and IHC deals is not public. The deals are reported as secondary sales by existing shareholders, so the family split is presumably diluted pro rata (inference).",
+    "source": {
+     "title": "CCI approves demerger of FMCG business of Haldiram Snacks and Haldiram Foods into Haldiram Snacks Food and acquisition of 56% and 44% shareholding in Haldiram Snacks Food by existing shareholders",
+     "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1913422",
+     "publisher": "Press Information Bureau (Govt of India) / Competition Commission of India",
+     "date": "2023-04-03",
+     "note": "Read from a search-engine extract; the page itself was not reachable; confidence high."
+    }
+   },
+   {
+    "name": "Nagpur Agarwal family (shareholders of HFIPL: Shiv Kishan Agarwal and family)",
+    "stakePct": 44,
+    "date": "2023-04-03 (scheme ratio, before the 2025 investor deals)",
+    "valuationUsdBn": null,
+    "note": null,
+    "source": {
+     "title": "CCI approves demerger of FMCG business of Haldiram Snacks and Haldiram Foods into Haldiram Snacks Food and acquisition of 56% and 44% shareholding in Haldiram Snacks Food by existing shareholders",
+     "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1913422",
+     "publisher": "Press Information Bureau (Govt of India) / Competition Commission of India",
+     "date": "2023-04-03",
+     "note": "Read from a search-engine extract; the page itself was not reachable; confidence high."
+    }
+   },
+   {
+    "name": "Temasek Holdings, via Jongsong Investments Pte. Ltd.",
+    "stakePct": 10,
+    "date": "Agreement announced 2025-03-30; CCI approval 2025-05-20",
+    "valuationUsdBn": 10,
+    "note": "Media say about 10% for about USD 1 bn. The CCI filing says 'less than 10%', so the exact figure is probably just under 10%. Closing date not public.",
+    "source": {
+     "title": "Haldiram enters into agreement with Temasek as strategic investment partner",
+     "url": "https://www.theweek.in/wire-updates/business/2025/03/30/dcm17-biz-haldiram-temasek.html",
+     "publisher": "The Week (PTI wire)",
+     "date": "2025-03-30",
+     "note": "Read from a search-engine extract; the page itself was not reachable; confidence high."
+    }
+   },
+   {
+    "name": "Alpha Wave Global and International Holding Company (IHC, Abu Dhabi), via Alpha Wave Ventures II, LP and Alpha Wave IHC CI, LP",
+    "stakePct": 6,
+    "date": "Announced 2025-03-31; CCI approval 2025-06-24",
+    "valuationUsdBn": 10,
+    "note": "About 6% combined; the split between the two was not disclosed. Industry sources value the deal at about Rs 5,100 crore. Closing date not public.",
+    "source": {
+     "title": "After Temasek, Haldiram's attracts two more investors IHC, Alpha Wave",
+     "url": "https://www.business-standard.com/companies/news/after-temasek-haldiram-s-attracts-two-more-investors-ihc-alpha-wave-125033100747_1.html",
+     "publisher": "Business Standard",
+     "date": "2025-03-31",
+     "note": "Read from a search-engine extract; the page itself was not reachable; confidence medium."
+    }
+   }
+  ],
+  "source": {
+   "title": "Haldiram Snacks Food Private Limited - FY 2026 Profile",
+   "url": "https://www.thecompanycheck.com/company/haldiram-snacks-food-private-limited/U15400HR2022PTC108327",
+   "publisher": "TheCompanyCheck (MCA-data mirror)",
+   "note": "Read from a search-engine extract; the page itself was not reachable; confidence medium."
+  }
+ },
+ "revenue": {
+  "fy": "FY2024-25",
+  "value": 12977,
+  "source": {
+   "title": "Haldiram Snacks Food Private Limited - Rating Rationale",
+   "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/HaldiramSnacksFoodPrivateLimited_January%2029_%202026_RR_387859.html",
+   "publisher": "CRISIL Ratings",
+   "date": "2026-01-29",
+   "note": "Read from a search-engine extract; the page itself was not reachable; confidence high."
+  },
+  "note": "CRISIL rating rationale (29 Jan 2026): scale of operations for the combined business, about ₹12,977 crore in fiscal 2025, operating margin 18–19%. Audited HSFPL statements are not public."
+ },
+ "financials": [
+  {
+   "fy": "FY2023-24",
+   "metric": "Revenue (Delhi group, Haldiram Snacks Pvt Ltd)",
+   "basis": "standalone/Delhi group as stated by CRISIL (exact basis not visible in snippet)",
+   "value": 6976,
+   "unit": "INR crore",
+   "source": {
+    "title": "Haldiram Snacks Private Limited - Rating Rationale",
+    "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/HaldiramSnacksPrivateLimited_April%2028_%202025_RR_367204.html",
+    "publisher": "CRISIL Ratings",
+    "date": "2025-04-28",
+    "note": "Read from a search-engine extract; the page itself was not reachable; confidence medium."
+   }
+  },
+  {
+   "fy": "FY2023-24",
+   "metric": "Revenue (Nagpur group, Haldiram Foods International and group entities)",
+   "basis": "combined group (CRISIL)",
+   "value": 5045,
+   "unit": "INR crore",
+   "source": {
+    "title": "Haldiram Foods International Private Limited - Rating Rationale",
+    "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/HaldiramFoodsInternationalPrivateLimited_January%2028_%202025_RR_361388.html",
+    "publisher": "CRISIL Ratings",
+    "date": "2025-01-28",
+    "note": "Read from a search-engine extract; the page itself was not reachable; confidence high."
+   }
+  },
+  {
+   "fy": "FY2023-24",
+   "metric": "Operating profitability (Nagpur group)",
+   "basis": "combined group (CRISIL)",
+   "value": 16.7,
+   "unit": "% of revenue",
+   "source": {
+    "title": "Haldiram Foods International Private Limited - Rating Rationale",
+    "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/HaldiramFoodsInternationalPrivateLimited_January%2028_%202025_RR_361388.html",
+    "publisher": "CRISIL Ratings",
+    "date": "2025-01-28",
+    "note": "Read from a search-engine extract; the page itself was not reachable; confidence high."
+   }
+  },
+  {
+   "fy": "FY2023-24",
+   "metric": "Revenue, Delhi + Nagpur combined",
+   "basis": "combined (reported by media / Wikipedia)",
+   "value": 12800,
+   "unit": "INR crore",
+   "source": {
+    "title": "Haldiram's",
+    "url": "https://en.wikipedia.org/wiki/Haldiram%27s",
+    "publisher": "Wikipedia",
+    "note": "Read from a search-engine extract; the page itself was not reachable; confidence low."
+   }
+  },
+  {
+   "fy": "FY2024-25",
+   "metric": "Scale of operations (revenue), Haldiram Snacks Food after consolidation",
+   "basis": "combined (CRISIL rating rationale; pro forma for both factions)",
+   "value": 12977,
+   "unit": "INR crore",
+   "source": {
+    "title": "Haldiram Snacks Food Private Limited - Rating Rationale",
+    "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/HaldiramSnacksFoodPrivateLimited_January%2029_%202026_RR_387859.html",
+    "publisher": "CRISIL Ratings",
+    "date": "2026-01-29",
+    "note": "Read from a search-engine extract; the page itself was not reachable; confidence high."
+   }
+  },
+  {
+   "fy": "FY2024-25",
+   "metric": "Revenue as filed by Haldiram Snacks Food (aggregator figure)",
+   "basis": "standalone (per Tracxn; unverified)",
+   "value": 5058,
+   "unit": "INR crore",
+   "source": {
+    "title": "HALDIRAM SNACKS FOOD PRIVATE LIMITED - 2026 Company Profile & Financials",
+    "url": "https://tracxn.com/d/legal-entities/india/haldiram-snacks-food-private-limited/__hRmiDa8on4-gpd8RZgYdVKvU6fxy3NEOktYtRrfgRFY",
+    "publisher": "Tracxn (MCA-filing aggregator)",
+    "note": "Read from a search-engine extract; the page itself was not reachable; confidence low."
+   }
+  },
+  {
+   "fy": "FY2025-26 (H1, Apr-Sep 2025)",
+   "metric": "Revenue",
+   "basis": "standalone, Haldiram Snacks Food (CRISIL)",
+   "value": 7762,
+   "unit": "INR crore",
+   "source": {
+    "title": "Haldiram Snacks Food Private Limited - Rating Rationale",
+    "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/HaldiramSnacksFoodPrivateLimited_January%2029_%202026_RR_387859.html",
+    "publisher": "CRISIL Ratings",
+    "date": "2026-01-29",
+    "note": "Read from a search-engine extract; the page itself was not reachable; confidence high."
+   }
+  },
+  {
+   "fy": "FY2025-26 (H1)",
+   "metric": "Operating margin",
+   "basis": "standalone, Haldiram Snacks Food (CRISIL)",
+   "value": 19,
+   "unit": "% (approx.)",
+   "source": {
+    "title": "Haldiram Snacks Food Private Limited - Rating Rationale",
+    "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/HaldiramSnacksFoodPrivateLimited_January%2029_%202026_RR_387859.html",
+    "publisher": "CRISIL Ratings",
+    "date": "2026-01-29",
+    "note": "Read from a search-engine extract; the page itself was not reachable; confidence high."
+   }
+  },
+  {
+   "fy": "as of 2026",
+   "metric": "Paid-up share capital",
+   "basis": "standalone (MCA-data mirror)",
+   "value": 1500,
+   "unit": "INR crore",
+   "source": {
+    "title": "Haldiram Snacks Food Financials",
+    "url": "https://www.tofler.in/haldiram-snacks-food-private-limited/company/U15400HR2022PTC108327",
+    "publisher": "Tofler (MCA-data mirror)",
+    "note": "Read from a search-engine extract; the page itself was not reachable; confidence medium."
+   }
+  },
+  {
+   "fy": "FY2017-18",
+   "metric": "Revenue, Hariomkar Food Products (HFIPL subsidiary)",
+   "basis": "standalone (CRISIL)",
+   "value": 263,
+   "unit": "INR crore",
+   "source": {
+    "title": "Hariomkar Food Products Private Limited - Rating Rationale",
+    "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/Hariomkar_Food_Products_Private_Limited_September_27_2018_RR.html",
+    "publisher": "CRISIL Ratings",
+    "date": "2018-09-27",
+    "note": "Read from a search-engine extract; the page itself was not reachable; confidence medium."
+   }
+  }
+ ],
+ "sites": [
+  {
+   "key": "registered-office",
+   "id": "site-hs-ro",
+   "name": "Registered office, Kherki Daula",
+   "type": "office",
+   "via": "registry",
+   "city": "Gurugram",
+   "state": "Haryana",
+   "lat": 28.3958,
+   "lng": 76.9858,
+   "address": "Haldiram, Village Kherki Daula, Delhi–Jaipur Highway, Gurugram 122001",
+   "geoQuery": "Kherki Daula, Gurugram, Haryana",
+   "entityName": "Haldiram Snacks Food Private Limited",
+   "ownerRole": "Office admin",
+   "source": {
+    "title": "Haldiram Snacks Food Private Limited - FY 2026 Profile",
+    "url": "https://www.thecompanycheck.com/company/haldiram-snacks-food-private-limited/U15400HR2022PTC108327",
+    "publisher": "TheCompanyCheck (MCA-data mirror)",
+    "note": "Read from a search-engine extract; the page itself was not reachable; confidence medium."
+   },
+   "note": "Registered office of HSFPL (and of the two companies it was demerged from). Manufacturing at this address is listed under Haldiram Manufacturing Co, which went to Haldiram Marketing Pvt Ltd, not HSFPL."
+  },
+  {
+   "key": "noida-b1",
+   "id": "site-hs-noida-b1",
+   "name": "Noida B-1, Sector 63",
+   "type": "factory",
+   "via": "brsr",
+   "city": "Noida",
+   "state": "Uttar Pradesh",
+   "lat": 28.6262,
+   "lng": 77.3772,
+   "address": "B-1, Sector-63, Noida 201307, Uttar Pradesh",
+   "geoQuery": "B-1, Sector-63, Noida 201307, Noida",
+   "entityName": "Haldiram Snacks Food Private Limited",
+   "products": "Namkeen and packaged snacks",
+   "source": {
+    "title": "Draft Action Plan for Critically/Severely Polluted Area - Noida (CEPI)",
+    "url": "https://cpcb.nic.in/industrial_pollution/New_Action_Plans/CEPI_Action%20Plan_Noida.pdf",
+    "publisher": "Central Pollution Control Board / UPPCB",
+    "date": "c. 2019-2020 (CEPI-2018 action-plan series; exact date not visible)",
+    "note": "Read from a search-engine extract; the page itself was not reachable; confidence medium."
+   },
+   "moreSources": [
+    {
+     "title": "Client file: Energy_Consumption_Estimated.xlsx (plant electricity, CY 2025)",
+     "publisher": "Haldiram Snacks (shared with the consultant)",
+     "note": "Shared by the client; not public. Plant named as a row in the workbook."
+    }
+   ],
+   "note": "Listed by the CPCB/UPPCB action plan for Noida (a critically polluted area) as a Haldiram Snacks unit with an effluent treatment plant. Also row \"B1\" in your energy file. Transfer to HSFPL with the FMCG undertaking is assumed, not confirmed per site.",
+   "ownerRole": "Plant head"
+  },
+  {
+   "key": "noida-a234",
+   "id": "site-hs-noida-a234",
+   "name": "Noida A-2/3/4, Sector 65",
+   "type": "factory",
+   "via": "brsr",
+   "city": "Noida",
+   "state": "Uttar Pradesh",
+   "lat": 28.6052,
+   "lng": 77.3877,
+   "address": "A-2, 3, 4, Sector-65, Noida 201301/201309, Uttar Pradesh",
+   "geoQuery": "A-2, 3, 4, Sector-65, Noida 201301/201309, Noida",
+   "entityName": "Haldiram Snacks Food Private Limited",
+   "products": "Namkeen and packaged snacks",
+   "source": {
+    "title": "Draft Action Plan for Critically/Severely Polluted Area - Noida (CEPI)",
+    "url": "https://cpcb.nic.in/industrial_pollution/New_Action_Plans/CEPI_Action%20Plan_Noida.pdf",
+    "publisher": "Central Pollution Control Board / UPPCB",
+    "date": "c. 2019-2020 (CEPI-2018 action-plan series; exact date not visible)",
+    "note": "Read from a search-engine extract; the page itself was not reachable; confidence medium."
+   },
+   "moreSources": [
+    {
+     "title": "Client file: Energy_Consumption_Estimated.xlsx (plant electricity, CY 2025)",
+     "publisher": "Haldiram Snacks (shared with the consultant)",
+     "note": "Shared by the client; not public. Plant named as a row in the workbook."
+    }
+   ],
+   "note": "Listed by the CPCB/UPPCB action plan for Noida (a critically polluted area) as a Haldiram Snacks unit with an effluent treatment plant. Also row \"A2/3/4 Sector65\" in your energy file. Transfer to HSFPL with the FMCG undertaking is assumed, not confirmed per site.",
+   "ownerRole": "Plant head"
+  },
+  {
+   "key": "noida-c3",
+   "id": "site-hs-noida-c3",
+   "name": "Noida C-3, Sector 67",
+   "type": "factory",
+   "via": "brsr",
+   "city": "Noida",
+   "state": "Uttar Pradesh",
+   "lat": 28.6006,
+   "lng": 77.3812,
+   "address": "C-3, Sector-67, Noida 201307, Uttar Pradesh",
+   "geoQuery": "C-3, Sector-67, Noida 201307, Noida",
+   "entityName": "Haldiram Snacks Food Private Limited",
+   "products": "Namkeen and packaged snacks",
+   "source": {
+    "title": "Draft Action Plan for Critically/Severely Polluted Area - Noida (CEPI)",
+    "url": "https://cpcb.nic.in/industrial_pollution/New_Action_Plans/CEPI_Action%20Plan_Noida.pdf",
+    "publisher": "Central Pollution Control Board / UPPCB",
+    "date": "c. 2019-2020 (CEPI-2018 action-plan series; exact date not visible)",
+    "note": "Read from a search-engine extract; the page itself was not reachable; confidence medium."
+   },
+   "moreSources": [
+    {
+     "title": "Client file: Energy_Consumption_Estimated.xlsx (plant electricity, CY 2025)",
+     "publisher": "Haldiram Snacks (shared with the consultant)",
+     "note": "Shared by the client; not public. Plant named as a row in the workbook."
+    }
+   ],
+   "note": "Listed by the CPCB/UPPCB action plan for Noida (a critically polluted area) as a Haldiram Snacks unit with an effluent treatment plant. Also row \"C3\" in your energy file. Transfer to HSFPL with the FMCG undertaking is assumed, not confirmed per site.",
+   "ownerRole": "Plant head"
+  },
+  {
+   "key": "noida-a11",
+   "id": "site-hs-noida-a11",
+   "name": "Noida A-11, Sector 68",
+   "type": "factory",
+   "via": "brsr",
+   "city": "Noida",
+   "state": "Uttar Pradesh",
+   "lat": 28.5917,
+   "lng": 77.3889,
+   "address": "A-11, Sector-68, Noida, Uttar Pradesh",
+   "geoQuery": "A-11, Sector-68, Noida, Noida",
+   "entityName": "Haldiram Snacks Food Private Limited",
+   "products": "Namkeen and packaged snacks",
+   "source": {
+    "title": "Draft Action Plan for Critically/Severely Polluted Area - Noida (CEPI)",
+    "url": "https://cpcb.nic.in/industrial_pollution/New_Action_Plans/CEPI_Action%20Plan_Noida.pdf",
+    "publisher": "Central Pollution Control Board / UPPCB",
+    "date": "c. 2019-2020 (CEPI-2018 action-plan series; exact date not visible)",
+    "note": "Read from a search-engine extract; the page itself was not reachable; confidence medium."
+   },
+   "moreSources": [
+    {
+     "title": "Client file: Energy_Consumption_Estimated.xlsx (plant electricity, CY 2025)",
+     "publisher": "Haldiram Snacks (shared with the consultant)",
+     "note": "Shared by the client; not public. Plant named as a row in the workbook."
+    }
+   ],
+   "note": "Listed by the CPCB/UPPCB action plan for Noida (a critically polluted area) as a Haldiram Snacks unit with an effluent treatment plant. Also row \"A11\" in your energy file. Transfer to HSFPL with the FMCG undertaking is assumed, not confirmed per site.",
+   "ownerRole": "Plant head"
+  },
+  {
+   "key": "sandila",
+   "id": "site-hs-sandila",
+   "name": "Sandila (Hardoi)",
+   "type": "factory",
+   "via": "brsr",
+   "city": "Sandila",
+   "state": "Uttar Pradesh",
+   "lat": 27.0745,
+   "lng": 80.5168,
+   "address": "UPSIDA industrial area, Sandila, Hardoi (plot not public)",
+   "geoQuery": "UPSIDA Industrial Area, Sandila, Hardoi, Uttar Pradesh",
+   "entityName": "Haldiram Snacks Food Private Limited",
+   "capacity": "5 acres; about ₹50 crore investment (2021)",
+   "source": {
+    "title": "Haldiram unit at Sandila",
+    "url": "https://projectxindia.com/2021/10/29/haldiram-unit-at-sandila/",
+    "publisher": "ProjectX India",
+    "date": "2021-10-29",
+    "note": "Read from a search-engine extract; the page itself was not reachable; confidence medium."
+   },
+   "moreSources": [
+    {
+     "title": "Client file: Energy_Consumption_Estimated.xlsx (plant electricity, CY 2025)",
+     "publisher": "Haldiram Snacks (shared with the consultant)",
+     "note": "Shared by the client; not public. Plant named as a row in the workbook."
+    }
+   ],
+   "note": "Reported as being set up in Oct 2021. Your energy file shows it drawing power from April 2025 (estimated from connected load), so it is treated as operating.",
+   "ownerRole": "Plant head"
+  },
+  {
+   "key": "rudrapur",
+   "id": "site-hs-rudrapur",
+   "name": "Rudrapur, SIDCUL Pantnagar",
+   "type": "factory",
+   "via": "brsr",
+   "city": "Rudrapur",
+   "state": "Uttarakhand",
+   "lat": 28.9936,
+   "lng": 79.4196,
+   "address": "Plot No. 2B, Sector 1, IIE SIDCUL, Pantnagar, Rudrapur, Uttarakhand 263153",
+   "geoQuery": "SIDCUL Pantnagar, Rudrapur, Uttarakhand",
+   "entityName": "Haldiram Snacks Food Private Limited",
+   "products": "Pasta, snack pellets, namkeen (directory listing)",
+   "source": {
+    "title": "Haldiram Snacks Private Limited - Rating Rationale",
+    "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/HaldiramSnacksPrivateLimited_August%2012_%202024_RR_350310.html",
+    "publisher": "CRISIL Ratings",
+    "date": "2024-08-12",
+    "note": "Read from a search-engine extract; the page itself was not reachable; confidence medium."
+   },
+   "moreSources": [
+    {
+     "title": "Haldiram Snacks Pvt. Ltd. in Rudrapur, Uttarakhand, India - Company Profile",
+     "url": "https://www.tradeindia.com/haldiram-snacks-pvt-ltd-3342846/",
+     "publisher": "TradeIndia (B2B directory)",
+     "note": "Read from a search-engine extract; the page itself was not reachable; confidence low."
+    }
+   ],
+   "note": "CRISIL names Rudrapur as a Haldiram Snacks manufacturing location; the plot address is from a B2B directory. Not in your energy file.",
+   "ownerRole": "Plant head"
+  },
+  {
+   "key": "nagpur-gumthala",
+   "id": "site-hs-gumthala",
+   "name": "Nagpur, Gumthala (Bhandara Road)",
+   "type": "factory",
+   "via": "brsr",
+   "city": "Nagpur",
+   "state": "Maharashtra",
+   "lat": 21.1712,
+   "lng": 79.2486,
+   "address": "20 Km Stone, Kh. No. 397, 407 (also cited as 405), Village Gumthala, Bhandara Road, Tah. Kamptee, Nagpur 441104",
+   "geoQuery": "Gumthala, Kamptee, Nagpur, Maharashtra",
+   "entityName": "Haldiram Snacks Food Private Limited",
+   "products": "Namkeen, sweets, frozen and packaged foods",
+   "source": {
+    "title": "HALDIRAM FOODS INTERNATIONAL PRIVATE LIMITED Company Profile",
+    "url": "https://www.dnb.com/business-directory/company-profiles.haldiram_foods_international_private_limited.08018a7365b3074a3cfd462a4bb75a94.html",
+    "publisher": "Dun & Bradstreet business directory",
+    "note": "Read from a search-engine extract; the page itself was not reachable; confidence low."
+   },
+   "moreSources": [
+    {
+     "title": "Haldirams Nagpur - Offices",
+     "url": "https://www.haldirams.com/offices",
+     "publisher": "Haldiram Foods International (company website, haldirams.com)",
+     "note": "Read from a search-engine extract; the page itself was not reachable; confidence medium."
+    },
+    {
+     "title": "Haldiram Foods International Private Limited - Rating Rationale",
+     "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/HaldiramFoodsInternationalPrivateLimited_February%2025,%202022_RR_288025.html",
+     "publisher": "CRISIL Ratings",
+     "date": "2022-02-25",
+     "note": "Read from a search-engine extract; the page itself was not reachable; confidence medium."
+    }
+   ],
+   "note": "Main complex of the Nagpur business (Haldiram Foods International), assumed transferred to HSFPL. The 2017 \"Hariomkar\" unit may be on this campus. A 1.5 MW solar plant was installed at a Nagpur factory in 2014. Not in your energy file.",
+   "ownerRole": "Plant head"
+  },
+  {
+   "key": "nagpur-kapsi",
+   "id": "site-hs-kapsi",
+   "name": "Nagpur, Kapsi Unit II",
+   "type": "factory",
+   "via": "brsr",
+   "city": "Nagpur",
+   "state": "Maharashtra",
+   "lat": 21.1467,
+   "lng": 79.1873,
+   "address": "Village Kapsi, Mega Project, Kapsi Unit II, Kapsi BK, Nagpur",
+   "geoQuery": "Kapsi Budruk, Nagpur, Maharashtra",
+   "entityName": "Haldiram Snacks Food Private Limited",
+   "products": "Instant food mixes (directory category)",
+   "source": {
+    "title": "Haldiram Foods International Limited in Kapsi BK, Nagpur",
+    "url": "https://www.indianyellowpages.com/nagpur/haldiram-foods-international-limited-kapsi-bk-nagpur-1483611/",
+    "publisher": "Indian Yellow Pages (directory)",
+    "note": "Read from a search-engine extract; the page itself was not reachable; confidence low."
+   },
+   "status": "unconfirmed",
+   "statusNote": "Only a business directory names this unit. Is it an operating HSFPL plant this year?",
+   "ownerRole": "Plant head"
+  },
+  {
+   "key": "bihta",
+   "id": "site-hs-bihta",
+   "name": "Bihta (Patna)",
+   "type": "factory",
+   "via": "brsr",
+   "city": "Bihta",
+   "state": "Bihar",
+   "lat": 25.558,
+   "lng": 84.8712,
+   "address": "Industrial Area Sikandarpur, Bihta, Patna (12 acres)",
+   "geoQuery": "Sikandarpur Industrial Area, Bihta, Patna, Bihar",
+   "entityName": "Haldiram Snacks Food Private Limited",
+   "capacity": "About ₹300 crore; 12 acres",
+   "source": {
+    "title": "Haldiram Snack to invest Rs 300 crore in Bihar; will set up manufacturing plant",
+    "url": "https://theprint.in/economy/haldiram-snack-to-invest-rs-300-crore-in-bihar-will-set-up-manufacturing-plant/2413033/",
+    "publisher": "ThePrint (PTI)",
+    "date": "2024-12",
+    "note": "Read from a search-engine extract; the page itself was not reachable; confidence medium."
+   },
+   "status": "under-construction",
+   "statusNote": "MoU signed Dec 2024; operations targeted for mid-2027. Leave it out of this year and add it when it starts production?",
+   "ownerRole": "Plant head"
+  },
+  {
+   "key": "noida-a12",
+   "id": "site-hs-noida-a12",
+   "name": "Noida A-12",
+   "type": "factory",
+   "via": "brsr",
+   "city": "Noida",
+   "state": "Uttar Pradesh",
+   "lat": 28.6135,
+   "lng": 77.37,
+   "entityName": "Haldiram Snacks Food Private Limited",
+   "source": {
+    "title": "Client file: Energy_Consumption_Estimated.xlsx (plant electricity, CY 2025)",
+    "publisher": "Haldiram Snacks (shared with the consultant)",
+    "note": "Shared by the client; not public. Plant named as a row in the workbook."
+   },
+   "fromClientFile": true,
+   "approximatePin": true,
+   "note": "Row \"A12\" in your energy file. No address in the file or in public records; the pin is approximate. Plot naming matches the Noida sector plots, so it is placed in Noida.",
+   "ownerRole": "Plant head"
+  },
+  {
+   "key": "noida-b2",
+   "id": "site-hs-noida-b2",
+   "name": "Noida B-2",
+   "type": "factory",
+   "via": "brsr",
+   "city": "Noida",
+   "state": "Uttar Pradesh",
+   "lat": 28.624,
+   "lng": 77.382,
+   "entityName": "Haldiram Snacks Food Private Limited",
+   "source": {
+    "title": "Client file: Energy_Consumption_Estimated.xlsx (plant electricity, CY 2025)",
+    "publisher": "Haldiram Snacks (shared with the consultant)",
+    "note": "Shared by the client; not public. Plant named as a row in the workbook."
+   },
+   "fromClientFile": true,
+   "approximatePin": true,
+   "note": "Row \"B2\" in your energy file. No address in the file or in public records; the pin is approximate. Plot naming matches the Noida sector plots, so it is placed in Noida.",
+   "ownerRole": "Plant head"
+  },
+  {
+   "key": "noida-c1",
+   "id": "site-hs-noida-c1",
+   "name": "Noida C-1",
+   "type": "factory",
+   "via": "brsr",
+   "city": "Noida",
+   "state": "Uttar Pradesh",
+   "lat": 28.603,
+   "lng": 77.376,
+   "entityName": "Haldiram Snacks Food Private Limited",
+   "source": {
+    "title": "Client file: Energy_Consumption_Estimated.xlsx (plant electricity, CY 2025)",
+    "publisher": "Haldiram Snacks (shared with the consultant)",
+    "note": "Shared by the client; not public. Plant named as a row in the workbook."
+   },
+   "fromClientFile": true,
+   "approximatePin": true,
+   "note": "Row \"C1\" in your energy file. No address in the file or in public records; the pin is approximate. Plot naming matches the Noida sector plots, so it is placed in Noida.",
+   "ownerRole": "Plant head"
+  },
+  {
+   "key": "greater-noida",
+   "id": "site-hs-greater-noida",
+   "name": "Greater Noida",
+   "type": "factory",
+   "via": "brsr",
+   "city": "Greater Noida",
+   "state": "Uttar Pradesh",
+   "lat": 28.4744,
+   "lng": 77.504,
+   "entityName": "Haldiram Snacks Food Private Limited",
+   "source": {
+    "title": "Client file: Energy_Consumption_Estimated.xlsx (plant electricity, CY 2025)",
+    "publisher": "Haldiram Snacks (shared with the consultant)",
+    "note": "Shared by the client; not public. Plant named as a row in the workbook."
+   },
+   "fromClientFile": true,
+   "approximatePin": true,
+   "note": "Row \"Greater Noida\" in your energy file. No address in the file or in public records; the pin is approximate. The file names the town only.",
+   "ownerRole": "Plant head"
+  },
+  {
+   "key": "plant-155",
+   "id": "site-hs-plant-155",
+   "name": "Plant 155",
+   "type": "factory",
+   "via": "brsr",
+   "city": "Noida",
+   "state": "Uttar Pradesh",
+   "lat": 28.585,
+   "lng": 77.395,
+   "entityName": "Haldiram Snacks Food Private Limited",
+   "source": {
+    "title": "Client file: Energy_Consumption_Estimated.xlsx (plant electricity, CY 2025)",
+    "publisher": "Haldiram Snacks (shared with the consultant)",
+    "note": "Shared by the client; not public. Plant named as a row in the workbook."
+   },
+   "fromClientFile": true,
+   "approximatePin": true,
+   "note": "Row \"155\" in your energy file. No address in the file or in public records; the pin is approximate. The file gives only \"155\"; placed with the Noida plants until you confirm where it is.",
+   "ownerRole": "Plant head"
+  },
+  {
+   "key": "noida-62",
+   "id": "site-hs-noida62",
+   "name": "Noida office, C-31 Sector 62",
+   "type": "office",
+   "via": "gst",
+   "city": "Noida",
+   "state": "Uttar Pradesh",
+   "lat": 28.627,
+   "lng": 77.365,
+   "address": "C-31, Sector-62, Noida, Gautam Buddh Nagar, Uttar Pradesh 201309",
+   "geoQuery": "C-31, Sector 62, Noida",
+   "entityName": "Haldiram Snacks Food Private Limited",
+   "ownerRole": "Office admin",
+   "source": {
+    "title": "Haldiram Snacks Food Private Limited - 09AAGCH6000C1Z3 - Uttar Pradesh",
+    "url": "https://www.knowyourgst.com/gst-number-search/haldiram-snacks-food-private-limited-09AAGCH6000C1Z3/",
+    "publisher": "KnowYourGST (GST lookup mirror); also piceapp.com and taxadda",
+    "date": "2024-09-18 (GST registration date)",
+    "note": "Read from a search-engine extract; the page itself was not reachable; confidence medium."
+   },
+   "note": "Address of HSFPL's Uttar Pradesh GSTIN and the manufacturer address printed on packs. Treated as an office; one source calls it the corporate office."
+  },
+  {
+   "key": "nagpur-office",
+   "id": "site-hs-nagpur-office",
+   "name": "Nagpur office, Haldiram House",
+   "type": "office",
+   "via": "gst",
+   "city": "Nagpur",
+   "state": "Maharashtra",
+   "lat": 21.153,
+   "lng": 79.129,
+   "address": "Haldiram House, Plot No. 145-146, Bhandara Road, Nagpur 440008",
+   "geoQuery": "Haldiram House, Bhandara Road, Nagpur",
+   "entityName": "Haldiram Snacks Food Private Limited",
+   "ownerRole": "Office admin",
+   "source": {
+    "title": "Haldiram Snacks Food Private Limited - 27AAGCH6000C1Z5 - Maharashtra",
+    "url": "https://www.knowyourgst.com/gst-number-search/haldiram-snacks-food-private-limited-27AAGCH6000C1Z5/",
+    "publisher": "KnowYourGST (GST lookup mirror)",
+    "date": "2024-08-28 (GST registration date)",
+    "note": "Read from a search-engine extract; the page itself was not reachable; confidence medium."
+   },
+   "note": "Address of HSFPL's Maharashtra GSTIN; formerly the head office of Haldiram Foods International."
+  }
+ ],
+ "entities": [
+  {
+   "id": "ent-hs",
+   "name": "Haldiram Snacks Food Private Limited",
+   "shortName": "Haldiram Snacks Food",
+   "cin": "U15400HR2022PTC108327",
+   "relationship": "holding",
+   "country": "India",
+   "inBoundary": true,
+   "source": {
+    "title": "Haldiram Snacks Food Private Limited - FY 2026 Profile",
+    "url": "https://www.thecompanycheck.com/company/haldiram-snacks-food-private-limited/U15400HR2022PTC108327",
+    "publisher": "TheCompanyCheck (MCA-data mirror)",
+    "note": "Read from a search-engine extract; the page itself was not reachable; confidence medium."
+   },
+   "note": "Formed by demerging the packaged-food businesses of Haldiram Snacks Pvt Ltd (Delhi) and Haldiram Foods International Pvt Ltd (Nagpur), 56:44. CCI approval 3 Apr 2023; completion announced April 2025. No subsidiaries found on public record."
+  },
+  {
+   "id": "ent-hs-outside",
+   "name": "Promoter-family companies outside HSFPL",
+   "shortName": "Outside the listing entity",
+   "relationship": "associate",
+   "country": "India",
+   "inBoundary": false,
+   "aggregate": true,
+   "source": {
+    "title": "Haldiram Snacks Private Limited - Rating Rationale",
+    "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/HaldiramSnacksPrivateLimited_April%2028_%202025_RR_367204.html",
+    "publisher": "CRISIL Ratings",
+    "date": "2025-04-28",
+    "note": "Read from a search-engine extract; the page itself was not reachable; confidence medium."
+   },
+   "note": "Not subsidiaries of HSFPL and not part of the IPO perimeter: the companies the FMCG business was demerged from, and the restaurant, retail and sweets companies. The Kolkata business (Haldiram Bhujiawala, \"Prabhuji\") is a separate family and is not listed here.",
+   "members": [
+    {
+     "name": "Haldiram Snacks Pvt Ltd (residual: restaurants)",
+     "relationship": "common promoters",
+     "holdingPct": null,
+     "country": "India"
+    },
+    {
+     "name": "Haldiram Foods International Pvt Ltd (residual)",
+     "relationship": "common promoters",
+     "holdingPct": null,
+     "country": "India"
+    },
+    {
+     "name": "Haldiram Marketing Pvt Ltd (restaurants, retail, sweets; Delhi family)",
+     "relationship": "common promoters",
+     "holdingPct": null,
+     "country": "India"
+    }
+   ]
+  }
+ ],
+ "gst": [
+  {
+   "gstin": "09AAGCH6000C1Z3",
+   "state": "Uttar Pradesh",
+   "source": {
+    "title": "Haldiram Snacks Food Private Limited - 09AAGCH6000C1Z3 - Uttar Pradesh",
+    "url": "https://www.knowyourgst.com/gst-number-search/haldiram-snacks-food-private-limited-09AAGCH6000C1Z3/",
+    "publisher": "KnowYourGST (GST lookup mirror); also piceapp.com and taxadda",
+    "date": "2024-09-18 (GST registration date)",
+    "note": "Read from a search-engine extract; the page itself was not reachable; confidence medium."
+   },
+   "address": "C-31, Sector-62, Noida, Gautam Buddh Nagar, Uttar Pradesh 201309",
+   "siteKeys": [
+    "noida-62"
+   ]
+  },
+  {
+   "gstin": "27AAGCH6000C1Z5",
+   "state": "Maharashtra",
+   "source": {
+    "title": "Haldiram Snacks Food Private Limited - 27AAGCH6000C1Z5 - Maharashtra",
+    "url": "https://www.knowyourgst.com/gst-number-search/haldiram-snacks-food-private-limited-27AAGCH6000C1Z5/",
+    "publisher": "KnowYourGST (GST lookup mirror)",
+    "date": "2024-08-28 (GST registration date)",
+    "note": "Read from a search-engine extract; the page itself was not reachable; confidence medium."
+   },
+   "address": "Haldiram House, Plot No. 145, 146, Bhandara Road, Nagpur, Maharashtra 440008",
+   "siteKeys": [
+    "nagpur-office"
+   ]
+  },
+  {
+   "gstin": "18AAGCH6000C1Z4",
+   "state": "Assam",
+   "source": {
+    "title": "HALDIRAM SNACKS FOOD PRIVATE LIMITED GST Number - 18AAGCH6000C1Z4",
+    "url": "https://www.mastersindia.co/gst-search/?name=haldiram-snacks-food-private-limited&gstin=18AAGCH6000C1Z4",
+    "publisher": "Masters India (GST lookup mirror)",
+    "date": "2024-12-10 (GST registration date)",
+    "note": "Read from a search-engine extract; the page itself was not reachable; confidence medium."
+   }
+  },
+  {
+   "gstin": "05AAGCH6000C1ZB",
+   "state": "Uttarakhand",
+   "source": {
+    "title": "GST search results for Haldiram Snacks Food Private Limited",
+    "url": "https://www.knowyourgst.com/gst-number-search/haldiram-snacks-food-private-limited-09AAGCH6000C1Z3/",
+    "publisher": "KnowYourGST / Masters India (summary text)",
+    "note": "Read from a search-engine extract; the page itself was not reachable; confidence low."
+   },
+   "note": "Appeared only in search-engine summary text, not as a result URL. Check digit is valid. Probably linked to the Rudrapur plant."
+  }
+ ],
+ "esgFacts": [
+  {
+   "topic": "solar capacity (utility-scale, Telangana)",
+   "fact": "Haldiram Snacks Pvt Ltd owns a 10 MW ground-mounted solar PV plant in Telangana, commissioned Sep 2015, selling power to TSSPDCL under a PPA (EPC: Rays Power Infra). CRISIL describes it as HSPL's 'solar power plant in Hyderabad, Telangana'. Transfer to HSFPL not confirmed.",
+   "date": "2015-09",
+   "source": {
+    "title": "Power plant profile: TSSPDCL Haldiram Snacks Pvt. Ltd. Solar PV Park, India",
+    "url": "https://www.power-technology.com/data-insights/power-plant-profile-tsspdcl-haldiram-snacks-pvt-ltd-solar-pv-park-india/",
+    "publisher": "Power Technology (GlobalData)",
+    "note": "Read from a search-engine extract; the page itself was not reachable; confidence medium."
+   }
+  },
+  {
+   "topic": "solar capacity (captive, Uttar Pradesh)",
+   "fact": "CRISIL: HSPL has a captive solar plant in Hardoi, UP. An EPC firm lists a '10 MW / 14 MWp U.P.' project executed for Haldiram Snacks Pvt Ltd (probably the same asset; not confirmed).",
+   "date": null,
+   "source": {
+    "title": "Haldiram Snacks Private Limited - Rating Rationale",
+    "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/HaldiramSnacksPrivateLimited_August%2012_%202024_RR_350310.html",
+    "publisher": "CRISIL Ratings",
+    "date": "2024-08-12",
+    "note": "Read from a search-engine extract; the page itself was not reachable; confidence medium."
+   }
+  },
+  {
+   "topic": "renewable power purchase (group captive)",
+   "fact": "Sunsure's 82.5 MWp group-captive solar plant at Erach, Jhansi (UP), commissioned Sep 2025, supplies Haldiram's among other offtakers (about 128 million units/yr for the whole plant; Haldiram's share not disclosed).",
+   "date": "2025-09-22",
+   "source": {
+    "title": "Sunsure commissions 82.5 MWp open-access solar plant in Uttar Pradesh, its 10th in the State",
+    "url": "https://www.pv-magazine-india.com/2025/09/22/sunsure-commissions-82-5-mwp-open-access-solar-plant-in-uttar-pradesh-its-10th-in-the-state/",
+    "publisher": "pv magazine India",
+    "date": "2025-09-22",
+    "note": "Read from a search-engine extract; the page itself was not reachable; confidence medium."
+   }
+  },
+  {
+   "topic": "solar capacity (rooftop/onsite, Nagpur)",
+   "fact": "Haldiram Foods International installed a 1.5 MW solar PV plant at its Nagpur factory (Waaree; reported as the first such project in Vidarbha), for captive use.",
+   "date": "2014-05-22",
+   "source": {
+    "title": "Haldiram sets solar plant",
+    "url": "https://www.indianretailer.com/restaurant/news/haldiram-sets-solar-plant.n8295",
+    "publisher": "Indian Retailer / Restaurant India",
+    "date": "2014-05-22",
+    "note": "Read from a search-engine extract; the page itself was not reachable; confidence medium."
+   }
+  },
+  {
+   "topic": "effluent treatment / water",
+   "fact": "The CPCB/UPPCB CEPI action plan for Noida lists four Haldiram Snacks units (Sectors 63, 65, 67, 68) with effluent treatment plants discharging to the Kondli Drain, with UPPCB consent granted. Noida is a CEPI 'critically/severely polluted' cluster.",
+   "date": "c. 2019-2020",
+   "source": {
+    "title": "Draft Action Plan for Critically/Severely Polluted Area - Noida (CEPI)",
+    "url": "https://cpcb.nic.in/industrial_pollution/New_Action_Plans/CEPI_Action%20Plan_Noida.pdf",
+    "publisher": "Central Pollution Control Board / UPPCB",
+    "date": "c. 2019-2020 (CEPI-2018 action-plan series; exact date not visible)",
+    "note": "Read from a search-engine extract; the page itself was not reachable; confidence medium."
+   }
+  },
+  {
+   "topic": "certifications (food safety)",
+   "fact": "Company website claim: all products are 'BRC A' certified and regularly audited. No plant-level FSSC 22000 or BRCGS certificate could be verified.",
+   "date": null,
+   "source": {
+    "title": "About Haldiram Mission and Success",
+    "url": "https://international.haldiram.com/about",
+    "publisher": "Haldiram's (Delhi) international website",
+    "note": "Read from a search-engine extract; the page itself was not reachable; confidence low."
+   }
+  },
+  {
+   "topic": "packaging / EPR",
+   "fact": "CSE's EPR report cites 'Haldiram mixtures' as typical multi-layer plastic packaging. HSFPL's CPCB EPR registration and annual EPR targets could not be checked because the portal was blocked.",
+   "date": "2024-10",
+   "source": {
+    "title": "Unpacking EPR for Plastic Packaging in India",
+    "url": "https://www.cseindia.org/content/downloadreports/12442",
+    "publisher": "Centre for Science and Environment",
+    "date": "2024-10",
+    "note": "Read from a search-engine extract; the page itself was not reachable; confidence low."
+   }
+  },
+  {
+   "topic": "sustainability report / ESG disclosure",
+   "fact": "No sustainability report, BRSR or ESG report for HSFPL (unlisted) was found. CRISIL notes a 'change in Director's remuneration policy' as a margin driver, which is a governance-relevant item.",
+   "date": "2026-01-29",
+   "source": {
+    "title": "Haldiram Snacks Food Private Limited - Rating Rationale",
+    "url": "https://www.crisilratings.com/mnt/winshare/Ratings/RatingList/RatingDocs/HaldiramSnacksFoodPrivateLimited_January%2029_%202026_RR_387859.html",
+    "publisher": "CRISIL Ratings",
+    "date": "2026-01-29",
+    "note": "Read from a search-engine extract; the page itself was not reachable; confidence high."
+   }
+  }
+ ],
+ "regulatory": [
+  {
+   "topic": "competition approvals",
+   "fact": "CCI approved: the FMCG demerger into HSFPL (3 Apr 2023); Temasek/Jongsong's minority stake below 10% (20 May 2025); Alpha Wave Ventures II and Alpha Wave IHC CI's stake below 10% (24 Jun 2025).",
+   "date": "2023-04-03 / 2025-05-20 / 2025-06-24",
+   "source": {
+    "title": "CCI approves demerger of FMCG business of Haldiram Snacks and Haldiram Foods into Haldiram Snacks Food and acquisition of 56% and 44% shareholding in Haldiram Snacks Food by existing shareholders",
+    "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1913422",
+    "publisher": "Press Information Bureau (Govt of India) / Competition Commission of India",
+    "date": "2023-04-03",
+    "note": "Read from a search-engine extract; the page itself was not reachable; confidence high."
+   }
+  },
+  {
+   "topic": "corporate restructuring (NCLT)",
+   "fact": "NCLT Chandigarh CP(CAA) No. 10/Chd/Hry/2024: second-motion order dated 01 Jul 2024 on the HSPL/HFIPL/HSFPL scheme. Final sanction and effective dates not confirmed.",
+   "date": "2024-07-01",
+   "source": {
+    "title": "CP(CAA) No. 10/Chd/Hry/2024 (2nd Motion) - Haldirams Snacks Private Limited and Haldiram Foods International Private Limited",
+    "url": "https://nclt.gov.in/gen_pdf.php?filepath=/Efile_Document/ncltdoc/casedoc/0404116015212024/04/Order-Challenge/04_order-Challange_004_171989768020690412266838e502f49c.pdf",
+    "publisher": "National Company Law Tribunal, Chandigarh Bench",
+    "date": "2024-07-01",
+    "note": "Read from a search-engine extract; the page itself was not reachable; confidence medium."
+   }
+  },
+  {
+   "topic": "food safety - US FDA",
+   "fact": "US FDA inspected HSPL's low-acid canned food facility in Noida on 18-19 Apr 2017 and issued Warning Letter 525906 (21 CFR 108/113 deviations) on 6 Jul 2017. A close-out letter followed on 17 Nov 2017.",
+   "date": "2017-07-06",
+   "source": {
+    "title": "Haldiram Snacks Pvt. Ltd. - 525906 - 07/06/2017 (Warning Letter)",
+    "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/haldiram-snacks-pvt-ltd-525906-07062017",
+    "publisher": "US Food and Drug Administration",
+    "date": "2017-07-06",
+    "note": "Read from a search-engine extract; the page itself was not reachable; confidence high."
+   }
+  },
+  {
+   "topic": "food safety - US import refusals",
+   "fact": "In 2015 the US FDA refused many Haldiram consignments (cookies, biscuits, wafers and others) for pesticide residues, mould and Salmonella; reports cite 86 refusals since Sep 2014. Maharashtra FDA later gave the products a clean chit. Which entity's products were affected is not fully clear.",
+   "date": "2015-06",
+   "source": {
+    "title": "FDA Rejects Several Snack Products From India for Contaminants",
+    "url": "https://www.foodsafetynews.com/2015/06/fda-rejects-several-snack-products-from-india-for-contaminants/",
+    "publisher": "Food Safety News",
+    "date": "2015-06",
+    "note": "Read from a search-engine extract; the page itself was not reachable; confidence medium."
+   }
+  },
+  {
+   "topic": "food safety - UP FSDA (Lucknow)",
+   "fact": "UP food-safety sampling in Lucknow found Haldiram's 'substandard oil in snacks' and issued a warning (among 12 restaurant chains). The outlet may be a restaurant run by a non-HSFPL entity.",
+   "date": "2025-05",
+   "source": {
+    "title": "Unsafe Food Detected: 12 restaurant chains, 36 food samples in this Indian city fail to meet regulatory standards",
+    "url": "https://www.zeebiz.com/india/news-unsafe-food-detected-kfc-haldiram-barista-pizza-hut-among-12-restaurant-chains-as-36-food-samples-in-this-indian-city-fail-regulatory-standards-action-taken-362748",
+    "publisher": "Zee Business",
+    "date": "2025-05",
+    "note": "Read from a search-engine extract; the page itself was not reachable; confidence medium."
+   }
+  },
+  {
+   "topic": "food safety - expired stock",
+   "fact": "Before Holi, UP FSDA destroyed about 112 kg of expired soan papdi/rajbhog at a Lucknow storage site reportedly linked to Haldiram's. Entity and site details conflict between reports.",
+   "date": "2025-03",
+   "source": {
+    "title": "Lucknow: Expired Sonpapdi, Rajbhog and Food Worth Rs 55.91 Lakh Seized at Haldiram Storage in Mohibullapur",
+    "url": "https://www.lokmattimes.com/national/lucknow-expired-sonpapdi-rajbhog-and-food-worth-rs-5591-lakh-seized-at-haldiram-storage-in-mohibullapur-a525/",
+    "publisher": "Lokmat Times",
+    "date": "2025-03 (ahead of Holi/Ramzan; exact date not visible)",
+    "note": "Read from a search-engine extract; the page itself was not reachable; confidence low."
+   }
+  },
+  {
+   "topic": "occupational safety",
+   "fact": "A boiler burst caused a fire at the Haldiram's factory in Noida Sector 68. More than 100 workers were inside and no injuries were reported.",
+   "date": "2017-09-07",
+   "source": {
+    "title": "Fire breaks out at Haldiram's factory in Noida",
+    "url": "https://inshorts.com/en/news/fire-breaks-out-at-haldirams-factory-in-noida-1504780479809",
+    "publisher": "Inshorts",
+    "date": "2017-09-07",
+    "note": "Read from a search-engine extract; the page itself was not reachable; confidence medium."
+   }
+  },
+  {
+   "topic": "labour / contractor welfare",
+   "fact": "About 21-25 contract construction workers at HFIPL's Gumthala (Nagpur) campus were hospitalised with suspected food poisoning in June 2015. The company said they were a labour contractor's workers.",
+   "date": "2015-06",
+   "source": {
+    "title": "Nagpur Today Exclusive: 25 workers get sick on Haldiram campus",
+    "url": "https://www.nagpurtoday.in/nagpur-today-exclusive-25-workers-get-sick-on-haldiram-campus/",
+    "publisher": "Nagpur Today",
+    "date": "2015-06",
+    "note": "Read from a search-engine extract; the page itself was not reachable; confidence medium."
+   }
+  },
+  {
+   "topic": "litigation - trademark",
+   "fact": "Delhi High Court declared HALDIRAM a well-known trademark in Haldiram India Pvt Ltd v. Berachah Sales Corporation, with Rs 50 lakh damages. The plaintiff is Haldiram India Pvt Ltd; its relationship to HSFPL is not public.",
+   "date": "2024-04-02",
+   "source": {
+    "title": "Haldiram India Pvt. Ltd vs Berachah Sales Corporation & Ors. on 2 April, 2024",
+    "url": "https://indiankanoon.org/doc/42877524/",
+    "publisher": "Indian Kanoon (Delhi High Court judgment)",
+    "date": "2024-04-02",
+    "note": "Read from a search-engine extract; the page itself was not reachable; confidence high."
+   }
+  },
+  {
+   "topic": "pollution control board actions",
+   "fact": "No MPCB, UPPCB or HSPCB closure or show-cause notice against an HSFPL, HSPL or HFIPL plant was found. The only PCB action found (a WBPCB closure direction of 23 Feb 2021) concerns the Kolkata company Haldiram Bhujiawala Ltd's Singur/Hooghly unit, which is EXCLUDED.",
+   "date": "2021-02-23",
+   "source": {
+    "title": "WBPCB Direction Memo No. 128-hg_co_o/13/01/0176 dated 23/02/2021 - Haldiram Bhujiawala Ltd",
+    "url": "https://www.wbpcb.gov.in/files/Tu-07-2021-07-02-39Haldiram_bhujiawala230221.pdf",
+    "publisher": "West Bengal Pollution Control Board",
+    "date": "2021-02-23",
+    "note": "Read from a search-engine extract; the page itself was not reachable; confidence medium."
+   }
+  }
+ ],
+ "notPublic": [
+  "Audited FY2024-25 or FY2025-26 financial statements of HSFPL (AOC-4 on MCA). Only the CRISIL combined/H1 figures and an unverified aggregator figure were found.",
+  "The scheme's appointed date, the NCLT final sanction date for CP(CAA) 10/Chd/Hry/2024 (a 01-07-2024 order exists, but whether it is the sanction is unconfirmed), and the effective date of the HSFPL demerger.",
+  "Current shareholding of HSFPL after the 2025 investor deals, including the exact stakes of Temasek, Alpha Wave and IHC individually and the remaining Delhi/Nagpur family split. Deal closing dates.",
+  "A DRHP, appointed bankers or a confirmed IPO date (no primary source found).",
+  "An authoritative list of HSFPL manufacturing plants with capacities. No company plant list, FSSAI licence list or consent-to-operate list could be read. Plant ownership after the demerger (which sites moved to HSFPL) is assumed, not confirmed.",
+  "Location of the Nagpur dairy plant; commissioning status of the Sandila (Hardoi) unit; construction status of the Bihta plant.",
+  "Company-disclosed employee headcount. Only third-party online-profile estimates exist.",
+  "Any sustainability, BRSR or ESG report; Scope 1/2/3 emissions; water consumption; EPR registration number and targets; CSR spend of HSFPL.",
+  "Plant-level food-safety certifications (FSSC 22000 / BRCGS certificate numbers).",
+  "Pollution-control-board consent status for Nagpur (MPCB) and Rudrapur (UKPCB) plants.",
+  "Haldiram's share of the Sunsure Jhansi group-captive offtake; whether the HSPL solar assets moved to HSFPL.",
+  "The brand/trademark arrangement between HSFPL and Haldiram India Pvt Ltd or other family trademark holders.",
+  "The individual commitment HSFPL made at World Food India 2025.",
+  "Status of the Jammu & Kashmir (Kathua) project. Reports say land was allotted and later surrendered, and it is not in the plants list. The Arunachal Pradesh plant was only explored (meeting with CM Pema Khandu, about 2021-22)."
+ ]
+}
